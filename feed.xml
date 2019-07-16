@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-07-16T21:31:56+02:00</updated>
+    <updated>2019-07-16T21:34:44+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -17,11 +17,11 @@
         <link href="https://propiro.github.io/what-exactly-is-cyberpunk.html"/>
         <id>https://propiro.github.io/what-exactly-is-cyberpunk.html</id>
 
-        <updated>2019-07-16T21:31:47+02:00</updated>
+        <updated>2019-07-16T21:34:40+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                <img class="post__image" src="https://propiro.github.io/media/posts/4/2019-07-16_21h30_51.png" alt="what is cyberpunk" width="848" height="107">
+                <img class="post__image--wide" src="https://propiro.github.io/media/posts/4/2019-07-16_21h30_51.png" alt="what is cyberpunk" width="1009" height="128">
             ]]>
         </content>
     </entry>
