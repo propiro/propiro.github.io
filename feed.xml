@@ -3,12 +3,55 @@
     <title>propiro.github.io 2</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-07-16T20:57:51+02:00</updated>
+    <updated>2019-07-16T20:59:15+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>3</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/3.html"/>
+        <id>https://propiro.github.io/3.html</id>
+
+        <updated>2019-07-16T20:59:11+02:00</updated>
+            <summary>
+                <![CDATA[
+                    3 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>3</p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/3/1560113857598.gif" alt="" width="330" height="270"></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>2</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/2.html"/>
+        <id>https://propiro.github.io/2.html</id>
+
+        <updated>2019-07-16T20:58:28+02:00</updated>
+            <summary>
+                <![CDATA[
+                    2 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>2</p>
+<p> </p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/2/usmiech-babelka.jpg" alt="" width="400" height="365"></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>1</title>
         <author>
