@@ -13,15 +13,15 @@
             "id": "https://propiro.github.io/1.html",
             "url": "https://propiro.github.io/1.html",
             "title": "1 test post",
-            "summary": "This post is a test. There is nothing more. Except this cat. ",
-            "content_html": "<p>This post is a test. There is nothing more. Except this cat.</p>\n<figure class=\"post__image post__image\" ><img src=\"https://propiro.github.io/media/posts/1/1550619882650.jpg\" alt=\"his smile and optimism, gone.\" width=\"1200\" height=\"1200\">\n<figcaption >His smile and optimism, Gone.</figcaption>\n</figure>\n<p> </p>",
+            "summary": "This post is a test. There is nothing more. Except this cat.His smile and optimism, Gone.",
+            "content_html": "<p>This post is a test. There is nothing more. Except this cat.</p>\n<figure class=\"post__image post__image\" ><img src=\"https://propiro.github.io/media/posts/1/1550619882650.jpg\" alt=\"his smile and optimism, gone.\" width=\"1200\" height=\"1200\">\n<figcaption >His smile and optimism, Gone.</figcaption>\n</figure>",
             "author": {
                 "name": "piro"
             },
             "tags": [
             ],
             "date_published": "2019-07-16T20:54:50+02:00",
-            "date_modified": "2019-07-16T21:15:34+02:00"
+            "date_modified": "2019-07-16T21:26:16+02:00"
         }
     ]
 }

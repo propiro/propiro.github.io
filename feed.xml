@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-07-16T21:15:46+02:00</updated>
+    <updated>2019-07-16T21:26:20+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -17,10 +17,10 @@
         <link href="https://propiro.github.io/1.html"/>
         <id>https://propiro.github.io/1.html</id>
 
-        <updated>2019-07-16T21:15:34+02:00</updated>
+        <updated>2019-07-16T21:26:16+02:00</updated>
             <summary>
                 <![CDATA[
-                    This post is a test. There is nothing more. Except this cat. 
+                    This post is a test. There is nothing more. Except this cat.His smile and optimism, Gone.
                 ]]>
             </summary>
         <content type="html">
@@ -29,7 +29,6 @@
 <figure class="post__image post__image" ><img src="https://propiro.github.io/media/posts/1/1550619882650.jpg" alt="his smile and optimism, gone." width="1200" height="1200">
 <figcaption >His smile and optimism, Gone.</figcaption>
 </figure>
-<p> </p>
             ]]>
         </content>
     </entry>
