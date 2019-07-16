@@ -2,19 +2,19 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "propiro.github.io",
     "description": "",
-    "home_page_url": "http://propiro.github.io",
-    "feed_url": "http://propiro.github.io/feed.json",
+    "home_page_url": "https://github.com/propiro/propiro.github.io",
+    "feed_url": "https://github.com/propiro/propiro.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Piro"
     },
     "items": [
         {
-            "id": "http://propiro.github.io/this-post-is-a-test-too.html",
-            "url": "http://propiro.github.io/this-post-is-a-test-too.html",
+            "id": "https://github.com/propiro/propiro.github.io/this-post-is-a-test-too.html",
+            "url": "https://github.com/propiro/propiro.github.io/this-post-is-a-test-too.html",
             "title": "This post is a test too.",
             "summary": "And there is another picture. You can see that his smile and happines is long gone.",
-            "content_html": "<p>And there is another picture.</p>\n<p><img class=\"post__image\" src=\"http://propiro.github.io/media/posts/2/1550619882650.jpg\" alt=\"his smile and happiness - gone\" width=\"1200\" height=\"1200\"></p>\n<p>You can see that his smile and happines is long gone.</p>",
+            "content_html": "<p>And there is another picture.</p>\n<p><img class=\"post__image\" src=\"https://github.com/propiro/propiro.github.io/media/posts/2/1550619882650.jpg\" alt=\"his smile and happiness - gone\" width=\"1200\" height=\"1200\"></p>\n<p>You can see that his smile and happines is long gone.</p>",
             "author": {
                 "name": "Piro"
             },
@@ -24,11 +24,11 @@
             "date_modified": "2019-07-16T20:15:45+02:00"
         },
         {
-            "id": "http://propiro.github.io/this-post-is-a-test.html",
-            "url": "http://propiro.github.io/this-post-is-a-test.html",
+            "id": "https://github.com/propiro/propiro.github.io/this-post-is-a-test.html",
+            "url": "https://github.com/propiro/propiro.github.io/this-post-is-a-test.html",
             "title": "This post is a test.",
             "summary": "There is nothing interesting going on. Except this picture. ",
-            "content_html": "<p>There is nothing interesting going on.</p>\n<p>Except this picture.</p>\n<figure class=\"post__image post__image\" ><img src=\"http://propiro.github.io/media/posts/1/1549645848734.png\" alt=\"cat in a sock\" width=\"700\" height=\"934\">\n<figcaption >Put your caption here</figcaption>\n</figure>\n<p> </p>",
+            "content_html": "<p>There is nothing interesting going on.</p>\n<p>Except this picture.</p>\n<figure class=\"post__image post__image\" ><img src=\"https://github.com/propiro/propiro.github.io/media/posts/1/1549645848734.png\" alt=\"cat in a sock\" width=\"700\" height=\"934\">\n<figcaption >Put your caption here</figcaption>\n</figure>\n<p> </p>",
             "author": {
                 "name": "Piro"
             },
