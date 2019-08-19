@@ -3,12 +3,35 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-08-11T18:53:14+02:00</updated>
+    <updated>2019-08-19T22:39:54+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Duning - Kruger effect, AKA why people think they have superpowers and can bend time.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/duning-kruger-effect-aka-why-people-think-they-have-superpowers-and-can-bend-time.html"/>
+        <id>https://propiro.github.io/duning-kruger-effect-aka-why-people-think-they-have-superpowers-and-can-bend-time.html</id>
+
+        <updated>2019-08-19T22:39:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                     Take a look at this graph. This is perfect explanation on why I hear a lot of very young people, starting in industry ( Gamedev here, but applies to many other areas of life/business ), either evaluating work for impossible low hour-budgets, or taking waaay to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><img src="https://graphpaperdiaries.files.wordpress.com/2017/08/dunning-kruger-chart.jpg" alt="Znalezione obrazy dla zapytania dunning kruger graph"></p>
+<p>Take a look at this graph. This is perfect explanation on why I hear a lot of very young people, starting in industry ( Gamedev here, but applies to many other areas of life/business ), either evaluating work for impossible low hour-budgets, or taking waaay to complex tasks on themselves, only to fail miserably.</p>
+<p><em>It's very hard for people to evaluate something correctly, even their own experience, without the experience itself.</em></p>
+<p>And thats why I trust more a person who approach a task carefully with budget buffers, rather than confident people who spent too much time convincing me everything will be amazing.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Getting juice out of laptop SATA/Micro connector to power up things.</title>
         <author>

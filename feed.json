@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://propiro.github.io/duning-kruger-effect-aka-why-people-think-they-have-superpowers-and-can-bend-time.html",
+            "url": "https://propiro.github.io/duning-kruger-effect-aka-why-people-think-they-have-superpowers-and-can-bend-time.html",
+            "title": "Duning - Kruger effect, AKA why people think they have superpowers and can bend time.",
+            "summary": " Take a look at this graph. This is perfect explanation on why I hear a lot of very young people, starting in industry ( Gamedev here, but applies to many other areas of life/business ), either evaluating work for impossible low hour-budgets, or taking waaay to&hellip;",
+            "content_html": "<p><img src=\"https://graphpaperdiaries.files.wordpress.com/2017/08/dunning-kruger-chart.jpg\" alt=\"Znalezione obrazy dla zapytania dunning kruger graph\"></p>\n<p>Take a look at this graph. This is perfect explanation on why I hear a lot of very young people, starting in industry ( Gamedev here, but applies to many other areas of life/business ), either evaluating work for impossible low hour-budgets, or taking waaay to complex tasks on themselves, only to fail miserably.</p>\n<p><em>It's very hard for people to evaluate something correctly, even their own experience, without the experience itself.</em></p>\n<p>And thats why I trust more a person who approach a task carefully with budget buffers, rather than confident people who spent too much time convincing me everything will be amazing.</p>",
+            "author": {
+                "name": "piro"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-19T22:39:45+02:00",
+            "date_modified": "2019-08-19T22:39:45+02:00"
+        },
+        {
             "id": "https://propiro.github.io/getting-juice-out-of-laptop-satamsata-connector-to-power-up-things.html",
             "url": "https://propiro.github.io/getting-juice-out-of-laptop-satamsata-connector-to-power-up-things.html",
             "title": "Getting juice out of laptop SATA/Micro connector to power up things.",
