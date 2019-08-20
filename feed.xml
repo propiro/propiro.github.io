@@ -3,12 +3,93 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-08-19T23:22:03+02:00</updated>
+    <updated>2019-08-20T19:31:49+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>MAXSCRIPT: Change the UVW Unwrap checker size on the fly.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html"/>
+        <id>https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html</id>
+
+        <updated>2019-08-20T19:29:41+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Script that does something noone things about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier) Includes two macros, one for&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Script that does something noone things about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier)</p>
+<p>Includes two macros, one for enlarging one for shrinking the tiling value:</p>
+<p><code>macroScript Chkr_plus category:"_Piro_Tools" tooltip:"+" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling + 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling + 1</code><br><code>)</code></p>
+<p><code>macroScript Chkr_minus category:"_Piro_Tools" tooltip:"-" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling - 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling - 1</code><br><code>)</code></p>
+<p> </p>
+<p>As always, find it under:</p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/10/2019-08-20_19h21_19.png" alt="" width="402" height="123"></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>MAXSCRIPT: Centering pivot on selected object.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/maxscript-centering-pivot-on-selected-object.html"/>
+        <id>https://propiro.github.io/maxscript-centering-pivot-on-selected-object.html</id>
+
+        <updated>2019-08-20T19:25:58+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Small, very simple script that saves me few clicks: macroScript centerPivot Category:"_Piro_Tools" toolTip:"Center Pivot" ( $.pivot = $.center ) Centers the object pivot to geometry-weighted center, especially usefull when you duplicate mesh elements using shift+drag method. Found again here: Bind it to key, quad or toolbar as&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Small, very simple script that saves me few clicks:</p>
+<p><code>macroScript centerPivot Category:"_Piro_Tools" toolTip:"Center Pivot"</code><br><code>(</code><br><code> $.pivot = $.center</code><br><code>)</code></p>
+<p>Centers the object pivot to geometry-weighted center, especially usefull when you duplicate mesh elements using shift+drag method.</p>
+<p>Found again here:</p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/9/2019-08-20_19h21_19.png" alt="" width="402" height="123"></p>
+<p>Bind it to key, quad or toolbar as you wish.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>MAXSCRIPT: Copy &amp; Paste files between max instances and scenes</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/maxscript-copy-and-paste-files-between-max-instances-and-scenes.html"/>
+        <id>https://propiro.github.io/maxscript-copy-and-paste-files-between-max-instances-and-scenes.html</id>
+
+        <updated>2019-08-20T19:22:41+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Two small maxscript macros that let you copy and paste files using a temporary file created in $autoback directory. macroScript Copy_Objects_To_File Category:"_Piro_Tools" toolTip:"CopyToFile" ( thecopypastedir = getdir #autoback thecopypastefile = "\pastefile.max" thecopypastestring = thecopypastedir + thecopypastefile if $ != undefined do saveNodes $ thecopypastestring )&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Two small maxscript macros that let you copy and paste files using a temporary file created in $autoback directory.</p>
+<p><code>macroScript Copy_Objects_To_File Category:"_Piro_Tools" toolTip:"CopyToFile"<br>(<br> thecopypastedir = getdir #autoback <br> thecopypastefile = "\pastefile.max" <br> thecopypastestring = thecopypastedir + thecopypastefile <br> <br> if $ != undefined do <br> saveNodes $ thecopypastestring <br>)<br><br>macroScript Paste_Objects_From_File Category:"_Piro_Tools" toolTip:"PasteFromFile"<br>(<br> thecopypastedir = getdir #autoback -- folder kopiowania<br> thecopypastefile = "\pastefile.max" --nazwa dla pliku...<br> thecopypastestring = thecopypastedir + thecopypastefile --string dla funkcji kopiowania<br><br> mergemaxfile (thecopypastedir + thecopypastefile) #select -- merge of pasted objects<br>)</code></p>
+<p>Save the file as something.ms, run it inside max through maxscript -&gt; run script (or drag n drop if you're administrator), you'll find the two macros here:</p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/8/2019-08-20_19h21_19.png" alt="" width="402" height="123"></p>
+<p>Assign them to shortcut, button or quad (im using quad menu for that), enjoy.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Fresh Artists Portfolio Tips</title>
         <author>
