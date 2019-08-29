@@ -14,14 +14,14 @@
             "url": "https://propiro.github.io/im-copypasta.html",
             "title": "IM  Copypasta",
             "summary": "Taken from: https://github.com/propiro/instantMessengersPasta ",
-            "content_html": "<p class=\"align-center\">Taken from: <a href=\"https://github.com/propiro/instantMessengersPasta\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/propiro/instantMessengersPasta</a></p>\n<object data=\"https://raw.githubusercontent.com/propiro/instantMessengersPasta/master/pasta_en.txt\" type=\"text/html\" width=\"760\" height=\"760\"> </object>\n<p class=\"align-center\"> </p>\n<p class=\"align-center\"> </p>",
+            "content_html": "<p class=\"align-center\">Taken from: <a href=\"https://github.com/propiro/instantMessengersPasta\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/propiro/instantMessengersPasta</a></p>\n<iframe width=\"760\" height=\"760\" src=\"https://raw.githubusercontent.com/propiro/instantMessengersPasta/master/pasta_en.txt\"> </iframe>\n<p class=\"align-center\"> </p>\n<p class=\"align-center\"> </p>",
             "author": {
                 "name": "piro"
             },
             "tags": [
             ],
             "date_published": "2019-08-29T13:19:33+02:00",
-            "date_modified": "2019-08-29T13:19:33+02:00"
+            "date_modified": "2019-08-29T13:21:45+02:00"
         },
         {
             "id": "https://propiro.github.io/macroscript-movescale-uv-chunks-by-value.html",
