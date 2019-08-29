@@ -3,12 +3,35 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-08-20T23:38:00+02:00</updated>
+    <updated>2019-08-29T13:19:43+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>IM  Copypasta</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/im-copypasta.html"/>
+        <id>https://propiro.github.io/im-copypasta.html</id>
+
+        <updated>2019-08-29T13:19:33+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Taken from: https://github.com/propiro/instantMessengersPasta 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="align-center">Taken from: <a href="https://github.com/propiro/instantMessengersPasta" target="_blank" rel="noopener noreferrer">https://github.com/propiro/instantMessengersPasta</a></p>
+<object data="https://raw.githubusercontent.com/propiro/instantMessengersPasta/master/pasta_en.txt" type="text/html" width="760" height="760"> </object>
+<p class="align-center"> </p>
+<p class="align-center"> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>MACROSCRIPT: Move/Scale uv chunks by value</title>
         <author>
