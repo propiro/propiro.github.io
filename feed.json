@@ -41,15 +41,15 @@
             "id": "https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html",
             "url": "https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html",
             "title": "MAXSCRIPT: Change the UVW Unwrap checker size on the fly.",
-            "summary": "Script that does something noone things about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier) Includes two macros, one for&hellip;",
-            "content_html": "<p>Script that does something noone things about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier)</p>\n<p>Includes two macros, one for enlarging one for shrinking the tiling value:</p>\n<p><code>macroScript Chkr_plus category:\"_Piro_Tools\" tooltip:\"+\" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling + 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling + 1</code><br><code>)</code></p>\n<p><code>macroScript Chkr_minus category:\"_Piro_Tools\" tooltip:\"-\" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling - 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling - 1</code><br><code>)</code></p>\n<p> </p>\n<p>As always, find it under:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/10/2019-08-20_19h21_19.png\" alt=\"\" width=\"402\" height=\"123\"></p>\n<p> </p>\n<p> </p>",
+            "summary": "Script that does something noone thinks about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier) Includes two macros, one for&hellip;",
+            "content_html": "<p>Script that does something noone thinks about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier)</p>\n<p>Includes two macros, one for enlarging one for shrinking the tiling value:</p>\n<p><code>macroScript Chkr_plus category:\"_Piro_Tools\" tooltip:\"+\" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling + 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling + 1</code><br><code>)</code></p>\n<p><code>macroScript Chkr_minus category:\"_Piro_Tools\" tooltip:\"-\" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling - 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling - 1</code><br><code>)</code></p>\n<p> </p>\n<p>As always, find it under:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/10/2019-08-20_19h21_19.png\" alt=\"\" width=\"402\" height=\"123\"></p>\n<p> </p>\n<p> </p>",
             "author": {
                 "name": "piro"
             },
             "tags": [
             ],
             "date_published": "2019-08-20T19:29:41+02:00",
-            "date_modified": "2019-08-20T19:29:41+02:00"
+            "date_modified": "2019-08-30T14:37:32+02:00"
         },
         {
             "id": "https://propiro.github.io/maxscript-centering-pivot-on-selected-object.html",

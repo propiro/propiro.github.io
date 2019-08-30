@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-08-29T13:53:10+02:00</updated>
+    <updated>2019-08-30T14:37:50+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -154,15 +154,15 @@ Or we could just use SMS or MMS.</pre>
         <link href="https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html"/>
         <id>https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html</id>
 
-        <updated>2019-08-20T19:29:41+02:00</updated>
+        <updated>2019-08-30T14:37:32+02:00</updated>
             <summary>
                 <![CDATA[
-                    Script that does something noone things about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier) Includes two macros, one for&hellip;
+                    Script that does something noone thinks about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier) Includes two macros, one for&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Script that does something noone things about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier)</p>
+                <p>Script that does something noone thinks about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier)</p>
 <p>Includes two macros, one for enlarging one for shrinking the tiling value:</p>
 <p><code>macroScript Chkr_plus category:"_Piro_Tools" tooltip:"+" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling + 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling + 1</code><br><code>)</code></p>
 <p><code>macroScript Chkr_minus category:"_Piro_Tools" tooltip:"-" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling - 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling - 1</code><br><code>)</code></p>
