@@ -3,12 +3,34 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-08-30T14:50:13+02:00</updated>
+    <updated>2019-09-05T15:32:15+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Most common mistakes while making 3d asset.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/most-common-mistakes-while-making-3d-asset.html"/>
+        <id>https://propiro.github.io/most-common-mistakes-while-making-3d-asset.html</id>
+
+        <updated>2019-09-05T15:32:07+02:00</updated>
+            <summary>
+                <![CDATA[
+                    And how to avoid them, minimising the damage. If your model have issues, you most likely messed up some step or steps. Enjoy re-doing most of your work. Click here for explanation: ASSET CREATION GRAPH + EXPLANATION 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>And how to avoid them, minimising the damage. If your model have issues, you most likely messed up some step or steps. Enjoy re-doing most of your work.</p>
+<p>Click here for explanation: <a href="https://docs.google.com/drawings/d/1nmw99LDC6LnYAnZbNP67qj68Kxsug_XEBvtQX_qHJUs/edit?usp=sharing">ASSET CREATION GRAPH + EXPLANATION</a></p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/13/2019-09-05_15h27_59.png" alt="" width="198" height="925"></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>IM  Copypasta</title>
         <author>
@@ -321,29 +343,6 @@ Or we could just use SMS or MMS.</pre>
             <![CDATA[
                 <p>It's rain wet streets. It's nights like this with fog rolling in. Cars, faceless people going by, doing the things that they are doing. There's something kinds hypnotic about it. That's when I get inspired. To carry what these streets are like, what the city is like. The mistery, the stories, the thousands of thousands of people that you pass, that they are going by in shadows. In this wet, cold, dangerous environment.</p>
 <p><img class="post__image--wide" src="https://propiro.github.io/media/posts/4/2019-07-16_21h30_51.png" alt="what is cyberpunk" width="1009" height="128"></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>1 test post</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/1.html"/>
-        <id>https://propiro.github.io/1.html</id>
-
-        <updated>2019-07-16T21:26:16+02:00</updated>
-            <summary>
-                <![CDATA[
-                    This post is a test. There is nothing more. Except this cat.His smile and optimism, Gone.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>This post is a test. There is nothing more. Except this cat.</p>
-<figure class="post__image post__image" ><img src="https://propiro.github.io/media/posts/1/1550619882650.jpg" alt="his smile and optimism, gone." width="1200" height="1200">
-<figcaption >His smile and optimism, Gone.</figcaption>
-</figure>
             ]]>
         </content>
     </entry>

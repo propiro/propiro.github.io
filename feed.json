@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://propiro.github.io/most-common-mistakes-while-making-3d-asset.html",
+            "url": "https://propiro.github.io/most-common-mistakes-while-making-3d-asset.html",
+            "title": "Most common mistakes while making 3d asset.",
+            "summary": "And how to avoid them, minimising the damage. If your model have issues, you most likely messed up some step or steps. Enjoy re-doing most of your work. Click here for explanation: ASSET CREATION GRAPH + EXPLANATION ",
+            "content_html": "<p>And how to avoid them, minimising the damage. If your model have issues, you most likely messed up some step or steps. Enjoy re-doing most of your work.</p>\n<p>Click here for explanation: <a href=\"https://docs.google.com/drawings/d/1nmw99LDC6LnYAnZbNP67qj68Kxsug_XEBvtQX_qHJUs/edit?usp=sharing\">ASSET CREATION GRAPH + EXPLANATION</a></p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/13/2019-09-05_15h27_59.png\" alt=\"\" width=\"198\" height=\"925\"></p>",
+            "author": {
+                "name": "piro"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-05T15:32:07+02:00",
+            "date_modified": "2019-09-05T15:32:07+02:00"
+        },
+        {
             "id": "https://propiro.github.io/im-copypasta.html",
             "url": "https://propiro.github.io/im-copypasta.html",
             "title": "IM  Copypasta",
@@ -134,20 +148,6 @@
             ],
             "date_published": "2019-07-16T21:31:47+02:00",
             "date_modified": "2019-08-09T10:21:59+02:00"
-        },
-        {
-            "id": "https://propiro.github.io/1.html",
-            "url": "https://propiro.github.io/1.html",
-            "title": "1 test post",
-            "summary": "This post is a test. There is nothing more. Except this cat.His smile and optimism, Gone.",
-            "content_html": "<p>This post is a test. There is nothing more. Except this cat.</p>\n<figure class=\"post__image post__image\" ><img src=\"https://propiro.github.io/media/posts/1/1550619882650.jpg\" alt=\"his smile and optimism, gone.\" width=\"1200\" height=\"1200\">\n<figcaption >His smile and optimism, Gone.</figcaption>\n</figure>",
-            "author": {
-                "name": "piro"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-07-16T20:54:50+02:00",
-            "date_modified": "2019-07-16T21:26:16+02:00"
         }
     ]
 }
