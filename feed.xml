@@ -3,12 +3,44 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-09-05T15:40:07+02:00</updated>
+    <updated>2019-10-28T14:40:49+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Proper way to learn 3D.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/proper-way-to-learn-3d.html"/>
+        <id>https://propiro.github.io/proper-way-to-learn-3d.html</id>
+
+        <updated>2019-10-28T14:40:35+01:00</updated>
+            <summary>
+                <![CDATA[
+                    So, you just finished a grenade tutorial, ak tutorial, pistol or knife one. You have zero experience in 3d modelling, but by extensive handholding you managed to finish it, clicking exactly what tutor clicked and doing exactly tutor in the movie did. You learned nothing.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>So, you just finished a grenade tutorial, ak tutorial, pistol or knife one. You have zero experience in 3d modelling, but by extensive handholding you managed to finish it, clicking exactly what tutor clicked and doing exactly tutor in the movie did. </p>
+<p>You learned nothing. Instead of writing a book using your own words, you've just copied the whole thing from someone else, not really learning anything, just followed the guides. Gained very little. Now youre asking where is the insed function. Or why extrude is making weird lines. Or where the selection thingy go, and what its named. Or similiar, basic question.</p>
+<p>Learning 3D (not 3d, anything in reality) is lenghty process. It takes months, even years to be reasonably good with it. It is boring as well, done the proper way, that will benefit you later. Due to availability of videotutorials and widespread internet access, where everyone can now "teach", its very easy to fall into a trap of being fooled about your own skills, by people who dont posses them on a level that'd allow them to evaluate your own.</p>
+<p>To avoid mistakes like these, you should take the boring way. Most, if  not all softwares, have quite good help files/manuals, either online or under universal, often ignored F1 key. Most of your questions are answered there, you just need to search them. Here are few links to help docs for certain softwares:</p>
+<p> </p>
+<p>3D Studio Max: <a href="http://help.autodesk.com/view/3DSMAX/2019/ENU/">http://help.autodesk.com/view/3DSMAX/2019/ENU/</a></p>
+<p>Maya: <a href="https://help.autodesk.com/view/MAYAUL/2019/ENU/">https://help.autodesk.com/view/MAYAUL/2019/ENU/</a></p>
+<p>Zbrush: <a href="http://docs.pixologic.com/">http://docs.pixologic.com/</a></p>
+<p>Blender: <a href="https://docs.blender.org/manual/en/latest/">https://docs.blender.org/manual/en/latest/</a></p>
+<p>Modo: <a href="https://learn.foundry.com/modo/content/help/pages/learn.html">https://learn.foundry.com/modo/content/help/pages/learn.html</a></p>
+<p> </p>
+<p>If youre total beginner with the program, start with reading up the "getting started / basic / introduction" etc chapters, where everything is explained in a very simple way. Build your knowledge on top of it. Experiment with every function/tool on some simple shapes until you know what it does. After you go through all the explanatory chapters, and are comfortable with interface and tools available, then pick up a more complex tutorial, never before.</p>
+<p>Good luck.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Most common mistakes while making 3d asset.</title>
         <author>
@@ -322,27 +354,6 @@ Or we could just use SMS or MMS.</pre>
 </figure>
 <p> </p>
 <p>Worth remembering. Build log of my multibay-mounted raspberry pi soon, when I get rest of the components.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>What exactly is cyberpunk?</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/what-exactly-is-cyberpunk.html"/>
-        <id>https://propiro.github.io/what-exactly-is-cyberpunk.html</id>
-
-        <updated>2019-08-09T10:21:59+02:00</updated>
-            <summary>
-                <![CDATA[
-                    It's rain wet streets. It's nights like this with fog rolling in. Cars, faceless people going by, doing the things that they are doing. There's something kinds hypnotic about it. That's when I get inspired. To carry what these streets are like, what the city&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>It's rain wet streets. It's nights like this with fog rolling in. Cars, faceless people going by, doing the things that they are doing. There's something kinds hypnotic about it. That's when I get inspired. To carry what these streets are like, what the city is like. The mistery, the stories, the thousands of thousands of people that you pass, that they are going by in shadows. In this wet, cold, dangerous environment.</p>
-<p><img class="post__image--wide" src="https://propiro.github.io/media/posts/4/2019-07-16_21h30_51.png" alt="what is cyberpunk" width="1009" height="128"></p>
             ]]>
         </content>
     </entry>
