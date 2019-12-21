@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2019-12-18T12:56:50+01:00</updated>
+    <updated>2019-12-21T22:39:59+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://propiro.github.io/pi-zero-inside-multibay-part-2-i-dont-even.html"/>
         <id>https://propiro.github.io/pi-zero-inside-multibay-part-2-i-dont-even.html</id>
 
-        <updated>2019-12-18T12:08:41+01:00</updated>
+        <updated>2019-12-21T22:39:55+01:00</updated>
             <summary>
                 <![CDATA[
                     If you follow for some reason my posts, i've been struggling with getting juice out of SATA slimline connector to power raspberry pi, that was to be put inside Thinkpads ultrabay. And I've made it work. And realised I've lost ultrabay space. In addition, fooling&hellip;
@@ -59,7 +59,7 @@
 </div>
 <p>Things i'll add to it, because its not pointless enough:</p>
 <p>Small accumulator to make it run for several minutes between restarts of laptop.</p>
-<p>OLED screen to display (outside of the thinkpad bay, will require some dremel work) UP adress and uptime/network usage</p>
+<p>OLED screen to display (outside of the thinkpad bay, will require some dremel work) IP adress and uptime/network usage</p>
 <p>WIRED two-way of communication between thinkpad (i use windows on my laptops) and pi zero, probably will require adding some internal cables with USB lines. So it could act as an another usb drive OR input device controlled from... anything that can SSH into it.</p>
 <p>At some point of making this mod, someone asked me why. I've never asked this myself, at some point I just wanted to do it to be sure I can.</p>
             ]]>
