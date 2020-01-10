@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://propiro.github.io/dualscreen-for-now-thinkpad-prototype.html",
+            "url": "https://propiro.github.io/dualscreen-for-now-thinkpad-prototype.html",
+            "title": "Dualscreen (for now) Thinkpad prototype",
+            "summary": "Hello, For quite a long time i wanted a dualscreen laptop. While im aware of existence of few constructions, they're either old or super-expensive - and i like my thinkpad due to its... expendability. Since i've aquired a resin printer, i've decided to try and&hellip;",
+            "content_html": "<p>Hello,</p>\n<p>For quite a long time i wanted a dualscreen laptop. While im aware of existence of few constructions, they're either old or super-expensive - and i like my thinkpad due to its... expendability.</p>\n<p>Since i've aquired a resin printer, i've decided to try and make one on the cheap, and after a sleepless nigt, a prototype model was made:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/17/ezgif-3-e57c1cf05620.gif\" alt=\"\" width=\"600\" height=\"501\"></p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/17/ezgif-3-ec0c720ba786.gif\" alt=\"\" width=\"600\" height=\"501\"></p>\n<p> </p>\n<p>and printed prototype can be seen here, mounted to... deasembled upper part of another thinkpad frame, housing an FHD screen matrix:</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://propiro.github.io/media/posts/17/gallery/2020-01-10_13h59_49.png\" ><img src=\"https://propiro.github.io/media/posts/17/gallery/2020-01-10_13h59_49-thumbnail.png\" alt=\"\" width=\"652\" height=\"856\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://propiro.github.io/media/posts/17/gallery/2020-01-10_13h59_56.png\" ><img src=\"https://propiro.github.io/media/posts/17/gallery/2020-01-10_13h59_56-thumbnail.png\" alt=\"\" width=\"634\" height=\"341\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://propiro.github.io/media/posts/17/gallery/2020-01-10_14h00_03.png\" ><img src=\"https://propiro.github.io/media/posts/17/gallery/2020-01-10_14h00_03-thumbnail.png\" alt=\"\" width=\"617\" height=\"823\"></a></figure>\n</div>\n<p>Controller is salvaged from broken USB FHD screen, still need to figure out how to guide cables in not annoying way, as well remove the hinges from top screen and print some covers/caps for the hole that'll be there. And of course replace the zip-ties with metal pins, I have a special bearings ordered already (so its not metal and resing connection that'll worn off quickly), just waiting for everything to be sent.</p>\n<p>HEY, ITS SOMETHING!</p>",
+            "author": {
+                "name": "piro"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-01-10T14:18:55+01:00",
+            "date_modified": "2020-01-10T14:18:55+01:00"
+        },
+        {
             "id": "https://propiro.github.io/pi-zero-inside-multibay-part-2-i-dont-even.html",
             "url": "https://propiro.github.io/pi-zero-inside-multibay-part-2-i-dont-even.html",
             "title": "Pi zero inside Multibay, part 2: I dont even.",
@@ -134,20 +148,6 @@
             ],
             "date_published": "2019-08-20T19:22:41+02:00",
             "date_modified": "2019-08-20T19:22:41+02:00"
-        },
-        {
-            "id": "https://propiro.github.io/fresh-artists-portfolio-tips.html",
-            "url": "https://propiro.github.io/fresh-artists-portfolio-tips.html",
-            "title": "Fresh Artists Portfolio Tips",
-            "summary": "Or rather, tip. Just one, at least in this post. Portfolio is equivalent of your shop front, you put only things that someone would want to buy, and you want to sell - That beign said, your best skills. Never, ever, post things that are&hellip;",
-            "content_html": "<p>Or rather, tip. Just one, at least in this post.</p>\n<p>Portfolio is equivalent of your shop front, you put only things that someone would want to buy, and you want to sell - That beign said, your best skills. Never, ever, post things that are \"so-so\", with bunch of excuses about how quickly you did it or that your favorite cat puked on the carpet and thats why roughness is sRGB and solidcolor. These things belong to your journal / blog ( look at me, im ranting here, not on my artstation page! ), not on your portfolio, that you'll sent to potential employer, and people who are looking for possibly best artist out there.</p>\n<p>Always post things that are best representation of your skill, and good idea is to seek feedback before going public. There is a lot of forums and discords, you can always ask there - probably response wont be nice and fluffy, but at least you'll get a feedback about what to change where. Take it, improve, repeat. And after a year or two, when you see improvement, its good idea to purge some old works - keep a copy on your HDD or e-mail, but don't show old stuff that fail to impress even you at this point. </p>\n<p><em>Portfolio is your shop front, with best items. Not your journal where you put a tutorial piece that youre proud of, because someone hand-holded you through 20hours of video.</em></p>\n<p>Or post any shit you want, I don't care. Just remember that it takes recruiter around 6 seconds of looking at portfolio before they decide if they want to click on next image or close the browser tab, because something caused them eyebleeding.</p>",
-            "author": {
-                "name": "piro"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-08-19T22:51:26+02:00",
-            "date_modified": "2019-08-19T23:21:44+02:00"
         }
     ]
 }
