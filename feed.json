@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://propiro.github.io/macroscript-open-max-file-location-in-explorer.html",
+            "url": "https://propiro.github.io/macroscript-open-max-file-location-in-explorer.html",
+            "title": "MACROSCRIPT: open max file location in explorer",
+            "summary": "Very short one, written literally 5 minutes ago. Execute below maxscript to create macroscript in Customise User Interface menu, and use it to quickly open folder where the max scene is saved: macroScript OpenMaxFileLocation category:\"_Piro_Tools\" tooltip:\"open max location\" ( command = \"explorer\" commandArg = maxFilePatch&hellip;",
+            "content_html": "<p>Very short one, written literally 5 minutes ago. Execute below maxscript to create macroscript in Customise User Interface menu, and use it to quickly open folder where the max scene is saved:</p>\n<p><code><br>macroScript OpenMaxFileLocation<br> category:\"_Piro_Tools\"<br> tooltip:\"open max location\" <br>(<br>command = \"explorer\"<br>commandArg = maxFilePatch<br>shellLaunch command maxFilePath<br>)</code></p>\n<p>You'll find it here, as usuall:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/18/2020-02-04_14h53_29.png\" alt=\"\" width=\"755\" height=\"797\"></p>\n<p>I've found myself switching through four 3dsmax instances with various projects, copying files between them - I open max scenes from recent menu often, not browse it manually through all the project repositories I have, and this turned out to be quite handy.</p>\n<p> </p>\n<p> </p>\n<p> </p>",
+            "author": {
+                "name": "piro"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-02-04T14:59:55+01:00",
+            "date_modified": "2020-02-04T14:59:55+01:00"
+        },
+        {
             "id": "https://propiro.github.io/dualscreen-for-now-thinkpad-prototype.html",
             "url": "https://propiro.github.io/dualscreen-for-now-thinkpad-prototype.html",
             "title": "Dualscreen (for now) Thinkpad prototype",
@@ -134,20 +148,6 @@
             ],
             "date_published": "2019-08-20T19:25:58+02:00",
             "date_modified": "2019-08-20T19:25:58+02:00"
-        },
-        {
-            "id": "https://propiro.github.io/maxscript-copy-and-paste-files-between-max-instances-and-scenes.html",
-            "url": "https://propiro.github.io/maxscript-copy-and-paste-files-between-max-instances-and-scenes.html",
-            "title": "MAXSCRIPT: Copy &amp; Paste files between max instances and scenes",
-            "summary": "Two small maxscript macros that let you copy and paste files using a temporary file created in $autoback directory. macroScript Copy_Objects_To_File Category:\"_Piro_Tools\" toolTip:\"CopyToFile\" ( thecopypastedir = getdir #autoback thecopypastefile = \"\\pastefile.max\" thecopypastestring = thecopypastedir + thecopypastefile if $ != undefined do saveNodes $ thecopypastestring )&hellip;",
-            "content_html": "<p>Two small maxscript macros that let you copy and paste files using a temporary file created in $autoback directory.</p>\n<p><code>macroScript Copy_Objects_To_File Category:\"_Piro_Tools\" toolTip:\"CopyToFile\"<br>(<br> thecopypastedir = getdir #autoback <br> thecopypastefile = \"\\pastefile.max\" <br> thecopypastestring = thecopypastedir + thecopypastefile <br> <br> if $ != undefined do <br> saveNodes $ thecopypastestring <br>)<br><br>macroScript Paste_Objects_From_File Category:\"_Piro_Tools\" toolTip:\"PasteFromFile\"<br>(<br> thecopypastedir = getdir #autoback -- folder kopiowania<br> thecopypastefile = \"\\pastefile.max\" --nazwa dla pliku...<br> thecopypastestring = thecopypastedir + thecopypastefile --string dla funkcji kopiowania<br><br> mergemaxfile (thecopypastedir + thecopypastefile) #select -- merge of pasted objects<br>)</code></p>\n<p>Save the file as something.ms, run it inside max through maxscript -&gt; run script (or drag n drop if you're administrator), you'll find the two macros here:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/8/2019-08-20_19h21_19.png\" alt=\"\" width=\"402\" height=\"123\"></p>\n<p>Assign them to shortcut, button or quad (im using quad menu for that), enjoy.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>",
-            "author": {
-                "name": "piro"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-08-20T19:22:41+02:00",
-            "date_modified": "2019-08-20T19:22:41+02:00"
         }
     ]
 }

@@ -3,12 +3,39 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2020-01-10T14:19:07+01:00</updated>
+    <updated>2020-02-04T15:00:26+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>MACROSCRIPT: open max file location in explorer</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/macroscript-open-max-file-location-in-explorer.html"/>
+        <id>https://propiro.github.io/macroscript-open-max-file-location-in-explorer.html</id>
+
+        <updated>2020-02-04T14:59:55+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Very short one, written literally 5 minutes ago. Execute below maxscript to create macroscript in Customise User Interface menu, and use it to quickly open folder where the max scene is saved: macroScript OpenMaxFileLocation category:"_Piro_Tools" tooltip:"open max location" ( command = "explorer" commandArg = maxFilePatch&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Very short one, written literally 5 minutes ago. Execute below maxscript to create macroscript in Customise User Interface menu, and use it to quickly open folder where the max scene is saved:</p>
+<p><code><br>macroScript OpenMaxFileLocation<br> category:"_Piro_Tools"<br> tooltip:"open max location" <br>(<br>command = "explorer"<br>commandArg = maxFilePatch<br>shellLaunch command maxFilePath<br>)</code></p>
+<p>You'll find it here, as usuall:</p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/18/2020-02-04_14h53_29.png" alt="" width="755" height="797"></p>
+<p>I've found myself switching through four 3dsmax instances with various projects, copying files between them - I open max scenes from recent menu often, not browse it manually through all the project repositories I have, and this turned out to be quite handy.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Dualscreen (for now) Thinkpad prototype</title>
         <author>
@@ -359,34 +386,6 @@ Or we could just use SMS or MMS.</pre>
 <p>Found again here:</p>
 <p><img class="post__image" src="https://propiro.github.io/media/posts/9/2019-08-20_19h21_19.png" alt="" width="402" height="123"></p>
 <p>Bind it to key, quad or toolbar as you wish.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>MAXSCRIPT: Copy &amp; Paste files between max instances and scenes</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/maxscript-copy-and-paste-files-between-max-instances-and-scenes.html"/>
-        <id>https://propiro.github.io/maxscript-copy-and-paste-files-between-max-instances-and-scenes.html</id>
-
-        <updated>2019-08-20T19:22:41+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Two small maxscript macros that let you copy and paste files using a temporary file created in $autoback directory. macroScript Copy_Objects_To_File Category:"_Piro_Tools" toolTip:"CopyToFile" ( thecopypastedir = getdir #autoback thecopypastefile = "\pastefile.max" thecopypastestring = thecopypastedir + thecopypastefile if $ != undefined do saveNodes $ thecopypastestring )&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Two small maxscript macros that let you copy and paste files using a temporary file created in $autoback directory.</p>
-<p><code>macroScript Copy_Objects_To_File Category:"_Piro_Tools" toolTip:"CopyToFile"<br>(<br> thecopypastedir = getdir #autoback <br> thecopypastefile = "\pastefile.max" <br> thecopypastestring = thecopypastedir + thecopypastefile <br> <br> if $ != undefined do <br> saveNodes $ thecopypastestring <br>)<br><br>macroScript Paste_Objects_From_File Category:"_Piro_Tools" toolTip:"PasteFromFile"<br>(<br> thecopypastedir = getdir #autoback -- folder kopiowania<br> thecopypastefile = "\pastefile.max" --nazwa dla pliku...<br> thecopypastestring = thecopypastedir + thecopypastefile --string dla funkcji kopiowania<br><br> mergemaxfile (thecopypastedir + thecopypastefile) #select -- merge of pasted objects<br>)</code></p>
-<p>Save the file as something.ms, run it inside max through maxscript -&gt; run script (or drag n drop if you're administrator), you'll find the two macros here:</p>
-<p><img class="post__image" src="https://propiro.github.io/media/posts/8/2019-08-20_19h21_19.png" alt="" width="402" height="123"></p>
-<p>Assign them to shortcut, button or quad (im using quad menu for that), enjoy.</p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
