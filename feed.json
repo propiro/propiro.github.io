@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://propiro.github.io/getting-best-normalmap-bakes.html",
+            "url": "https://propiro.github.io/getting-best-normalmap-bakes.html",
+            "title": "Getting best normalmap bakes",
+            "summary": "AKA why there are seams on my normalmaps / why there is weird shading on my model tl;dr version for people who cant read: synchronise your smoothgroups and uv islands. for people who arent very good at thinking: uv piece = uv island = uv&hellip;",
+            "content_html": "<p><strong>AKA why there are seams on my normalmaps /</strong></p>\n<p><strong> why there is weird shading on my model</strong></p>\n<pre id=\"mcetoc_1emhmn14e3\"><code>tl;dr version for people who cant read: synchronise your smoothgroups and uv islands.</code><br><br><code>for people who arent very good at thinking: uv piece = uv island = uv chunk, and that means one unwrapped piece of the model. It might be a triangle, it might be a guad, it might be a bunch of triangles and quads - just one continous piece of uv<br><br></code>Normal version for people without adhd that can focus on written guides:</pre>\n<p>One of most common technique in gameart is baking highpoly models to lowpoly models, to get nice rounded corners, that fake the overall low-amount of triangles our ingame-model have.</p>\n<p>What most beginners (but not only) have problems, are normalmaps - beign highly technical map, that many people dont know what represent, except \"they're kinda blueish\" - most baking errors are visible on them, even or perfectly modelled lowpoly and highpoly models, and their quality dictate how our model will look after we texture it.</p>\n<p>To get rid of seams and bad shading, we need to make sure our model have synchronised uv islands with smoothgroups (hard edges for maya users), and enough padding between uv chunks. But what does it mean?</p>\n<p>Look at this:</p>\n<figure class=\"post__image post__image\" ><img src=\"https://propiro.github.io/media/posts/20/2020-11-07_13h34_21.png\" alt=\"Model Smoothing\" width=\"1157\" height=\"1349\">\n<figcaption >1st is weird, 2nd is plain bad, 3rd is what you want</figcaption>\n</figure>\n<p>While no smoothgroups is somewhat a default state you can start with the lowpoly, you want them to be set up correctly. For some weird reason, people try to bake models on 1 smoothgroups, which is (especially for hardsurface models, but there might be case its right thing to do - for example baking a sphere ( ͡° ͜ʖ ͡°) ) wrong, and at first glance gives out very bad results, both before baking and baked. Thats why you want smoothgroups to be set up correctly, so the model shades nicely, and then make UV islands based on the smoothing, to preserve all corners/seams:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/20/2020-11-07_13h35_26.png\" alt=\"UV Seams\" width=\"1684\" height=\"979\"></p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/20/2020-11-07_13h35_37.png\" alt=\"and smoothgroups\" width=\"1684\" height=\"979\"></p>\n<p> That solves 90% of issues with normalmap. Another thing to look for is padding between uv chunks:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/20/2020-11-07_13h26_25.png\" alt=\"no padding\" width=\"1590\" height=\"1570\"></p>\n<p>While it might look correct, and tightly packed, its not actually great - we used UV space to the limit, but during baking and texturing we'll experience bleeding from near uv pieces - that means colors from one piece might be visible on other piece. Also can cause problems during mip-mapping.</p>\n<p>This is what we want:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/20/2020-11-07_13h33_14.png\" alt=\"\" width=\"1586\" height=\"1588\"></p>\n<p>We traded off some UV space (texel density of texture) for a lot of padding between uv pieces - this will not only bake correctly, but as well prevent from color bleeding on original resolution and mipmapped resolution.</p>\n<p>Here is comparison of meshes with combination of padding/no padding as well smoothgroups set up / not set up / one smoothgroup. CAN YOU GUESS WHICH ONE IS CORRECT?</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/20/composite_presentation.jpg\" alt=\"\" width=\"3222\" height=\"2884\"></p>\n<p class=\"align-center\">(download high resolution image at the bottom of this post)</p>\n<p>You can view fully textured asset that uses this mesh, made using described technique here:</p>\n<p><a href=\"https://www.artstation.com/artwork/xJqGX1\">https://www.artstation.com/artwork/xJqGX1</a></p>\n<p>You can high resolution images, as well files used for baking here:</p>\n<p><a href=\"https://mega.nz/file/MEkwzYJA#thvvOcMq8Xwc_R60Fq5oHQSg1m9ch9_UBUr7jhCtPQI\">renders</a> - <a href=\"https://mega.nz/file/hR1kRCRa#lUdtB2xhPAO7aKY6fB-oqnwJkxe3a9p153jCJzrdb1I\">normalmaps</a> - <a href=\"https://mega.nz/file/FBsS1QQB#5JsZkdMHRzLP5QrjPBDNBUDFGb0IphuHxjAds800XQM\">meshes</a> - <a href=\"https://mega.nz/file/MA9QzaqZ#Zgr4fofIMICeKqvrvoLTZ2q6qYI93Zrze3CZVVPoZiE\">comparison</a> - <a href=\"https://mega.nz/file/kYt0TIBI#vGXjt9KS5sO4SmVa8YGud14Qj72oolaTIEuyO0diOUA\">marmoset bake scene</a></p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>",
+            "author": {
+                "name": "piro"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-11-07T16:35:33+01:00",
+            "date_modified": "2020-11-07T17:11:57+01:00"
+        },
+        {
             "id": "https://propiro.github.io/understanding-the-value-of-your-own-time.html",
             "url": "https://propiro.github.io/understanding-the-value-of-your-own-time.html",
             "title": "Understanding the value of your own time.",
@@ -134,20 +148,6 @@
             ],
             "date_published": "2019-08-20T19:37:36+02:00",
             "date_modified": "2019-08-20T19:37:36+02:00"
-        },
-        {
-            "id": "https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html",
-            "url": "https://propiro.github.io/maxscript-change-the-uvw-unwrap-checker-size-on-the-fly.html",
-            "title": "MAXSCRIPT: Change the UVW Unwrap checker size on the fly.",
-            "summary": "Script that does something noone thinks about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier) Includes two macros, one for&hellip;",
-            "content_html": "<p>Script that does something noone thinks about unless needed - adjusts size (or tiling if you wish) of checker board from UVW Unwrap modifier window (so it doesnt touch your material tiling, and checker vanishes after you exit UWV Modifier)</p>\n<p>Includes two macros, one for enlarging one for shrinking the tiling value:</p>\n<p><code>macroScript Chkr_plus category:\"_Piro_Tools\" tooltip:\"+\" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling + 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling + 1</code><br><code>)</code></p>\n<p><code>macroScript Chkr_minus category:\"_Piro_Tools\" tooltip:\"-\" </code><br><code>(</code><br><code> chkCoords = selection[1].unwrap_uvw.checkermaterial.diffusemap.coords</code><br><code> chkCoords.u_tiling = chkCoords.u_tiling - 1</code><br><code> chkCoords.v_tiling = chkCoords.v_tiling - 1</code><br><code>)</code></p>\n<p> </p>\n<p>As always, find it under:</p>\n<p><img class=\"post__image\" src=\"https://propiro.github.io/media/posts/10/2019-08-20_19h21_19.png\" alt=\"\" width=\"402\" height=\"123\"></p>\n<p> </p>\n<p> </p>",
-            "author": {
-                "name": "piro"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-08-20T19:29:41+02:00",
-            "date_modified": "2019-08-30T14:37:32+02:00"
         }
     ]
 }
