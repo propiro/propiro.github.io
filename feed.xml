@@ -3,12 +3,51 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2020-11-07T17:12:16+01:00</updated>
+    <updated>2020-11-10T00:25:39+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Portable, Triple Screen Station</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/portable-triple-screen-station.html"/>
+        <id>https://propiro.github.io/portable-triple-screen-station.html</id>
+
+        <updated>2020-11-10T00:24:15+01:00</updated>
+            <summary>
+                <![CDATA[
+                    For quite some time, I've wanted a triple screens but portable. I was overwhelmed with joy few years later, when slide n joy was announced, only for it to turn into scam. Still remembering some military solutions I've got to use at some point of&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>For quite some time, I've wanted a triple screens but portable. I was overwhelmed with joy few years later, when slide n joy was announced, only for it to turn into scam. <br>Still remembering some military solutions I've got to use at some point of my work (i think GETAC made them, not sure) I really desired a triple-screen solution to monitor my server gear, or sometimes connect to a workstation that wasn't my home-computer, as i hate working on single screen. After some big brain thinking, and making list of requirements, I've came up with:</p>
+<ul>
+<li>three screens (who would have guessed?)</li>
+<li>at least full HD resolution</li>
+<li>ability to connect video signal through HDMI (normal-sized connection)</li>
+<li>ability to connect to a laptop/pc that DONT have 3 hdmi-out connections (dont have such GPU for example), so can use USB connection</li>
+<li>be either powered through separate power cable or USB connectors</li>
+<li>be foldable with screens facing inside, so they dont break easily</li>
+<li>be confined completely in some kind of case with handle, so its truly portable, not "mommy mommy please help me move this bunch of wires from this table to another room</li>
+<li>optionally, have keyboard stored inside, so it can be connected and used as poor mans KVM</li>
+<li>optionally, be able to store a tiny pc inside, but thats a long shot</li>
+</ul>
+<p>First thing to do was to obrain screens and the case that would hold everything. Since I dont have problem with <span style="text-decoration: line-through;">alcoholism </span>aliexpress, i've picked these three, as they had the best cost to thickness ratio, and believe or not, theyre apperently IPS screens that display colors quite nicely:<br><br><a href="https://pl.aliexpress.com/item/32949964660.html?spm=a2g0s.9042311.0.0.27425c0fZQAAqD">13.3 FHD IPS portable screen</a> (probably some laptop screens crafty chinamen converted to portable screen, adding a control display board)<br><a href="https://pl.aliexpress.com/item/4000677757547.html?spm=a2g0s.9042311.0.0.27425c0fZQAAqD">Case that looked sturdy, and have dimensions large enough to hide 3 screens and keyboar</a><br><a href="https://pl.aliexpress.com/item/4000111647544.html?spm=a2g0s.9042311.0.0.4cbb5c0foKUL3F">usb -&gt; hdmi "graphic card" </a><br><br>and a lot of adapters / converters / sockets were also bought, but you'll see them on the screenshots later.<br>After screens arrived, and suprisingly were not broken / bad quality, I've started thinking about hinges. <br>After watching some people struggle with it, either gluing velcro straps (pinus tech dips who broke the screen in the process) or literal metal hinges (jerry rig something something), I knew it wont do in my case, as I hoped it'll look at least half-proffesional.<br>I've ended designing a 3d hinges that would be screwed into the metal case of the screens. This is the hinge for sidescreen that is closer to centerscreen</p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/21/ezgif.com-optimize-1.gif" alt="" width="600" height="371"></p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/21/ezgif.com-optimize2.gif" alt="" width="600" height="371"></p>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/21/ezgif.com-optimize.gif" alt="" width="600" height="322"></p>
+<p>First screen (the closer one) hinges turned out nicely:<br><img class="post__image" src="https://propiro.github.io/media/posts/21/unknown.png" alt="" width="960" height="1280"><br><img class="post__image" src="https://propiro.github.io/media/posts/21/photo5857281639154038124.jpg" alt="" width="891" height="668"></p>
+<p>For right side screen, hinge need to have bigger offset, to compensate distance from center screen:<br><img class="post__image" src="https://propiro.github.io/media/posts/21/2020-11-10_00h19_31.png" alt="" width="1606" height="885"><br><br>(As someone might point out, Im using polymodelling software - 3ds max - to author meshes for 3d printing. While I know CAD modelling quite good, I only polymodel it to piss some people on 3d modelling discord server, <em>just because I can</em>)</p>
+<p> </p>
+<p>(this post will be updated later when I push development forward)</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Getting best normalmap bakes</title>
         <author>
@@ -393,34 +432,6 @@ Or we could just use SMS or MMS.</pre>
 <iframe width="760" height="760" src="https://github.com/propiro/instantMessengersPasta/blob/master/pasta_en.txt"> </iframe>
 <p class="align-center"> </p>
 <p class="align-center"> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>MACROSCRIPT: Move/Scale uv chunks by value</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/macroscript-movescale-uv-chunks-by-value.html"/>
-        <id>https://propiro.github.io/macroscript-movescale-uv-chunks-by-value.html</id>
-
-        <updated>2019-08-20T19:37:36+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Maxscript I wrote to help myself packing all the atlases from various textures, working on envirnoment jobs. Allows you to easily scale / move uv chunks / groups of them by defined values by clicking a D-PAD like controls. You need to have your UV&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Maxscript I wrote  to help myself packing all the atlases from various textures, working on envirnoment jobs. Allows you to easily scale / move uv chunks / groups of them by defined values by clicking a D-PAD like controls. You need to have your UV islands selected for it to work.</p>
-<figure class="post__image post__image" ><img src="https://propiro.github.io/media/posts/11/2019-08-20_19h35_46.png" alt="" width="206" height="401">
-<figcaption ></figcaption>
-</figure>
-<p>A big one:</p>
-<p><code>macroScript scaleUV</code><br><code> category:"_Piro_Tools"</code><br><code> toolTip:"UV: Scale UVs"</code><br><code> buttonText:"Scale UVs"</code><br><code>(</code><br><code> try(destroyDialog rolloutScaleUV )catch()</code><br><code> global scaleToUse = 100</code><br><code> global moveX = 1.5</code><br><code> global moveY = 1.5</code><br><code> global scaleMod = 1</code><br><code> --global scaleFN = 1</code><br><code> fn scaleUV scaleFN howScale=</code><br><code> (</code><br><code> if classof (modPanel.getCurrentObject()) == Unwrap_UVW do</code><br><code> (</code><br><code> try</code><br><code> (</code><br><code> undo "Scale UVWs" on</code><br><code> (</code><br><code> if (howScale == 1) then</code><br><code> (</code><br><code> $.modifiers[#unwrap_uvw].unwrap2.ScaleSelectedXY scaleFN scaleFN [0,0,0]</code><br><code> )</code><br><code> else if (howScale == 2) then</code><br><code> (</code><br><code> $.modifiers[#unwrap_uvw].unwrap2.ScaleSelectedXY scaleFN 1 [0,0,0]</code><br><code> ) </code><br><code> else if (howScale == 3) then</code><br><code> (</code><br><code> $.modifiers[#unwrap_uvw].unwrap2.ScaleSelectedXY 1 scaleFN [0,0,0]</code><br><code> ) </code><br> <br><code> --selection[1].unwrap_uvw.unwrap2.ScaleSelectedCenter (spnPercent.value/100.0) (rdoAxis.state-1)</code><br><code> )</code><br><code> )</code><br><code> catch</code><br><code> (</code><br><code> messageBox "An unwrap modifier must be the active selection." title:"Didn't Work"</code><br><code> )</code><br><code> )</code><br><code> )</code><br> <br><code> fn moveXfunction moveXFN =</code><br><code> (</code><br><code> if classof (modPanel.getCurrentObject()) == Unwrap_UVW do</code><br><code> (</code><br><code> try</code><br><code> (</code><br><code> undo "Scale UVWs" on</code><br><code> ( </code><br><code> print "inside moving function"</code><br> <br><code> --$.modifiers[#unwrap_uvw].unwrap4.SetRelativeTypeIn off</code><br><code> $.modifiers[#unwrap_uvw].unwrap2.moveSelected [moveXFN,0,0]</code><br><code> --selection[1].unwrap_uvw.unwrap2.ScaleSelectedCenter (spnPercent.value/100.0) (rdoAxis.state-1)</code><br><code> )</code><br><code> )</code><br><code> catch</code><br><code> (</code><br><code> messageBox "An unwrap modifier must be the active selection." title:"Didn't Work"</code><br><code> )</code><br><code> )</code><br><code> )</code><br> <br><code> fn moveYfunction moveYFN =</code><br><code> (</code><br><code> if classof (modPanel.getCurrentObject()) == Unwrap_UVW do</code><br><code> (</code><br><code> try</code><br><code> (</code><br><code> undo "Scale UVWs" on</code><br><code> ( </code><br><code> print "inside moving function"</code><br> <br><code> --$.modifiers[#unwrap_uvw].unwrap4.SetRelativeTypeIn off</code><br><code> $.modifiers[#unwrap_uvw].unwrap2.moveSelected [0,moveYFN,0]</code><br><code> --selection[1].unwrap_uvw.unwrap2.ScaleSelectedCenter (spnPercent.value/100.0) (rdoAxis.state-1)</code><br><code> )</code><br><code> )</code><br><code> catch</code><br><code> (</code><br><code> messageBox "An unwrap modifier must be the active selection." title:"Didn't Work"</code><br><code> )</code><br><code> )</code><br><code> )</code><br> <br> <br><code> rollout rolloutScaleUV "Scale UVs" width: 170 </code><br><code> (</code><br> <br> <br> <br><code> spinner spnPercentA "Percent: " range:[-999,999,50] pos:[10,10]</code><br><code> spinner spnPercentB "Percent: " range:[-999,999,25] pos:[10,30]</code><br><code> spinner spnPercentC "Percent: " range:[-999,999,200] pos:[10,50]</code><br><code> radioButtons rdoAxis "" labels:#("XY","X","Y") default:1 offset:[0,40] pos:[25,70]</code><br><code> button btnScale1 "Scale A" pos:[5,90]</code><br><code> button btnScale2 "Scale B" pos:[55,90]</code><br><code> button btnScale3 "Scale C" pos:[105,90]</code><br><code> spinner spnMoveX "Move tile: " range:[-99,99,0.5] pos:[20,125]</code><br><code> spinner spnMoveY "Move tile: " range:[-99,99,0.5] pos:[20,145]</code><br><code> button moveUp "UP" width:50 height:50 pos:[60, 180]</code><br><code> button moveLeft "LEFT" width:50 height:50 pos:[10, 230]</code><br><code> button moveRight "RIGHT" width:50 height:50 pos:[110, 230]</code><br><code> button moveDown "DOWN" width:50 height:50 pos:[60, 280]</code><br><code> label label1 "..."</code><br> <br> <br><code> on btnScale1 pressed do</code><br><code> (</code><br><code> scaleMod = rdoAxis.state</code><br><code>scaleToUse = spnPercentA.value / 100.0</code><br><code> scaleUV scaleToUse scaleMod </code><br><code> )</code><br> <br><code> on btnScale2 pressed do</code><br><code> (</code><br><code> scaleMod = rdoAxis.state</code><br><code>scaleToUse = spnPercentB.value / 100.0</code><br><code> scaleUV scaleToUse scaleMod </code><br><code> )</code><br> <br><code> on btnScale3 pressed do</code><br><code> (</code><br><code> scaleMod = rdoAxis.state</code><br><code>scaleToUse = spnPercentC.value / 100.0</code><br><code> scaleUV scaleToUse scaleMod </code><br><code> )</code><br> <br><code> on moveLeft pressed do</code><br><code> (</code><br><code> print "MovingLeft"</code><br><code>moveX = (spnMoveX.value * -1.0)</code><br><code> moveXfunction(moveX)</code><br><code> )</code><br><code> on moveRight pressed do</code><br><code> (</code><br><code> print "MovingRight"</code><br><code>moveX = (spnMoveX.value * 1.0)</code><br><code> moveXfunction(moveX)</code><br><code> )</code><br> <br><code> on moveUp pressed do</code><br><code> (</code><br><code> print "MovingLeft"</code><br><code>moveY = (spnMoveY.value * 1.0)</code><br><code> moveYfunction(moveY)</code><br><code> )</code><br><code> on moveDown pressed do</code><br><code> (</code><br><code> print "MovingRight"</code><br><code>moveY = (spnMoveY.value * -1.0)</code><br><code> moveYfunction(moveY)</code><br><code> )</code><br><code> )</code><br><br><code> createDialog rolloutScaleUV</code><br><code>)</code></p>
-<p> </p>
-<p>As always, you'll find it here:</p>
-<p><img class="post__image" src="https://propiro.github.io/media/posts/11/2019-08-20_19h21_19.png" alt="" width="402" height="123"></p>
             ]]>
         </content>
     </entry>
