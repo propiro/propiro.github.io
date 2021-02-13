@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-02-13T14:47:43+01:00</updated>
+    <updated>2021-02-13T14:49:43+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://propiro.github.io/ghetto-rigging-watchdog-to-dying-nas.html"/>
         <id>https://propiro.github.io/ghetto-rigging-watchdog-to-dying-nas.html</id>
 
-        <updated>2021-02-13T14:47:37+01:00</updated>
+        <updated>2021-02-13T14:49:38+01:00</updated>
             <summary>
                 <![CDATA[
                     tl;dr Have NAS NAS started randomly (3x a hour /every 3 months) shutting itself down, and "auto power on" didnt worked Decided to make a watchdog device to turn it on. Made a watchdog. Here is a story of something that should took 1hour, and&hellip;
@@ -54,7 +54,7 @@
 <p>And code that runs on the watchdog:</p>
 <p><code><br>#define NUM_SAMPLES 10<br>#define LED_PIN 1<br>#define ANALOG_PIN A3<br>#define POWER_PIN 4<br>#define RESTART_DELAY 1400<br>#define WORKING_VOLTAGE 4.1<br><br>bool restartingLED = true;<br> int samplesSum = 0;<br> unsigned char sample_count = 0;<br> float voltage = 0.0;<br><br>// the setup routine runs once when you press reset:<br>void setup() {<br> randomSeed(analogRead(0));<br> // initialize the digital pin as an output.<br> //pinMode(0, OUTPUT); //LED on Model B<br> pinMode(LED_PIN, OUTPUT); //LED on Model A or Pro<br> pinMode(POWER_PIN, OUTPUT); // relay<br> pinMode(ANALOG_PIN, INPUT); //<br><br>}<br><br>// the loop routine runs over and over again forever:<br>void loop() {<br><br>//pressPower(100);<br>//delay(1000);<br> while (sample_count &lt; NUM_SAMPLES) {<br> <br> //samplesSum += debugAnalogRead(300, 100);<br> <br> samplesSum += analogRead(ANALOG_PIN);<br> sample_count++;<br> if (restartingLED == true) {digitalWrite(1, HIGH);}<br> delay(100);<br> if (restartingLED == true) {digitalWrite(1, LOW);}<br> <br> }<br> voltage = ((float)samplesSum / (float)NUM_SAMPLES * 5.015) / 1024.0;<br><br>if (voltage &lt; WORKING_VOLTAGE)<br>{<br> <br> restartingLED = true;<br> pressPower(200);<br> }<br> if (voltage &gt;= WORKING_VOLTAGE)<br> {<br> restartingLED = false;<br> }<br> // wait for a second<br><br>sample_count = 0;<br>samplesSum = 0;<br>}<br><br><br>void pressPower(float delayVal)<br>{<br> digitalWrite( 4, HIGH);<br> delay(delayVal);<br> digitalWrite(4, LOW);<br> delay(RESTART_DELAY - delayVal);<br><br>}<br><br>void turnLed(int state)<br>{<br> if (state == 0)<br> {<br> digitalWrite(1, LOW);<br> }<br> if (state == 1)<br> {<br> digitalWrite(1, HIGH);<br> }<br>}<br><br>float debugAnalogRead(float voltage, float range)<br>{<br> float voltageReturn = 0;<br> voltageReturn = voltage + random(-1 * range, range);<br><br> return voltageReturn;<br>}<br></code></p>
 <p> What I've learned during making this, is that to never trust chinesse manufacturers - my usb cable that i've used had colors swapped for ground and vcc, so i've managed to burn 2 attinys before checking EVERYTHING on my side, only to find this issue after 5h of debugging.</p>
-<p>Anyway, it works, few clicks and it runs great! (video might be little dark though, it was middle of the night):</p>
+<p>Anyway, it works, and by frantical clicking it lets me know IF the server actually died ;-)</p>
 <p> </p>
 <p> </p>
 <p> </p>
