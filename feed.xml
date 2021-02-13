@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-02-13T14:49:43+01:00</updated>
+    <updated>2021-02-13T14:52:47+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://propiro.github.io/ghetto-rigging-watchdog-to-dying-nas.html"/>
         <id>https://propiro.github.io/ghetto-rigging-watchdog-to-dying-nas.html</id>
 
-        <updated>2021-02-13T14:49:38+01:00</updated>
+        <updated>2021-02-13T14:52:44+01:00</updated>
             <summary>
                 <![CDATA[
                     tl;dr Have NAS NAS started randomly (3x a hour /every 3 months) shutting itself down, and "auto power on" didnt worked Decided to make a watchdog device to turn it on. Made a watchdog. Here is a story of something that should took 1hour, and&hellip;
@@ -30,7 +30,7 @@
 <p>Thats beign said:</p>
 <p>My QNAP NAS for some time had a weird issue, where it'd shut itself down (thermals are ok, ram is ok, hdds are ok, believe me i've tried everything), and QNAP service after 2 months of pingponging my messages said finally that warranty period is over, sucks to be me. </p>
 <p>I can live with 3-4minute downtimes before it reboots, however, the most annoying problem (connected to the shutdowns I assume) is that power button dont work immidiately - I press it, and there is random chane of it working and booting, or just powering system for a split second, and shutting it down (capacitor issue? Im lacking technocal knowledge to diagnose it sadly). Sometimes it works at 3rd press, sometimes at 40th press, and the attempted boot - shutdown cucle takes around 5 seconds, and I really dont want to spent 5 minutes standing near my hardware rack pressing button.</p>
-<p>So, a watchdog idea was made:<br>- it has to be as low invasive as possible<br>- it should give me ability to swap parts rather quickly, without much desoldering<br>- it should be inside NAS, no dangling cables<br>- it should be somewhat "smart" - dont just press the button infinitely, but detect if system turned on<br>- it can be turned on/off, in case i want to swap disks for example<br>- must me made using zipties</p>
+<p>So, a watchdog idea was made:<br>- it has to be as low invasive as possible<br>- it should give me ability to swap parts rather quickly, without much desoldering<br>- it should be inside NAS, no dangling cables<br>- it should be somewhat "smart" - dont just press the button infinitely, but detect if system turned on<br>- it can be turned on/off, in case i want to swap disks for example<br>- must be made using zipties</p>
 <p>Schemats is quite simple:</p>
 <figure class="post__image post__image" ><img src="https://propiro.github.io/media/posts/22/2021-02-13_14h17_04.png" alt="watchdog schematic" width="1235" height="886">
 <figcaption >simple schemat of part connections</figcaption>
