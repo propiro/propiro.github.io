@@ -3,12 +3,64 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2020-11-10T00:34:19+01:00</updated>
+    <updated>2021-02-13T14:47:43+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Ghetto-rigging watchdog to dying NAS</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/ghetto-rigging-watchdog-to-dying-nas.html"/>
+        <id>https://propiro.github.io/ghetto-rigging-watchdog-to-dying-nas.html</id>
+
+        <updated>2021-02-13T14:47:37+01:00</updated>
+            <summary>
+                <![CDATA[
+                    tl;dr Have NAS NAS started randomly (3x a hour /every 3 months) shutting itself down, and "auto power on" didnt worked Decided to make a watchdog device to turn it on. Made a watchdog. Here is a story of something that should took 1hour, and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>tl;dr</em><br><em>Have NAS</em><br><em>NAS started randomly (3x a hour /every 3 months) shutting itself down, and "auto power on" didnt worked</em><br><em>Decided to make a watchdog device to turn it on.</em><br><em>Made a watchdog.</em></p>
+<p>Here is a story of something that should took 1hour, and took 5h, because chinkman decided to mix the colors in usb cable, and i've assumed immidiately that i did everyting wrong, checking polarisation of usb cable at the very end. Thats 85cent attiny in damages, and 4h of crazy debugging of what was wrong.</p>
+<p>Thats beign said:</p>
+<p>My QNAP NAS for some time had a weird issue, where it'd shut itself down (thermals are ok, ram is ok, hdds are ok, believe me i've tried everything), and QNAP service after 2 months of pingponging my messages said finally that warranty period is over, sucks to be me. </p>
+<p>I can live with 3-4minute downtimes before it reboots, however, the most annoying problem (connected to the shutdowns I assume) is that power button dont work immidiately - I press it, and there is random chane of it working and booting, or just powering system for a split second, and shutting it down (capacitor issue? Im lacking technocal knowledge to diagnose it sadly). Sometimes it works at 3rd press, sometimes at 40th press, and the attempted boot - shutdown cucle takes around 5 seconds, and I really dont want to spent 5 minutes standing near my hardware rack pressing button.</p>
+<p>So, a watchdog idea was made:<br>- it has to be as low invasive as possible<br>- it should give me ability to swap parts rather quickly, without much desoldering<br>- it should be inside NAS, no dangling cables<br>- it should be somewhat "smart" - dont just press the button infinitely, but detect if system turned on<br>- it can be turned on/off, in case i want to swap disks for example<br>- must me made using zipties</p>
+<p>Schemats is quite simple:</p>
+<figure class="post__image post__image" ><img src="https://propiro.github.io/media/posts/22/2021-02-13_14h17_04.png" alt="watchdog schematic" width="1235" height="886">
+<figcaption >simple schemat of part connections</figcaption>
+</figure>
+<p>So general idea is:<br>Its powered by step-down converter that makes 5V for attiny85 from NAS 12V, its soldered directly to the motherboard pads to feed power as soon as power is plugged in.<br>It monitors USB power, resistor is to eliminate noise (randomly picked because im lazy, values are calibrated in code)<br>In case no USB power is detected, it starts routine of "pressing" the switch for 200ms through relay breakboard.</p>
+<p>Few pictures of how it went, with short descriptions.</p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/22/gallery/2021-02-13_14h35_14.png" ><img src="https://propiro.github.io/media/posts/22/gallery/2021-02-13_14h35_14-thumbnail.png" alt="power button rigged" width="768" height="497"></a>
+<figcaption class="gallery-description">power button rigged</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/22/gallery/2021-02-13_14h39_19.png" ><img src="https://propiro.github.io/media/posts/22/gallery/2021-02-13_14h39_19-thumbnail.png" alt="zip-tied bondage attiny+relay" width="768" height="604"></a>
+<figcaption class="gallery-description">zip-tied bondage attiny+relay</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/22/gallery/2021-02-13_14h40_07.png" ><img src="https://propiro.github.io/media/posts/22/gallery/2021-02-13_14h40_07-thumbnail.png" alt="working dongle, testing" width="768" height="537"></a>
+<figcaption class="gallery-description">working dongle, testing</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/22/gallery/photo5852529884906239710.jpg" ><img src="https://propiro.github.io/media/posts/22/gallery/photo5852529884906239710-thumbnail.jpg" alt="usb vcc and ground supplied to analog pin" width="768" height="576"></a>
+<figcaption class="gallery-description">usb vcc and ground supplied to analog pin</figcaption>
+</figure>
+</div>
+<p>And code that runs on the watchdog:</p>
+<p><code><br>#define NUM_SAMPLES 10<br>#define LED_PIN 1<br>#define ANALOG_PIN A3<br>#define POWER_PIN 4<br>#define RESTART_DELAY 1400<br>#define WORKING_VOLTAGE 4.1<br><br>bool restartingLED = true;<br> int samplesSum = 0;<br> unsigned char sample_count = 0;<br> float voltage = 0.0;<br><br>// the setup routine runs once when you press reset:<br>void setup() {<br> randomSeed(analogRead(0));<br> // initialize the digital pin as an output.<br> //pinMode(0, OUTPUT); //LED on Model B<br> pinMode(LED_PIN, OUTPUT); //LED on Model A or Pro<br> pinMode(POWER_PIN, OUTPUT); // relay<br> pinMode(ANALOG_PIN, INPUT); //<br><br>}<br><br>// the loop routine runs over and over again forever:<br>void loop() {<br><br>//pressPower(100);<br>//delay(1000);<br> while (sample_count &lt; NUM_SAMPLES) {<br> <br> //samplesSum += debugAnalogRead(300, 100);<br> <br> samplesSum += analogRead(ANALOG_PIN);<br> sample_count++;<br> if (restartingLED == true) {digitalWrite(1, HIGH);}<br> delay(100);<br> if (restartingLED == true) {digitalWrite(1, LOW);}<br> <br> }<br> voltage = ((float)samplesSum / (float)NUM_SAMPLES * 5.015) / 1024.0;<br><br>if (voltage &lt; WORKING_VOLTAGE)<br>{<br> <br> restartingLED = true;<br> pressPower(200);<br> }<br> if (voltage &gt;= WORKING_VOLTAGE)<br> {<br> restartingLED = false;<br> }<br> // wait for a second<br><br>sample_count = 0;<br>samplesSum = 0;<br>}<br><br><br>void pressPower(float delayVal)<br>{<br> digitalWrite( 4, HIGH);<br> delay(delayVal);<br> digitalWrite(4, LOW);<br> delay(RESTART_DELAY - delayVal);<br><br>}<br><br>void turnLed(int state)<br>{<br> if (state == 0)<br> {<br> digitalWrite(1, LOW);<br> }<br> if (state == 1)<br> {<br> digitalWrite(1, HIGH);<br> }<br>}<br><br>float debugAnalogRead(float voltage, float range)<br>{<br> float voltageReturn = 0;<br> voltageReturn = voltage + random(-1 * range, range);<br><br> return voltageReturn;<br>}<br></code></p>
+<p> What I've learned during making this, is that to never trust chinesse manufacturers - my usb cable that i've used had colors swapped for ground and vcc, so i've managed to burn 2 attinys before checking EVERYTHING on my side, only to find this issue after 5h of debugging.</p>
+<p>Anyway, it works, few clicks and it runs great! (video might be little dark though, it was middle of the night):</p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Portable, Triple Screen Station</title>
         <author>
@@ -17,7 +69,7 @@
         <link href="https://propiro.github.io/portable-triple-screen-station.html"/>
         <id>https://propiro.github.io/portable-triple-screen-station.html</id>
 
-        <updated>2020-11-10T00:24:15+01:00</updated>
+        <updated>2020-11-14T02:39:30+01:00</updated>
             <summary>
                 <![CDATA[
                     For quite some time, I've wanted a triple screens but portable. I was overwhelmed with joy few years later, when slide n joy was announced, only for it to turn into scam. Still remembering some military solutions I've got to use at some point of&hellip;
@@ -43,6 +95,11 @@
 <p><img class="post__image" src="https://propiro.github.io/media/posts/21/ezgif.com-optimize.gif" alt="" width="600" height="322"></p>
 <p>First screen (the closer one) hinges turned out nicely:<br><img class="post__image" src="https://propiro.github.io/media/posts/21/unknown.png" alt="" width="960" height="1280"><br><img class="post__image" src="https://propiro.github.io/media/posts/21/photo5857281639154038124.jpg" alt="" width="891" height="668"></p>
 <p>For right side screen, hinge need to have bigger offset, to compensate distance from center screen:<br><img class="post__image" src="https://propiro.github.io/media/posts/21/2020-11-10_00h19_31.png" alt="" width="1606" height="885"><br><br>(As someone might point out, Im using polymodelling software - 3ds max - to author meshes for 3d printing. While I know CAD modelling quite good, I only polymodel it to piss some people on 3d modelling discord server, <em>just because I can</em>)</p>
+<figure class="post__image post__image" ><img src="https://propiro.github.io/media/posts/21/photo5868552058540503870.jpg" alt="" width="1280" height="960">
+<figcaption >Both small and large hinges. Note the double-thickness</figcaption>
+</figure>
+<p><img class="post__image" src="https://propiro.github.io/media/posts/21/photo5868552058540503872.jpg" alt="" width="1280" height="960"></p>
+<p>I've aquired bag of mechanical bolts, the ones that require hex-wrench, as well self-countering nuts, they'll be quite usefull here, especially when i'll have to drill holes in screen cases.</p>
 <p> </p>
 <p>(this post will be updated later when I push development forward)</p>
             ]]>
@@ -323,115 +380,6 @@
                 <p>And how to avoid them, minimising the damage. If your model have issues, you most likely messed up some step or steps. Enjoy re-doing most of your work.</p>
 <p>Click here for explanation: <a href="https://docs.google.com/drawings/d/1nmw99LDC6LnYAnZbNP67qj68Kxsug_XEBvtQX_qHJUs/edit?usp=sharing">ASSET CREATION GRAPH + EXPLANATION</a></p>
 <p><img class="post__image" src="https://propiro.github.io/media/posts/13/2019-09-05_15h39_03.png" alt="" width="365" height="1659"></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>IM  Copypasta</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/im-copypasta.html"/>
-        <id>https://propiro.github.io/im-copypasta.html</id>
-
-        <updated>2019-08-29T13:48:47+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Taken from: https://github.com/propiro/instantMessengersPasta To be used when someone mentions change of currently used messenging application. We could always use Skype.Or Riot or MatrixOr NextCloudOr XMPPOr WireOr BriarOr ToxOr KontalkOr DeltaChatOr RingOr BitMessageOr RicochetOr PSYC2Or RocketOr IRCOr MattermostOr ZulipOr OrbitOr MumblOr SpectrumOr SignalOr KeybaseOr SureSpotOr SilenceOr&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p class="align-center">Taken from: <a href="https://github.com/propiro/instantMessengersPasta" target="_blank" rel="noopener noreferrer">https://github.com/propiro/instantMessengersPasta</a></p>
-<p>To be used when someone mentions change of currently used messenging application.</p>
-<p><code></code></p>
-<pre>We could always use Skype.
-Or Riot or Matrix
-Or NextCloud
-Or XMPP
-Or Wire
-Or Briar
-Or Tox
-Or Kontalk
-Or DeltaChat
-Or Ring
-Or BitMessage
-Or Ricochet
-Or PSYC2
-Or Rocket
-Or IRC
-Or Mattermost
-Or Zulip
-Or Orbit
-Or Mumbl
-Or Spectrum
-Or Signal
-Or Keybase
-Or SureSpot
-Or Silence
-Or Telegram like we do now
-Or IMS
-Or Discord
-Or Glitter
-Or Duo
-Or Keeperchat
-Or Wirck
-Or Threem
-Or Whatsapp
-Or Imessage
-Or MSTeams
-Or Facetime
-Or Line
-Or Allo
-Or iMessenge
-Or Skype
-Or Hangouts
-Or Reddit Chat 
-Or Twitch
-Or Zoom
-Or Slack
-Or Instagram
-Or Snapchat
-Or Steam
-Or WeChat
-Or Kik
-Or Viber
-Or BBM
-Or Kakaotalk
-Or IMO
-Or QQ
-Or Zalo
-Or Tango
-Or Tuenti
-Or ICQ
-Or Gadugadu
-Or Pond
-Or SINC
-Or PSYC1
-Or Zephyr
-Or AIM
-Or MSN
-Or Yahoo Talk
-Or ooVoo
-Or Echo
-Or cdc.io
-Or Pidgen
-Or GroupMe
-Or Deltachat
-Or Zello
-Or Conpherence
-Or Teamspeak
-Or Hipchat
-Or Rivchat
-Or Die With Me
-
-
-Or we could just use SMS or MMS.</pre>
-<p><code></code></p>
-<p> </p>
-<iframe width="760" height="760" src="https://github.com/propiro/instantMessengersPasta/blob/master/pasta_en.txt"> </iframe>
-<p class="align-center"> </p>
-<p class="align-center"> </p>
             ]]>
         </content>
     </entry>
