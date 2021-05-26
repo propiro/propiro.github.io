@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-05-26T20:15:41+02:00</updated>
+    <updated>2021-05-26T20:54:15+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,7 +64,7 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-05-26T20:15:41+02:00</updated>
+        <updated>2021-05-26T20:54:15+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've experienced more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
@@ -81,12 +81,15 @@
 <p>Banding - an unwanted effect on normalmap (or gradients in general), happening because there is not enough colors to make smooth transition from one color to another. Usually fixed by forcing dithering, or using higher BPP value.</p>
 <p>Baking, baking maps - a process of rendering effects on 2d textures - most commonly used to describe transfering high detail data from highpoly to lowpoly models, as well ambient occlusion, curvature, thickness - there is a lot of map types. You'll often heard people talking about "baking normals", meaning they'll bake geometry normals from highpoly model. If someone say he'll bake some lightmaps, means they'll be baking  light data to map/set of maps to make it more perfomance-wise, without using realtime lighting (Ambient occlusion map is example of light baked into texture - all those nice shadows in corners are pre-rendered, because calculating them on the go is expensive) </p>
 <p>Basecolor - sometimes used instead of Albedo - means the color of a surface, unaffected by light. A core component in PBR rendering/texturing - you want this surface component to represent just the color, without influence of light/shadow/specularity/roughness/ etc etc. If its yellow, its yellow on basecolor, and just because blue light makes it green, changes nothing.  While packing maps for models, usually having _COL prefix at the end.</p>
+<p>Binormal</p>
+<p>Bleeding, color bleeding, mipmap bleeding, light bleeding - a term used to describe texture issue that happens when pixels from one part of the unwrapped mesh influent/mix/blend with pixels on different part - cause either by low resolution, wrong unwrapping, no padding/margin on textures, sometimes by incorrect light baking settings.</p>
 <p>Blender - a device used to blend things.</p>
 <p>Booleans, boolean modelling</p>
 <p>Brep</p>
 <p>Bump map - a very general term describing a map that stores information about disortion of surface normals of an object - it could be heighmap, normalmap, displacement map, flow map, parallax map - anything that is stored in a 2d space that influences surface normals of 3d object. Most commonly when someone say "bumpmap" they mean black and white image that makes surface of a model looks "bumpy" or more "noisey" - like a concrete for example.</p>
 <p>BPP - bit per pixel - amound of bits you use to store pixel value, commonly its 8 bits for each channel (so R,G,B takes 24Bits, if you add Alpha channel, RGBA takes 32Bits) to store color information. With normalmaps, its more common to store (at least for work, not finished, engine-ready content) data in 16 BPP space, to fit more informations and prevent banding.</p>
 <h2>#C</h2>
+<p>CAD</p>
 <p>Chunk, UV Chunk - same as UV island - a separate piece of unwrapped model [resent on UV map, can be one triangle, can be group of triangles/quads/ngons.</p>
 <h2>#D</h2>
 <p>Displacement</p>
@@ -95,10 +98,13 @@
 <p>Dynamesh</p>
 <h2>#E</h2>
 <p>Edge</p>
+<p>Edge Flow</p>
 <h2>#F</h2>
+<p>Fbx</p>
 <p>Flowmap</p>
 <h2>#G</h2>
 <h2>#H</h2>
+<p>Hard Edge</p>
 <p>Heightmap</p>
 <h2>#I</h2>
 <h2>#J</h2>
@@ -106,18 +112,26 @@
 <h2>#L</h2>
 <p>Lightmap - sometimes called AO map or ambient map - a map that contains lighting information, usually stored inside 8Bit color space (so, a single gray channel), unless you need something like Directional normal map.</p>
 <h2>#M</h2>
+<p>Max - Autodesk 3d studio max, modelling package, favoured mostly by modellers. </p>
+<p>Maya - Autodesk Maya, modelling package, favoured mostly by animators.</p>
+<p>Megascans, quixel megascans</p>
 <p>Metalness, metallic - property of surface defining how conductive it is - while it should be either 0 or 1 (black or white, not grayscale) - as things are either conductive or dielectric (non-conductive), things like dirt or rust tend to be represented by grayscale values, which often cause problems in realtime engines, like unity or unreal (without help of clipping values to 0/1).</p>
 <p>Metalness map - a map that stores metal value of mapped surface, 0 beign non-metallic, white beign metallic. Used in PBR rendering, tied to IOR / Index of Refraction known from offline-renderers. Usually stored as component alongside other maps in RMA/MRA, or separately as 8bit grayscale, commonly using _MET suffix in name.</p>
 <h2>#N</h2>
+<p>Node, node-based</p>
 <p>Normal</p>
 <p>Normalmap</p>
 <h2>#O</h2>
+<p>Obj</p>
 <p>Offline Rendering - rarely heard term, describing anything that is NOT realtime - if you need to press f9 and wait 10 minutes for one frame to render, you can consider it offline rendering (unless you play game at 0.01 FPS, then... then its just very slow) - usually outputs of offline renderings are used later, be it as a source material/ingrdient of realtime-application, or part of a movie that will be played in 60frames per second, even if rendering it took 2 months.</p>
 <h2>#P</h2>
 <p>Packmap, packed map - term used for a map that is composed of various sub-maps describing different things (so technically normalmap is packmap as well), usually multiple 8 bit channels with data into one 24/32 bit image, which while might look odd, stores valuable informations for engine/renderer. A most common example would be RMA / MRA map - RMA means [R]oughness, [M]etalness, [A]mbient data separated to channels of texture - Red, Green, Blue (and alpha if used). MRA is [M]etalness, [R]oughness, [A]mbient - different order of data, there is a reason for storing Roughness on green, but its too technical, so maybe another time (its about how DXT textures are compressing channels)</p>
 <p>Padding - texture padding, margin, uv margin - a distance between uv chunks on UV map, maintained to prevent texture bleeds from one pixel group to another one on UV pieces that are too close to each other.  </p>
+<p>Photogrammetry</p>
 <p>Polygon - poly + gon, sometimes used in place for n-gon - means a surface object defined by verticles and edges, often are filled using triangles to five it a solid look (opposed to wireframe look).</p>
+<p>Polymodelling</p>
 <p>Post-Processing, postpro - term used for any tricks/work done after rendering is done - this applied both to offline rendering and realtime rendering - an example of postprocessing of render would be color correcting, or adjusting curves, or even adding a watermark - you didnt rendered it at first pass, you "added it in postpro" - you can also fix some minor issues during postpro, if you notice that 48h render have a screw that you forgot to hide, you can erase it in 2d software, and call it "removed in postpro".  </p>
+<p>Pixel Per Meter, PPM</p>
 <h2>#Q</h2>
 <p>Quad - a geometric surface created from two triangles sharing one edge - could be named a square, but difference is, square could be made from multiple quads, and if you use term "quad", default thinking is "two triangles"</p>
 <h2>#R</h2>
@@ -125,16 +139,27 @@
 <p>Roughness - term defining how "rough" a surface is, usually used to describe how well it reflects light 0 rough surface (like concrete) will be worse reflector than smooth surface (glass) - its very simplified example though </p>
 <p>Roughness map - a map that stores roughness information, usually in 8bit space. Either component of RMA / MRA map on dedicated channel, or saved as grayscale, 8bit map with suffix of _RGS</p>
 <h2>#S</h2>
+<p>Smoothgroups</p>
 <p>SSS</p>
 <p>Subdivision Modelling, Sub-d</p>
 <h2>#T</h2>
+<p>Tangent</p>
+<p>Tangent space</p>
+<p>Tiled, tiled texture</p>
 <p>Triangle - simplest 3d  surface you can get in 3d modelling application - three points, three edges, surface with normal between them. From triangles everything in 3d is modelled, so if you see a Quad, its 2 triangles in reality. Same goes for ngons.</p>
+<p>Trim sheet</p>
+<p>Texel</p>
+<p>Texel density</p>
 <h2>#U</h2>
 <p>UV map - a representation of 3d shape "unfolded" in 2d space (mind-blown - UV means U and V coordinates, similiar to XY or XYZ (then were talking about UVW map) ) - usefull when you want to paint details on your 3d model - its easier to make a circle on 2 dimensional space instead of 3 dimensional space.</p>
 <p>Unwrapping, unwrap - process of "unfolding" a 3d model on 2d space - think about it like reversing an origami or gluedpaper model - you have a box, and you end up with 6 squares on flat surface.</p>
+<h2>#V</h2>
+<p>Vector</p>
+<h2>#W</h2>
 <h2>#X</h2>
 <h2>#Y</h2>
 <h2>#Z</h2>
+<p>Zbrush, Z, zergbrush - 3d Sculpting software that uses clever rendering technique to allow user to work on very very highly detailed surfaces - commonly used by character artists</p>
 <p> </p>
 <p> </p>
 <p> </p>
