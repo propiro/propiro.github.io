@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-05-26T20:06:30+02:00</updated>
+    <updated>2021-05-26T20:15:41+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,7 +64,7 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-05-26T20:06:30+02:00</updated>
+        <updated>2021-05-26T20:15:41+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've experienced more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
@@ -106,19 +106,24 @@
 <h2>#L</h2>
 <p>Lightmap - sometimes called AO map or ambient map - a map that contains lighting information, usually stored inside 8Bit color space (so, a single gray channel), unless you need something like Directional normal map.</p>
 <h2>#M</h2>
+<p>Metalness, metallic - property of surface defining how conductive it is - while it should be either 0 or 1 (black or white, not grayscale) - as things are either conductive or dielectric (non-conductive), things like dirt or rust tend to be represented by grayscale values, which often cause problems in realtime engines, like unity or unreal (without help of clipping values to 0/1).</p>
+<p>Metalness map - a map that stores metal value of mapped surface, 0 beign non-metallic, white beign metallic. Used in PBR rendering, tied to IOR / Index of Refraction known from offline-renderers. Usually stored as component alongside other maps in RMA/MRA, or separately as 8bit grayscale, commonly using _MET suffix in name.</p>
 <h2>#N</h2>
 <p>Normal</p>
 <p>Normalmap</p>
 <h2>#O</h2>
 <p>Offline Rendering - rarely heard term, describing anything that is NOT realtime - if you need to press f9 and wait 10 minutes for one frame to render, you can consider it offline rendering (unless you play game at 0.01 FPS, then... then its just very slow) - usually outputs of offline renderings are used later, be it as a source material/ingrdient of realtime-application, or part of a movie that will be played in 60frames per second, even if rendering it took 2 months.</p>
 <h2>#P</h2>
+<p>Packmap, packed map - term used for a map that is composed of various sub-maps describing different things (so technically normalmap is packmap as well), usually multiple 8 bit channels with data into one 24/32 bit image, which while might look odd, stores valuable informations for engine/renderer. A most common example would be RMA / MRA map - RMA means [R]oughness, [M]etalness, [A]mbient data separated to channels of texture - Red, Green, Blue (and alpha if used). MRA is [M]etalness, [R]oughness, [A]mbient - different order of data, there is a reason for storing Roughness on green, but its too technical, so maybe another time (its about how DXT textures are compressing channels)</p>
 <p>Padding - texture padding, margin, uv margin - a distance between uv chunks on UV map, maintained to prevent texture bleeds from one pixel group to another one on UV pieces that are too close to each other.  </p>
 <p>Polygon - poly + gon, sometimes used in place for n-gon - means a surface object defined by verticles and edges, often are filled using triangles to five it a solid look (opposed to wireframe look).</p>
 <p>Post-Processing, postpro - term used for any tricks/work done after rendering is done - this applied both to offline rendering and realtime rendering - an example of postprocessing of render would be color correcting, or adjusting curves, or even adding a watermark - you didnt rendered it at first pass, you "added it in postpro" - you can also fix some minor issues during postpro, if you notice that 48h render have a screw that you forgot to hide, you can erase it in 2d software, and call it "removed in postpro".  </p>
 <h2>#Q</h2>
 <p>Quad - a geometric surface created from two triangles sharing one edge - could be named a square, but difference is, square could be made from multiple quads, and if you use term "quad", default thinking is "two triangles"</p>
 <h2>#R</h2>
-<p>Realtime rendering - term used to describe anything that is shown directly via engine or viewport, without need of "offline" pre-rendering/calculating, coloquially anything that dont require waiting for end-result - a game can be realtime, but so does a movie - cutscenes made on game engine are often show in realtime. Changes in your viewport can be also called beign realtime - unless you start pre-rendering parts of your models, like ambienc occlusion or simulating particles.</p>
+<p>Realtime rendering - term used to describe anything that is shown directly via engine or viewport, without need of "offline" pre-rendering/calculating, coloquially anything that dont require waiting for end-result - a game can be realtime, but so does a movie - cutscenes made on game engine are often show in realtime. Changes in your viewport can be also called beign realtime - unless you start pre-rendering parts of your models, like ambienc occlusion or simulating particles. </p>
+<p>Roughness - term defining how "rough" a surface is, usually used to describe how well it reflects light 0 rough surface (like concrete) will be worse reflector than smooth surface (glass) - its very simplified example though </p>
+<p>Roughness map - a map that stores roughness information, usually in 8bit space. Either component of RMA / MRA map on dedicated channel, or saved as grayscale, 8bit map with suffix of _RGS</p>
 <h2>#S</h2>
 <p>SSS</p>
 <p>Subdivision Modelling, Sub-d</p>
