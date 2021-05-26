@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-05-26T20:00:08+02:00</updated>
+    <updated>2021-05-26T20:06:30+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,7 +64,7 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-05-26T19:47:27+02:00</updated>
+        <updated>2021-05-26T20:06:30+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've experienced more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
@@ -82,17 +82,24 @@
 <p>Baking, baking maps - a process of rendering effects on 2d textures - most commonly used to describe transfering high detail data from highpoly to lowpoly models, as well ambient occlusion, curvature, thickness - there is a lot of map types. You'll often heard people talking about "baking normals", meaning they'll bake geometry normals from highpoly model. If someone say he'll bake some lightmaps, means they'll be baking  light data to map/set of maps to make it more perfomance-wise, without using realtime lighting (Ambient occlusion map is example of light baked into texture - all those nice shadows in corners are pre-rendered, because calculating them on the go is expensive) </p>
 <p>Basecolor - sometimes used instead of Albedo - means the color of a surface, unaffected by light. A core component in PBR rendering/texturing - you want this surface component to represent just the color, without influence of light/shadow/specularity/roughness/ etc etc. If its yellow, its yellow on basecolor, and just because blue light makes it green, changes nothing.  While packing maps for models, usually having _COL prefix at the end.</p>
 <p>Blender - a device used to blend things.</p>
+<p>Booleans, boolean modelling</p>
 <p>Brep</p>
 <p>Bump map - a very general term describing a map that stores information about disortion of surface normals of an object - it could be heighmap, normalmap, displacement map, flow map, parallax map - anything that is stored in a 2d space that influences surface normals of 3d object. Most commonly when someone say "bumpmap" they mean black and white image that makes surface of a model looks "bumpy" or more "noisey" - like a concrete for example.</p>
 <p>BPP - bit per pixel - amound of bits you use to store pixel value, commonly its 8 bits for each channel (so R,G,B takes 24Bits, if you add Alpha channel, RGBA takes 32Bits) to store color information. With normalmaps, its more common to store (at least for work, not finished, engine-ready content) data in 16 BPP space, to fit more informations and prevent banding.</p>
 <h2>#C</h2>
 <p>Chunk, UV Chunk - same as UV island - a separate piece of unwrapped model [resent on UV map, can be one triangle, can be group of triangles/quads/ngons.</p>
 <h2>#D</h2>
+<p>Displacement</p>
+<p>Displacement map</p>
 <p>Dithering - a technique of using noise to hide banding / color changes on gradients, or blending phases with alpha - with high enough resolutions, making certain patterns of noise pixels, its possible to cheat eyes/brain into thinking that color transition is smooth, while its not.   </p>
+<p>Dynamesh</p>
 <h2>#E</h2>
+<p>Edge</p>
 <h2>#F</h2>
+<p>Flowmap</p>
 <h2>#G</h2>
 <h2>#H</h2>
+<p>Heightmap</p>
 <h2>#I</h2>
 <h2>#J</h2>
 <h2>#K</h2>
@@ -114,6 +121,7 @@
 <p>Realtime rendering - term used to describe anything that is shown directly via engine or viewport, without need of "offline" pre-rendering/calculating, coloquially anything that dont require waiting for end-result - a game can be realtime, but so does a movie - cutscenes made on game engine are often show in realtime. Changes in your viewport can be also called beign realtime - unless you start pre-rendering parts of your models, like ambienc occlusion or simulating particles.</p>
 <h2>#S</h2>
 <p>SSS</p>
+<p>Subdivision Modelling, Sub-d</p>
 <h2>#T</h2>
 <p>Triangle - simplest 3d  surface you can get in 3d modelling application - three points, three edges, surface with normal between them. From triangles everything in 3d is modelled, so if you see a Quad, its 2 triangles in reality. Same goes for ngons.</p>
 <h2>#U</h2>
@@ -129,7 +137,7 @@
 <p> </p>
 <p>Please note that this is 3d-content focused explanation, so some terms could have slightly different meaning in other fields (like banding or dithering).</p>
 <p>I've spent quite a lot time making this list (and updating), so at least try not to steal from it blatantly, and instead of copying everything, link people here. My english is bad enough to be recognisable anyway.</p>
-<pre>This post will be updated along with new terminology I'll be asked about, feel free to ask in comments as well, or folks who are here via discord server / forum, you know where to find me. If youre going to flex about how much you know about 3d bif words, at least check if youre not doing it before author of this post</pre>
+<pre>This post will be updated along with new terminology I'll be asked about, feel free to ask in comments as well, or folks who are here via discord server / forum, you know where to find me. If youre going to flex about how much you know about 3d big words, at least check if youre not doing it before author of this post</pre>
             ]]>
         </content>
     </entry>
