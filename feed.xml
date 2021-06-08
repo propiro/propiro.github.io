@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-06-08T20:06:17+02:00</updated>
+    <updated>2021-06-08T22:11:47+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,7 +64,7 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-06-08T20:06:17+02:00</updated>
+        <updated>2021-06-08T22:11:47+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've noticed more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
@@ -84,7 +84,7 @@
 <p>Binormal</p>
 <p>Bleeding, color bleeding, mipmap bleeding, light bleeding - a term used to describe texture issue that happens when pixels from one part of the unwrapped mesh influent/mix/blend with pixels on different part - cause either by low resolution, wrong unwrapping, no padding/margin on textures, sometimes by incorrect light baking settings.</p>
 <p>Blender - a device used to blend things.</p>
-<p>Booleans, boolean modelling - modelling technique (often used with dynamesh when describing) based on adding/substracting shapes one from another, rather than modelling the shape from scratch. Most important advantage is timesaving, while disadventage is very messy topology that require cleaning, and not perfect control over topology. </p>
+<p>Booleans, boolean modelling - modelling technique (often used with dynamesh when describing) based on adding/substracting shapes one from another, rather than modelling the shape from scratch. Most important advantage is timesaving, while disadventage is very messy topology that require cleaning, and not perfect control over topology. Used in constructive solid geometry.</p>
 <p>Brep - acronym for Boundary REPresentation - basically what most people call "cad modelling" - you dont operate on polygons/verticles, but instead you create surfaces using lines/curves, and extrude/boolean them. Look how Fusion360 / Moi3d modelling looks like.</p>
 <p>Bump map - a very general term describing a map that stores information about disortion of surface normals of an object - it could be heighmap, normalmap, displacement map, flow map, parallax map - anything that is stored in a 2d space that influences surface normals of 3d object. Most commonly when someone say "bumpmap" they mean black and white image that makes surface of a model looks "bumpy" or more "noisey" - like a concrete for example, by changing its pixel heigh on texture (it doesnt modify actual geometry).</p>
 <p>BPP - bit per pixel - amound of bits you use to store pixel value, commonly its 8 bits for each channel (so R,G,B takes 24Bits, if you add Alpha channel, RGBA takes 32Bits) to store color information. With normalmaps, its more common to store (at least for work, not finished, engine-ready content) data in 16 BPP space, to fit more informations and prevent banding.</p>
