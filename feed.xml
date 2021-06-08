@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-06-08T20:02:59+02:00</updated>
+    <updated>2021-06-08T20:06:17+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,15 +64,15 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-06-08T20:02:59+02:00</updated>
+        <updated>2021-06-08T20:06:17+02:00</updated>
             <summary>
                 <![CDATA[
-                    Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've experienced more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
+                    Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've noticed more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <address>Recently more and more people are picking  3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've experienced more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start this article/blogpost, that'll most likely grow in size. I'll try to explain things in layman terms, without getting into any math, but some knowledge or googling on your own will be required, especially after you have some keywords from this list. Starting with terms from last week:</address>
+                <address>Recently more and more people are picking  3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've noticed more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start this article/blogpost, that'll most likely grow in size. I'll try to explain things in layman terms, without getting into any math, but some knowledge or googling on your own will be required, especially after you have some keywords from this list. Starting with terms from last week:</address>
 <h2><strong>#A</strong></h2>
 <p>Ambient Occlusion - often used as Occlusion (bit incorrect), Ambient (bit incorrect), AO - name for a shading type that shows how much an object is "occluded" from or exposed to light, and that include self-shadowing - if you have a 3d box, and make hole in it, naturally the hole inside should be darker, since ambient light have more troubles getting inside - this applies to almost all objects that are close to each other. You can either render AO in realtime using various techniques like SSAO, or bake it into a texturemap. </p>
 <p>Ambient Occlusion map - AO map - a baked (rendered) map with detailed informations about ambient occlusion lighting - sometimes called lightmap as well, but not every lightmap might contain ao, and not every ao map could contain shadows - sometimes these are two different sets of maps, usually used inside game engines on levels. Usually stored in single 8bit channel.</p>
