@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-05-26T20:54:15+02:00</updated>
+    <updated>2021-06-08T20:02:59+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,7 +64,7 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-05-26T20:54:15+02:00</updated>
+        <updated>2021-06-08T20:02:59+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've experienced more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
@@ -84,23 +84,25 @@
 <p>Binormal</p>
 <p>Bleeding, color bleeding, mipmap bleeding, light bleeding - a term used to describe texture issue that happens when pixels from one part of the unwrapped mesh influent/mix/blend with pixels on different part - cause either by low resolution, wrong unwrapping, no padding/margin on textures, sometimes by incorrect light baking settings.</p>
 <p>Blender - a device used to blend things.</p>
-<p>Booleans, boolean modelling</p>
-<p>Brep</p>
-<p>Bump map - a very general term describing a map that stores information about disortion of surface normals of an object - it could be heighmap, normalmap, displacement map, flow map, parallax map - anything that is stored in a 2d space that influences surface normals of 3d object. Most commonly when someone say "bumpmap" they mean black and white image that makes surface of a model looks "bumpy" or more "noisey" - like a concrete for example.</p>
+<p>Booleans, boolean modelling - modelling technique (often used with dynamesh when describing) based on adding/substracting shapes one from another, rather than modelling the shape from scratch. Most important advantage is timesaving, while disadventage is very messy topology that require cleaning, and not perfect control over topology. </p>
+<p>Brep - acronym for Boundary REPresentation - basically what most people call "cad modelling" - you dont operate on polygons/verticles, but instead you create surfaces using lines/curves, and extrude/boolean them. Look how Fusion360 / Moi3d modelling looks like.</p>
+<p>Bump map - a very general term describing a map that stores information about disortion of surface normals of an object - it could be heighmap, normalmap, displacement map, flow map, parallax map - anything that is stored in a 2d space that influences surface normals of 3d object. Most commonly when someone say "bumpmap" they mean black and white image that makes surface of a model looks "bumpy" or more "noisey" - like a concrete for example, by changing its pixel heigh on texture (it doesnt modify actual geometry).</p>
 <p>BPP - bit per pixel - amound of bits you use to store pixel value, commonly its 8 bits for each channel (so R,G,B takes 24Bits, if you add Alpha channel, RGBA takes 32Bits) to store color information. With normalmaps, its more common to store (at least for work, not finished, engine-ready content) data in 16 BPP space, to fit more informations and prevent banding.</p>
 <h2>#C</h2>
-<p>CAD</p>
+<p>CAD - Acronym for Computer Aided Design, which means every work related to art you do on PC rather than with pen and paper - usually used incorrectly to describe BREP modelling style. </p>
 <p>Chunk, UV Chunk - same as UV island - a separate piece of unwrapped model [resent on UV map, can be one triangle, can be group of triangles/quads/ngons.</p>
+<p>Collada - file format (COLLA borative D esign A ctivity) used as an alternative to FBX to transfer 3d data between compatibile applications, without limitations of OBJ file - It could include skinning, animation, and physic, BREP data and morphs for example, while OBJ only stores polygonal data of models.</p>
 <h2>#D</h2>
-<p>Displacement</p>
-<p>Displacement map</p>
+<p>DAE - Digital Asset Exchange format that store data in XML format, look at collada for more thorough description.</p>
+<p>Displacement - technique that makes verticles of mesh change their position according to map/supplied parameter value, making it either higher or lowed from the original surface. Main difference between displacement and normalmapping/parallax mapping / bumpmapping is that actual geometry is changed, instead of just texture pixel data. </p>
+<p>Displacement map - a texture map with pixels representing values for displacement alghoritm, making geometry displace according to UV mapped data. Note that to see any kind of change you need actual geometry there to be displaced, so it works best on high-density meshes (if you map displacement texture to flat, 2 triangle plane, it wont get any displacement, because there is no verticles to displace except 4 corner ones) </p>
 <p>Dithering - a technique of using noise to hide banding / color changes on gradients, or blending phases with alpha - with high enough resolutions, making certain patterns of noise pixels, its possible to cheat eyes/brain into thinking that color transition is smooth, while its not.   </p>
-<p>Dynamesh</p>
+<p>Dynamesh - Originally Zbrush technique often used in pair with boolean modelling, that makes a dense, more-or-less even topology on source geometry, allowing user to sculpt on that model with ease. While used with "Boolean-Dynamesh" technique, usually means making dense topology on model, so it can be easily smoothed on corners, making it suitable for baking maps to lowpoly.</p>
 <h2>#E</h2>
-<p>Edge</p>
-<p>Edge Flow</p>
+<p>Edge - a line between two points. Three edges (actually two, but you want to avoid it as its considered a bug/issue) or more are required to make a closed surface that can be shaded.</p>
+<p>Edge Flow - a general term used to describe "smooth" way across edges on model.</p>
 <h2>#F</h2>
-<p>Fbx</p>
+<p>Fbx - fileformat commonly used in 3d industry, Shortcut for FilmBox. Favoured for ability to transfer lot of additional informations alongside geometry, like lights, cameras, some modificators (like turbosmooth or skin) between applications and engines.</p>
 <p>Flowmap</p>
 <h2>#G</h2>
 <h2>#H</h2>
@@ -114,7 +116,7 @@
 <h2>#M</h2>
 <p>Max - Autodesk 3d studio max, modelling package, favoured mostly by modellers. </p>
 <p>Maya - Autodesk Maya, modelling package, favoured mostly by animators.</p>
-<p>Megascans, quixel megascans</p>
+<p>Megascans, quixel megascans - colloquial name for photoscanned assets, available on Epics Megascan store - usually environmental, very realistic and very heavy in terms of geometry 3d models that werent modelled by hand, but "generated" from lots of 2d photos, using technique called photogrammetry (some assets are scanned using different ways, but thats another tale).</p>
 <p>Metalness, metallic - property of surface defining how conductive it is - while it should be either 0 or 1 (black or white, not grayscale) - as things are either conductive or dielectric (non-conductive), things like dirt or rust tend to be represented by grayscale values, which often cause problems in realtime engines, like unity or unreal (without help of clipping values to 0/1).</p>
 <p>Metalness map - a map that stores metal value of mapped surface, 0 beign non-metallic, white beign metallic. Used in PBR rendering, tied to IOR / Index of Refraction known from offline-renderers. Usually stored as component alongside other maps in RMA/MRA, or separately as 8bit grayscale, commonly using _MET suffix in name.</p>
 <h2>#N</h2>
@@ -122,7 +124,7 @@
 <p>Normal</p>
 <p>Normalmap</p>
 <h2>#O</h2>
-<p>Obj</p>
+<p>Obj - Wavefront  Object file format - very popular in open source softwares, able to store simple geometry and material data inside.</p>
 <p>Offline Rendering - rarely heard term, describing anything that is NOT realtime - if you need to press f9 and wait 10 minutes for one frame to render, you can consider it offline rendering (unless you play game at 0.01 FPS, then... then its just very slow) - usually outputs of offline renderings are used later, be it as a source material/ingrdient of realtime-application, or part of a movie that will be played in 60frames per second, even if rendering it took 2 months.</p>
 <h2>#P</h2>
 <p>Packmap, packed map - term used for a map that is composed of various sub-maps describing different things (so technically normalmap is packmap as well), usually multiple 8 bit channels with data into one 24/32 bit image, which while might look odd, stores valuable informations for engine/renderer. A most common example would be RMA / MRA map - RMA means [R]oughness, [M]etalness, [A]mbient data separated to channels of texture - Red, Green, Blue (and alpha if used). MRA is [M]etalness, [R]oughness, [A]mbient - different order of data, there is a reason for storing Roughness on green, but its too technical, so maybe another time (its about how DXT textures are compressing channels)</p>
@@ -165,7 +167,7 @@
 <p> </p>
 <p> </p>
 <p> </p>
-<p>Please note that this is 3d-content focused explanation, so some terms could have slightly different meaning in other fields (like banding or dithering).</p>
+<p>Please note that this is 3d-content focused explanation, so some terms could have slightly different meaning in other fields (like banding or dithering). At some point, images with examples will be added under definitions, but it takes lot of time to make certain examples, and i dont want to steal ones from random places over internet.</p>
 <p>I've spent quite a lot time making this list (and updating), so at least try not to steal from it blatantly, and instead of copying everything, link people here. My english is bad enough to be recognisable anyway.</p>
 <pre>This post will be updated along with new terminology I'll be asked about, feel free to ask in comments as well, or folks who are here via discord server / forum, you know where to find me. If youre going to flex about how much you know about 3d big words, at least check if youre not doing it before author of this post</pre>
             ]]>
@@ -224,7 +226,7 @@
             <category term="quick_3d_tips"/>
             <category term="3d"/>
 
-        <updated>2020-11-07T17:11:57+01:00</updated>
+        <updated>2021-06-08T19:30:38+02:00</updated>
             <summary>
                 <![CDATA[
                     AKA why there are seams on my normalmaps / why there is weird shading on my model tl;dr version for people who cant read: synchronise your smoothgroups and uv islands. for people who arent very good at thinking: uv piece = uv island = uv&hellip;
@@ -234,7 +236,7 @@
             <![CDATA[
                 <p><strong>AKA why there are seams on my normalmaps /</strong></p>
 <p><strong> why there is weird shading on my model</strong></p>
-<pre><code>tl;dr version for people who cant read: synchronise your smoothgroups and uv islands.</code><br><br><code>for people who arent very good at thinking: uv piece = uv island = uv chunk, and that means one unwrapped piece of the model. It might be a triangle, it might be a guad, it might be a bunch of triangles and quads - just one continous piece of uv<br><br></code>Normal version for people without adhd that can focus on written guides:</pre>
+<pre><code>tl;dr version for people who cant read: synchronise your smoothgroups and uv islands.</code><br><br><code>for people who arent very good at thinking: uv piece = uv island = uv chunk, and that means one unwrapped piece of the model. It might be a triangle, it might be a quad, it might be a bunch of triangles and quads - just one continous piece of uv<br><br></code>Normal version for people without adhd that can focus on written guides:</pre>
 <p>One of most common technique in gameart is baking highpoly models to lowpoly models, to get nice rounded corners, that fake the overall low-amount of triangles our ingame-model have.</p>
 <p>What most beginners (but not only) have problems, are normalmaps - beign highly technical map, that many people dont know what represent, except "they're kinda blueish" - most baking errors are visible on them, even or perfectly modelled lowpoly and highpoly models, and their quality dictate how our model will look after we texture it.</p>
 <p>To get rid of seams and bad shading, we need to make sure our model have synchronised uv islands with smoothgroups (hard edges for maya users), and enough padding between uv chunks. But what does it mean?</p>
