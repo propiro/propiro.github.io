@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2021-06-08T22:11:47+02:00</updated>
+    <updated>2021-08-05T20:05:52+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -64,7 +64,7 @@
             <category term="gamedev"/>
             <category term="3d"/>
 
-        <updated>2021-06-08T22:11:47+02:00</updated>
+        <updated>2021-08-05T20:05:52+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently more and more people are picking 3d art/ gameart (thanks, 𝓫𝓵𝓮𝓷𝓭𝓮𝓻) as their hobby and/or career path, and I've noticed more and more confusion about all the weird words the 3d dinosaurs throw at newbies - Having this in mind, I've decided to start&hellip;
@@ -109,10 +109,14 @@
 <p>Hard Edge</p>
 <p>Heightmap</p>
 <h2>#I</h2>
+<p>Interpolation</p>
 <h2>#J</h2>
+<p>Jitter</p>
+<p>Joint Surfaces</p>
 <h2>#K</h2>
 <h2>#L</h2>
 <p>Lightmap - sometimes called AO map or ambient map - a map that contains lighting information, usually stored inside 8Bit color space (so, a single gray channel), unless you need something like Directional normal map.</p>
+<p>Lookdev</p>
 <h2>#M</h2>
 <p>Max - Autodesk 3d studio max, modelling package, favoured mostly by modellers. </p>
 <p>Maya - Autodesk Maya, modelling package, favoured mostly by animators.</p>
