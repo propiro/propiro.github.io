@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-02-08T19:14:11+01:00</updated>
+    <updated>2022-02-08T19:21:06+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -20,16 +20,16 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-02-08T19:14:11+01:00</updated>
+        <updated>2022-02-08T19:21:06+01:00</updated>
             <summary>
                 <![CDATA[
-                    Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Beign unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
+                    Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely.</p>
-<p>Beign unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium spacers, were too simple-minded forcing me to use certain layout and nothing else, or beign straight up 25x25cm flat printed board, I've decided to delegate some of my time to make my own "system" of customisable frame for arduino prototyping, so everything could stay in one place, at the expense of few hours of printing.</p>
+<p>Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium spacers, were too simple-minded forcing me to use certain layout and nothing else, or beign straight up 25x25cm flat printed board, I've decided to delegate some of my time to make my own "system" of customisable frame for arduino prototyping, so everything could stay in one place, at the expense of few hours of printing.</p>
 <p>Main requirements/goals I've set up for the system:</p>
 <ul>
 <li>Only printed parts, no aluminium spacers, no metal rods, no hotglue. Screws / zipties are compromise if needed.</li>
