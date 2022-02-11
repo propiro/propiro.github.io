@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-02-08T19:21:06+01:00</updated>
+    <updated>2022-02-08T19:23:25+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-02-08T19:21:06+01:00</updated>
+        <updated>2022-02-08T19:23:25+01:00</updated>
             <summary>
                 <![CDATA[
                     Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
@@ -41,7 +41,7 @@
 </ul>
 <p>So, after some though process, I had first iteration of elements in 3ds max:</p>
 <figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/25//2022-02-08_10h40_56.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-xs.jpg 300w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-sm.jpg 480w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-md.jpg 768w"  alt="first iteration of frame" width="2159" height="1153">
-<figcaption >This isactually screenshot of third iteration, but first that was printed.</figcaption>
+<figcaption >This is actually screenshot of third iteration, but first that was printed.</figcaption>
 </figure>
 <p> </p>
 <p>Result of printing, quite good for 3 revisions inside software without physicalprototype first:</p>
