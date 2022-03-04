@@ -3,12 +3,69 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-02-08T19:23:25+01:00</updated>
+    <updated>2022-03-04T20:58:14+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>NATEC WIRELESS VERTICAL MOUSE</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/natec-wireless-vertical-mouse.html"/>
+        <id>https://propiro.github.io/natec-wireless-vertical-mouse.html</id>
+            <category term="technology"/>
+            <category term="input_devices"/>
+            <category term="hardware"/>
+
+        <updated>2022-03-04T20:58:14+01:00</updated>
+            <summary>
+                <![CDATA[
+                    This won't be a review. Noone paid me for it, and its purpose isnt to convince you to buy product. Consider it a summary of experiences with device, what pissed me much and what was nice. Recently I've been introduced to vertical mouse idea -&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This won't be a review. Noone paid me for it, and its purpose isnt to convince you to buy product. Consider it a summary of experiences with device, what pissed me much and what was nice.</p>
+<p>Recently I've been introduced to vertical mouse idea - I spent waaay too much time working with computer, and my day-to-day input device, Logitech G604, started to give me mild wrist pains when used 8h+ daily. My accountant, bless her hearth, let me test several vertical mouses she bought for girls in her office, and after initially liking the concept, I've purchased titular NATEC WIRELESS VERTICAL MOUSE, called EUPHONIE.</p>
+<p>The device itself:</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_16_Ferdi-Telegram.jpg" data-size="685x908"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_16_Ferdi-Telegram-thumbnail.jpg" alt="" width="685" height="908"></a></figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_04_Ferdi-Telegram.jpg" data-size="1217x913"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_04_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_28_Ferdi-Telegram.jpg" data-size="1119x743"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_28_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="510"></a></figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_50_Ferdi-Telegram.jpg" data-size="660x724"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_50_Ferdi-Telegram-thumbnail.jpg" alt="" width="660" height="724"></a></figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_39_Ferdi-Telegram.jpg" data-size="627x859"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_39_Ferdi-Telegram-thumbnail.jpg" alt="" width="627" height="859"></a></figure>
+</div></div>
+<p>What I've expected from the device:</p>
+<ul>
+<li>Be vertical</li>
+<li>Have more than standard 2+wheel input options</li>
+<li>Be configurable</li>
+<li>Be wireless with option of workin on cable while charging, ideally eat common</li>
+</ul>
+<p>What I got when buying this relatively cheap (40usd, 140 polish onions)device:</p>
+<ul>
+<li>Vertical</li>
+<li>5 additional buttons to set up*</li>
+<li>"configurable" option*</li>
+<li>Wireless and on cable while charging, albeit very slow</li>
+<li>BONUS: ability to pair bluetooth device in addition to 2.4Ghz receiver</li>
+<li>BONUS: small OLED screen, albeit pretty useless due to lack of any control software</li>
+<li>BONUS: mouse have small slot for receiver, so dongle itself wont be easily lost while moving around places.</li>
+<li>BONUS: A smile from english version of manual that says my mouse have microphone (Manufacturer/Seller is apprently polish (PRC made), which suprised me), Polish version of manual is written correctly</li>
+</ul>
+<p>*-not really compared to other manufacturers.</p>
+<p>Someone would say I've got more than I initially wanted, and its true, however, I'd trade all the bonus features for 100% working core feature of customising buttons. Options are very limited, as I present them in this gif:</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/26/OH_WOW_SO_MANY_OPTIONS_NATEC_VERTICAL_MOUSE.gif" alt="POSSIBILITIES ARE ENDLESS" width="480" height="372"></figure>
+<p>And yes, I've tried multiple hacks / rampping tools / registry modification to at least change "calculator" to do something else, sadly, its not done by standard multimedia key, so its not easy to be caught by any remapping software.</p>
+<p>Thats being said, I swap g604 for vertical mouse when i work in CAD/3D software mostly, and since my workflow is very keyboard-centric, I can somehow live with only 5 buttons being used instead of 7 (Back and Forward are standard and must have, Thumb-bottom one is escape which is fine as i can close dialogs quickly - i jus wish i could bind some keyboard keys (even delete / enter) to the top two ones). The two top ones  will be left for controlling volume, which is really a compromise, and as we know, compromise makes noone happy, as noone got what they wanted initially.</p>
+<p>TL;DR</p>
+<p>Buy if you want wireless vertical mouse and dont plan to use extra buttons except Forward - Backward. Otherwise, buy anything from logitech that have setpoint integration and allows you to completely re-map everything.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Arduino Prototyping Physical Framework</title>
         <author>
@@ -496,65 +553,6 @@
 </div></div>
 <p>Controller is salvaged from broken USB FHD screen, still need to figure out how to guide cables in not annoying way, as well remove the hinges from top screen and print some covers/caps for the hole that'll be there. And of course replace the zip-ties with metal pins, I have a special bearings ordered already (so its not metal and resing connection that'll worn off quickly), just waiting for everything to be sent.</p>
 <p>HEY, ITS SOMETHING!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Pi zero inside Multibay, part 2: I dont even.</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/pi-zero-inside-multibay-part-2-i-dont-even.html"/>
-        <id>https://propiro.github.io/pi-zero-inside-multibay-part-2-i-dont-even.html</id>
-            <category term="thinkpad"/>
-            <category term="other"/>
-            <category term="hacks"/>
-
-        <updated>2019-12-21T22:39:55+01:00</updated>
-            <summary>
-                <![CDATA[
-                    If you follow for some reason my posts, i've been struggling with getting juice out of SATA slimline connector to power raspberry pi, that was to be put inside Thinkpads ultrabay. And I've made it work. And realised I've lost ultrabay space. In addition, fooling&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>If you follow for some reason my<a href="https://propiro.github.io/getting-juice-out-of-laptop-satamsata-connector-to-power-up-things.html"> posts</a>, i've been struggling with <a href="https://propiro.github.io/getting-juice-out-of-laptop-satamsata-connector-to-power-up-things.html">getting juice out of SATA slimline connector</a> to power raspberry pi, that was to be put inside Thinkpads ultrabay.</p>
-<p>And I've made it work.</p>
-<p>And realised I've lost ultrabay space. In addition, fooling the ultrabay connector that SOMETHING is connected to id made my thinkpad beep at start with warning that it cannot detect the drive.</p>
-<p>So, naturally, I've decided NOT to allow any compromises, because they're sign of weakness, and have both things alltogether.</p>
-<p>DID YOU KNOW SATA DRIVES DONT NEED TO TAKE ALL THE SPACE IN 2.5 ENCLOSURE?</p>
-<p>Some shots of work in progress: </p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_03.png" data-size="615x823"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_03-thumbnail.png" alt="" width="615" height="823"></a>
-<figcaption class="gallery-description">Power lines soldered to ssd pcb, this was most intrusive point where something could go wrong.</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_16.png" data-size="613x824"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_16-thumbnail.png" alt="" width="613" height="824"></a>
-<figcaption class="gallery-description">Cables secured with tape.</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_26.png" data-size="611x821"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_26-thumbnail.png" alt="" width="611" height="821"></a>
-<figcaption class="gallery-description">SSD Pcb overlayed on top of PI Zero PCB, cables soldered, not arranged.</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_36.png" data-size="613x822"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_36-thumbnail.png" alt="" width="613" height="822"></a>
-<figcaption class="gallery-description">Added DIP-switch to have some control when I want it On or OFF, in case i want to safe on battery.</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_48.png" data-size="617x821"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_48-thumbnail.png" alt="" width="617" height="821"></a>
-<figcaption class="gallery-description">The whole DIP switch wasnt neccessary, but i wanted to troll people showing them this image and telling them it overclocks the drive.</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_58.png" data-size="610x822"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h56_58-thumbnail.png" alt="" width="610" height="822"></a>
-<figcaption class="gallery-description">Looks cool, all ports accessible, there is plenty of space for small accessories in ultrabay to connect (like external receivers / pendrives)</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h57_10.png" data-size="610x817"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h57_10-thumbnail.png" alt="" width="610" height="817"></a>
-<figcaption class="gallery-description">Different shot</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h57_18.png" data-size="1268x615"><img loading="lazy" src="https://propiro.github.io/media/posts/16/gallery/2019-12-18_11h57_18-thumbnail.png" alt="" width="768" height="372"></a>
-<figcaption class="gallery-description">Mounted in ultrabay, unless someone eject it from laptop, there is no change of guessing there is computer inside computer.</figcaption>
-</figure>
-</div></div>
-<p>Things i'll add to it, because its not pointless enough:</p>
-<p>Small accumulator to make it run for several minutes between restarts of laptop.</p>
-<p>OLED screen to display (outside of the thinkpad bay, will require some dremel work) IP adress and uptime/network usage</p>
-<p>WIRED two-way of communication between thinkpad (i use windows on my laptops) and pi zero, probably will require adding some internal cables with USB lines. So it could act as an another usb drive OR input device controlled from... anything that can SSH into it.</p>
-<p>At some point of making this mod, someone asked me why. I've never asked this myself, at some point I just wanted to do it to be sure I can.</p>
             ]]>
         </content>
     </entry>
