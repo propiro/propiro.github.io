@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-03-23T03:11:50+01:00</updated>
+    <updated>2022-03-23T19:49:25+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -89,7 +89,7 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-03-06T16:22:27+01:00</updated>
+        <updated>2022-03-23T19:49:25+01:00</updated>
             <summary>
                 <![CDATA[
                     Since I'm very happy user of UHK - Ultimate Hacking Keyboard - a ridiculously priced, but worth every dollar, split ergonomic 60% keyboard, I couldnt be myself if I didn't had to mod it a little. While I still have a custom-modules interface project in&hellip;
@@ -102,7 +102,7 @@
 <p>And it printed fairly well:</p>
 <figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/29/ss_2022-03-06-16h10_08_Ferdi-Telegram.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://propiro.github.io/media/posts/29/responsive/ss_2022-03-06-16h10_08_Ferdi-Telegram-xs.jpg 300w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-06-16h10_08_Ferdi-Telegram-sm.jpg 480w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-06-16h10_08_Ferdi-Telegram-md.jpg 768w"  alt="You know its my photo because of the massacred table." width="1209" height="904"></figure>
 <p>For best results, I strongly suggest printing with elastic/rubber filament, otherwise you might need to scale them by 1-2% in all axes to make them fit, but not fell off.</p>
-<p>Here is comparison of various elecation levels (Im using the highest one, as its most easy for my wrists):</p>
+<p>Here is comparison of various elevation levels (Im using the highest one, as its most easy for my wrists):</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="4">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_22_Ferdi-Telegram.jpg" data-size="1203x886"><img loading="lazy" src="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_22_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="566"></a></figure>
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_33_Ferdi-Telegram.jpg" data-size="1210x905"><img loading="lazy" src="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_33_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="574"></a></figure>
@@ -111,6 +111,8 @@
 </div></div>
 <p>Green ones were test prints with SLA, as I was curious by mechanical properties of it, black ones are FDM printed.</p>
 <p>Works well, nothing more to write about. You can find STL for these in my github soon.</p>
+<p>edit: git repo set up:</p>
+<p><a href="https://github.com/propiro/UHKfeetExtender">https://github.com/propiro/UHKfeetExtender</a></p>
             ]]>
         </content>
     </entry>
@@ -269,7 +271,7 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-02-08T19:23:25+01:00</updated>
+        <updated>2022-03-23T03:15:17+01:00</updated>
             <summary>
                 <![CDATA[
                     Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
