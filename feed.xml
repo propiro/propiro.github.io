@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-03-23T19:56:51+01:00</updated>
+    <updated>2022-03-23T20:32:27+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -273,7 +273,7 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-03-23T03:15:17+01:00</updated>
+        <updated>2022-03-23T20:32:27+01:00</updated>
             <summary>
                 <![CDATA[
                     Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
@@ -341,7 +341,8 @@
 <li>add some larger/taller frame so it could work as a storage for unused inserts</li>
 </ul>
 <p>You can get the files on my github (will be uploaded bit later). Thats all components i need for now, I have idea about LCD / dot matrix modules, as well side-panels for sticking controls/fans there and horisontal-joiner, but since this is rather iterative project, so i'll make new modules as I need them.</p>
-<p> </p>
+<p>edit: github repo created:</p>
+<p><a href="https://github.com/propiro/ArduinoPrototypingFrame">https://github.com/propiro/ArduinoPrototypingFrame</a></p>
 <p> </p>
             ]]>
         </content>
