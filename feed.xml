@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-03-23T19:49:25+01:00</updated>
+    <updated>2022-03-23T19:56:51+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -89,7 +89,7 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-03-23T19:49:25+01:00</updated>
+        <updated>2022-03-23T19:56:51+01:00</updated>
             <summary>
                 <![CDATA[
                     Since I'm very happy user of UHK - Ultimate Hacking Keyboard - a ridiculously priced, but worth every dollar, split ergonomic 60% keyboard, I couldnt be myself if I didn't had to mod it a little. While I still have a custom-modules interface project in&hellip;
@@ -113,6 +113,8 @@
 <p>Works well, nothing more to write about. You can find STL for these in my github soon.</p>
 <p>edit: git repo set up:</p>
 <p><a href="https://github.com/propiro/UHKfeetExtender">https://github.com/propiro/UHKfeetExtender</a></p>
+<p>Added furniture anti-scratch foam under the feet, it prevents sliding and gives much softer feedback when moving kb parts around:</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/29/ss_2022-03-23-19h54_39_Ferdi-Telegram.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://propiro.github.io/media/posts/29/responsive/ss_2022-03-23-19h54_39_Ferdi-Telegram-xs.jpg 300w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-23-19h54_39_Ferdi-Telegram-sm.jpg 480w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-23-19h54_39_Ferdi-Telegram-md.jpg 768w"  alt="" width="1185" height="904"></figure>
             ]]>
         </content>
     </entry>
