@@ -3,12 +3,32 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-03-23T20:32:27+01:00</updated>
+    <updated>2022-03-28T04:49:47+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Portable, Triple Screen Station, Further Develompent</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/portable-triple-screen-station-further-develompent.html"/>
+        <id>https://propiro.github.io/portable-triple-screen-station-further-develompent.html</id>
+
+        <updated>2022-03-28T04:49:47+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Continuation of this post: 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Continuation of this post: </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Xiaomi 16 in 1 screwdriver, Im not a shill I swear</title>
         <author>
@@ -547,48 +567,6 @@
 <p>Please note that this is 3d-content focused explanation, so some terms could have slightly different meaning in other fields (like banding or dithering). At some point, images with examples will be added under definitions, but it takes lot of time to make certain examples, and i dont want to steal ones from random places over internet.</p>
 <p>I've spent quite a lot time making this list (and updating), so at least try not to steal from it blatantly, and instead of copying everything, link people here. My english is bad enough to be recognisable anyway.</p>
 <pre>This post will be updated along with new terminology I'll be asked about, feel free to ask in comments as well, or folks who are here via discord server / forum, you know where to find me. If youre going to flex about how much you know about 3d big words, at least check if youre not doing it before author of this post</pre>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Portable, Triple Screen Station</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/portable-triple-screen-station.html"/>
-        <id>https://propiro.github.io/portable-triple-screen-station.html</id>
-            <category term="technology"/>
-            <category term="other"/>
-            <category term="DIY"/>
-
-        <updated>2020-11-10T00:24:15+01:00</updated>
-            <summary>
-                <![CDATA[
-                    For quite some time, I've wanted a triple screens but portable. I was overwhelmed with joy few years later, when slide n joy was announced, only for it to turn into scam. Still remembering some military solutions I've got to use at some point of&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>For quite some time, I've wanted a triple screens but portable. I was overwhelmed with joy few years later, when slide n joy was announced, only for it to turn into scam. <br>Still remembering some military solutions I've got to use at some point of my work (i think GETAC made them, not sure) I really desired a triple-screen solution to monitor my server gear, or sometimes connect to a workstation that wasn't my home-computer, as i hate working on single screen. After some big brain thinking, and making list of requirements, I've came up with:</p>
-<ul>
-<li>three screens (who would have guessed?)</li>
-<li>at least full HD resolution</li>
-<li>ability to connect video signal through HDMI (normal-sized connection)</li>
-<li>ability to connect to a laptop/pc that DONT have 3 hdmi-out connections (dont have such GPU for example), so can use USB connection</li>
-<li>be either powered through separate power cable or USB connectors</li>
-<li>be foldable with screens facing inside, so they dont break easily</li>
-<li>be confined completely in some kind of case with handle, so its truly portable, not "mommy mommy please help me move this bunch of wires from this table to another room</li>
-<li>optionally, have keyboard stored inside, so it can be connected and used as poor mans KVM</li>
-<li>optionally, be able to store a tiny pc inside, but thats a long shot</li>
-</ul>
-<p>First thing to do was to obrain screens and the case that would hold everything. Since I dont have problem with <span style="text-decoration: line-through;">alcoholism </span>aliexpress, i've picked these three, as they had the best cost to thickness ratio, and believe or not, theyre apperently IPS screens that display colors quite nicely:<br><br><a href="https://pl.aliexpress.com/item/32949964660.html?spm=a2g0s.9042311.0.0.27425c0fZQAAqD">13.3 FHD IPS portable screen</a> (probably some laptop screens crafty chinamen converted to portable screen, adding a control display board)<br><a href="https://pl.aliexpress.com/item/4000677757547.html?spm=a2g0s.9042311.0.0.27425c0fZQAAqD">Case that looked sturdy, and have dimensions large enough to hide 3 screens and keyboar</a><br><a href="https://pl.aliexpress.com/item/4000111647544.html?spm=a2g0s.9042311.0.0.4cbb5c0foKUL3F">usb -&gt; hdmi "graphic card" </a><br><br>and a lot of adapters / converters / sockets were also bought, but you'll see them on the screenshots later.<br>After screens arrived, and suprisingly were not broken / bad quality, I've started thinking about hinges. <br>After watching some people struggle with it, either gluing velcro straps (pinus tech dips who broke the screen in the process) or literal metal hinges (jerry rig something something), I knew it wont do in my case, as I hoped it'll look at least half-proffesional.<br>I've ended designing a 3d hinges that would be screwed into the metal case of the screens. This is the hinge for sidescreen that is closer to centerscreen</p>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/21/ezgif.com-optimize-1.gif" alt="" width="600" height="371"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/21/ezgif.com-optimize2.gif" alt="" width="600" height="371"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/21/ezgif.com-optimize.gif" alt="" width="600" height="322"></figure>
-<figure class="post__image">First screen (the closer one) hinges turned out nicely:<br><img loading="lazy"  src="https://propiro.github.io/media/posts/21/unknown.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://propiro.github.io/media/posts/21/responsive/unknown-xs.png 300w ,https://propiro.github.io/media/posts/21/responsive/unknown-sm.png 480w ,https://propiro.github.io/media/posts/21/responsive/unknown-md.png 768w"  alt="" width="960" height="1280"></figure><br><figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/21/photo5857281639154038124.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://propiro.github.io/media/posts/21/responsive/photo5857281639154038124-xs.jpg 300w ,https://propiro.github.io/media/posts/21/responsive/photo5857281639154038124-sm.jpg 480w ,https://propiro.github.io/media/posts/21/responsive/photo5857281639154038124-md.jpg 768w"  alt="" width="891" height="668"></figure>
-<figure class="post__image">For right side screen, hinge need to have bigger offset, to compensate distance from center screen:<br><img loading="lazy"  src="https://propiro.github.io/media/posts/21/2020-11-10_00h19_31.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://propiro.github.io/media/posts/21/responsive/2020-11-10_00h19_31-xs.png 300w ,https://propiro.github.io/media/posts/21/responsive/2020-11-10_00h19_31-sm.png 480w ,https://propiro.github.io/media/posts/21/responsive/2020-11-10_00h19_31-md.png 768w"  alt="" width="1606" height="885"></figure><br><br>(As someone might point out, Im using polymodelling software - 3ds max - to author meshes for 3d printing. While I know CAD modelling quite good, I only polymodel it to piss some people on 3d modelling discord server, <em>just because I can</em>)</p>
-<p> </p>
-<p>(this post will be updated later when I push development forward)</p>
             ]]>
         </content>
     </entry>
