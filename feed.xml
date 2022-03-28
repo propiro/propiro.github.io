@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-03-28T06:40:43+02:00</updated>
+    <updated>2022-03-28T06:52:28+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://propiro.github.io/portable-triple-screen-station-further-develompent.html"/>
         <id>https://propiro.github.io/portable-triple-screen-station-further-develompent.html</id>
 
-        <updated>2022-03-28T06:40:43+02:00</updated>
+        <updated>2022-03-28T06:52:28+02:00</updated>
             <summary>
                 <![CDATA[
                     Continuation of this post: Portable, Triple Screen Station, Part1 Since v1 design turned out to not be sturdy enough (technically it worked - I could open/close the screens without problem, and they stay in place when not bothered), I've managed to very quickly snap the hinges&hellip;
@@ -29,9 +29,10 @@
 <p>Since v1 design turned out to not be sturdy enough (technically it worked - I could open/close the screens without problem, and they stay in place when not bothered), I've managed to very quickly snap the hinges either off the screen casing, or break the endpoints, regardless of printing technique or resolution of print/orientation. Metal casts/cnc is out of question, as it'd quickly exceed value of these screens, I've decided to re-design hinges completely - losing (well, gaining) some depth for the screens and bit of width due to oversized design, but now hinges will utilise m4 screws instead of m3 ones, and will have much more contact material from 4 sides not one, as well more material to support the stressed part.</p>
 <p>Early prototype design:</p>
 <figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/31/3screen_v2.gif" alt="Easrly design, you can see previous, slimsy one hinge as well" width="600" height="360">
-<figcaption >Caption</figcaption>
+<figcaption >early v2 prototype, lot of things will change, especially around button area</figcaption>
 </figure>
 <p>  It'll be slowly updated, my time is delegated to project of much bigger scale, but already I can foresee additional work needed to compensate for scree controls/buttons/ports - nothing difficult, just lot of measurements.</p>
+<p>Im thinking also about some basic way to regulate max angle between screens, probably through replacable spacers.</p>
 <p>Will be updated!</p>
             ]]>
         </content>
