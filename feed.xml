@@ -3,14 +3,14 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-04-21T02:07:45+02:00</updated>
+    <updated>2022-04-21T02:09:45+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
     <entry>
-        <title>DIY Terminal device, Very Dumb, Very Ghetto Terminal device.</title>
+        <title>DIY Terminal device</title>
         <author>
             <name>piro</name>
         </author>
@@ -20,15 +20,16 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-04-21T02:07:45+02:00</updated>
+        <updated>2022-04-21T02:09:45+02:00</updated>
             <summary>
                 <![CDATA[
-                    I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering rising electricity costs. I also dont really like VNC,&hellip;
+                    DIY Terminal device, Very Dumb, Very Ghetto Terminal device. I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering rising electricity costs.</p>
+                <p class="align-center"><strong>DIY Terminal device, Very Dumb, Very Ghetto Terminal device.</strong></p>
+<p>I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering rising electricity costs.</p>
 <p>I also dont really like VNC, or can use one centralised RDP solution to monitor it, so sometimes I'm ending up just connecting a small portable screen and keyboard with touchpad to machine I need to check, do my work, and unplug it, go to another one. Obviously working with setup scattered on my lap/shelf/racks/floor/whatever surface allows me, just to click few buttons, isn't very ergonomic, and annoys me - And I'm pretty sure my portable screen is on borrowed time already, since it was seconds from falling from falling on the ground.</p>
 <p>After looking at available solutions that are <em>literally</em> a pc screen with keyboard in form of a laptop, without actually being a laptop, but still be keyboard attached to screen, in form that I can hold in one hand, connect cables, do my clicking, unplug cables, I've noticed few existing constructions, all of them chinesse, and quite expensive:</p>
 <p><a href="#INTERNAL_LINK#/post/null" title="https://pl.aliexpress.com/item/1005003071565710.html" target="_blank" rel="noopener noreferrer">https://pl.aliexpress.com/item/1005003071565710.html</a></p>
@@ -72,7 +73,7 @@
 </div></div>
 <p> </p>
 <p>Im quite happy with it, it does it job, so it'll probably stay in use till it breaks.</p>
-<p><br>Note the comically extended large F970 battery adapter - Its actually handy while gripping, but Im pretty sure after some digging for right electronic parts, I'll make a detachable back with 2x 18650 batteries, charging module, and USB power passthrough with step-up converter, so its bit more compressed together.</p>
+<p><br>Note the comically extended large F970 battery adapter - Its actually handy while gripping, but Im pretty sure after some digging for right electronic parts, I'll make a detachable back with 2x 18650 batteries, charging module, and USB power passthrough with step-up converter, so its bit more compressed together. I'll update this post when I'll have the back developed, but can't say when it'll be.</p>
             ]]>
         </content>
     </entry>
