@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-04-21T01:46:48+02:00</updated>
+    <updated>2022-04-21T02:07:45+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -16,16 +16,20 @@
         </author>
         <link href="https://propiro.github.io/diy-terminal-device-very-dumb-very-ghetto-terminal-device.html"/>
         <id>https://propiro.github.io/diy-terminal-device-very-dumb-very-ghetto-terminal-device.html</id>
+            <category term="hardware"/>
+            <category term="hacks"/>
+            <category term="DIY"/>
 
-        <updated>2022-04-21T01:46:48+02:00</updated>
+        <updated>2022-04-21T02:07:45+02:00</updated>
             <summary>
                 <![CDATA[
-                    I own too many hardware. I also dont really like VNC, or can use one centralised RDP solution to monitor it, so sometimes I'm ending up just connecting a small portable screen and keyboard with touchpad to machine I need to check, do my work,&hellip;
+                    I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering rising electricity costs. I also dont really like VNC,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I own too many hardware. I also dont really like VNC, or can use one centralised RDP solution to monitor it, so sometimes I'm ending up just connecting a small portable screen and keyboard with touchpad to machine I need to check, do my work, and unplug it, go to another one. Obviously working with setup scattered on my lap/shelf/racks/floor/whatever surface allows me, just to click few buttons, isn't very ergonomic, and annoys me - And im pretty sure my portable screen is on borrowed time already, since it was seconds from falling from falling on the ground.</p>
+                <p>I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering rising electricity costs.</p>
+<p>I also dont really like VNC, or can use one centralised RDP solution to monitor it, so sometimes I'm ending up just connecting a small portable screen and keyboard with touchpad to machine I need to check, do my work, and unplug it, go to another one. Obviously working with setup scattered on my lap/shelf/racks/floor/whatever surface allows me, just to click few buttons, isn't very ergonomic, and annoys me - And I'm pretty sure my portable screen is on borrowed time already, since it was seconds from falling from falling on the ground.</p>
 <p>After looking at available solutions that are <em>literally</em> a pc screen with keyboard in form of a laptop, without actually being a laptop, but still be keyboard attached to screen, in form that I can hold in one hand, connect cables, do my clicking, unplug cables, I've noticed few existing constructions, all of them chinesse, and quite expensive:</p>
 <p><a href="#INTERNAL_LINK#/post/null" title="https://pl.aliexpress.com/item/1005003071565710.html" target="_blank" rel="noopener noreferrer">https://pl.aliexpress.com/item/1005003071565710.html</a></p>
 <p>I like that, but not 350usd like.</p>
@@ -38,7 +42,7 @@
 <figcaption>I want them in pseudo-laptop configuration</figcaption>
 </figure>
 </div></div>
-<p>So, why not attach them together, and get super-portable, mini laptop?<br>Say no more - after few hours of measurements, two test prints because I've forgot to make holes for HDMI ports, then third print to make a hole for wireless dongle from the keyboard, the result is here:</p>
+<p>So, why not attach them together, and get super-portable, mini laptop?<br>I could of course ducttape these two together and call it a day, making sure noone ever see me using it, however, that 3d printer isn't just to collect dust.<br><br>After making short list of requiremenents toward the end-product:<br>- be foldable so i can protect screen during work/moving around<br>- have power switches/ports exposed, so I can turn it on/ use it without taking out of the cases<br>- be accurate enough for both parts to be secured inside, without falling out too easily<br>- locking itself when opened at 180 degrees<br>- use not-so expensive joining solution - no fancy springs/gears, just two screws and two nuts<br><br>After considering all above, after few hours of measurements, thinking about best approach to it and modelling, I've two test prints because I've forgot to make holes for HDMI ports, then third print to make a hole for wireless dongle from the keyboard, the result is here:</p>
 <p> </p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/32/gallery/ss_2022-04-21-01h37_32_Anonymous.jpg" data-size="2149x1317"><img loading="lazy" src="https://propiro.github.io/media/posts/32/gallery/ss_2022-04-21-01h37_32_Anonymous-thumbnail.jpg" alt="How it looks in 3ds max (thats final version after all changes, ports, dongle holes etc incorporated)" width="768" height="471"></a>
