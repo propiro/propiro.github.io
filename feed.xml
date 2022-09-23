@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-09-24T00:01:18+02:00</updated>
+    <updated>2022-09-24T00:03:54+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -120,8 +120,11 @@
         </author>
         <link href="https://propiro.github.io/portable-triple-screen-station-further-develompent.html"/>
         <id>https://propiro.github.io/portable-triple-screen-station-further-develompent.html</id>
+            <category term="technology"/>
+            <category term="other"/>
+            <category term="DIY"/>
 
-        <updated>2022-09-24T00:01:18+02:00</updated>
+        <updated>2022-09-24T00:03:54+02:00</updated>
             <summary>
                 <![CDATA[
                     Continuation of this post: Portable, Triple Screen Station, Part1 Since v1 design turned out to not be sturdy enough (technically it worked - I could open/close the screens without problem, and they stay in place when not bothered), I've managed to very quickly snap the hinges&hellip;
