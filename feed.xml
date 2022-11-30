@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-11-30T12:08:38+01:00</updated>
+    <updated>2022-11-30T12:17:50+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -21,20 +21,20 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-11-30T12:08:38+01:00</updated>
+        <updated>2022-11-30T12:17:50+01:00</updated>
             <summary>
                 <![CDATA[
-                    I always liked photos of pc setups from people who worked with music. They always had these large decks with knobs, sliders, leds and switches. Never been really into music making, I couldnt find excuse to get even the smallest controller board. This changed recently,&hellip;
+                    I always liked photos of pc setups from people who worked with music. They show-off these large decks with knobs, sliders, leds and switches. Personally never been really into music making, I couldn't find excuse to get even the smallest controller board. This changed recently,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p class="align-center"> </p>
-<p>I always liked photos of pc setups from people who worked with music. They always had these large decks with knobs, sliders, leds and switches. Never been really into music making, I couldnt find excuse to get even the smallest controller board. </p>
+<p>I always liked photos of pc setups from people who worked with music. They show-off  these large decks with knobs, sliders, leds and switches. Personally never been really into music making, I couldn't find excuse to get even the smallest controller board. </p>
 <p>This changed recently, as I've started using OBS more and more to record and stream my work, as well process my audio during calls (noise cancelling, some plugins to make voice bit warmer and softer, etc - Might write a post about it at some point), suddenly I've found myself controlling 3+ audio devices. That sounded perfectly as reason for getting a midi controller board!</p>
-<p>After some research whats most idiot-proof yet functional, setting up my own requirements and use-cases (separate encoders for audio sources, few buttons for  muting separate sources / binding various scripts/effect, one separate control for all sources at once) I've updated my own setup with Behringer X-Touch mini: </p>
+<p>After some research what device is most idiot-proof yet functional, setting up my own requirements and use-cases (separate encoders for audio sources, few buttons for  muting separate sources / binding various scripts/effect, one separate control for all sources at once) I've updated my own setup with Behringer X-Touch mini: </p>
 <figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/35//20221114_142410.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/35//responsive/20221114_142410-xs.jpg 300w ,https://propiro.github.io/media/posts/35//responsive/20221114_142410-sm.jpg 480w ,https://propiro.github.io/media/posts/35//responsive/20221114_142410-md.jpg 768w"  alt="behringer xtouch mini" width="3024" height="4032"><figcaption>Arrived in 3 days, Amazon had best price for it (around 320onions, should translate to roughly 70 bucks)</figcaption></figure>
-<p>After connecting it and installing behringer software, I've realised I have no idea how to use it with windows, as Im not going to produce music, and have no music making software installed, nor I really want to install it. Quick google session pointed me to:<br><a href="https://www.midi-mixer.com" target="_blank" rel="noopener noreferrer">https://www.midi-mixer.com</a> which turned out to be very handy, and after some read up and tinkering, did the trick:</p>
+<p>After connecting it and installing behringer software, I've realised I have no idea how to use it with windows, as I'm not going to produce music, and have no music making software installed, nor I really want to install it. Quick google session pointed me to:<br><a href="https://www.midi-mixer.com" target="_blank" rel="noopener noreferrer">https://www.midi-mixer.com</a> which turned out to be very handy, and after some read up and tinkering, did the trick:</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/ss_2022-11-30-11h34_14_MIDIMixer.jpg" data-size="1286x793"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/ss_2022-11-30-11h34_14_MIDIMixer-thumbnail.jpg" alt="General encoder area" width="768" height="474"></a></figure>
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/ss_2022-11-30-11h35_16_Anonymous.jpg" data-size="1283x371"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/ss_2022-11-30-11h35_16_Anonymous-thumbnail.jpg" alt="Push-to-talk plugin" width="768" height="222"></a></figure>
@@ -43,7 +43,7 @@
 <p>third screen is from ClickMonitorDCC, that controls brightness of my Dell 4317Q screens, and catches output from Push-to-talk plugin encoder output for fine-tine brightness, or three preset brightness controlled by buttons on controller.<br>Code for encoders to work with my hotkeys:</p>
 <p>This goes for buttons, sends commands for 0, 30, 100% brightness:<br><code>~16+17+55(ctrl shift 7), ~16+17+56(ctrl shift 8), ~16+17+57(ctrl shift 9)</code></p>
 <p>This goes for encoders, and handles fine-tuning brightness by sending hotkeys every knob rotation click, as well sending left/right/up/down after changing layers/assign mode, as well some other software value changes:<br><code>~16+17+219(ctrl shift right bracelet)[~16+17+~40(down)]/~16+17+221(ctrl shift left bracelet)[~16+17+~38(up)], ~37(left)[~40(down)]/~39(right)[~38(up)]</code></p>
-<p>While device worked fine by itself, it was lying flat on desk, which made using it subobtimal. ITS 3D PRINTING TIME.</p>
+<p>While device worked fine by itself, it was lying flat on desk, which made using it suboptimal. ITS 3D PRINTING TIME.</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/photo_6021589882260012405_w.jpg" data-size="1537x839"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/photo_6021589882260012405_w-thumbnail.jpg" alt="After measurements, prototype was modelled. Take note of the T-shaped elements inside triangular empty area." width="768" height="419"></a></figure>
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/20221114_221723.jpg" data-size="4032x3024"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/20221114_221723-thumbnail.jpg" alt="Turned out great after first print, I like when eyeballing tolerances work." width="768" height="576"></a></figure>
@@ -53,7 +53,7 @@
 <p>Heres presentation of how brightness control works on encoder (with little nifty hack to have leds change with changing value):</p>
 <figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/35/ezgif.com-gif-maker-2-2.gif" alt="Encoder goes brrrrr" width="282" height="331"><figcaption>Encoder goes brrrrr</figcaption></figure>
 <p class="align-center"> </p>
-<p>I was pleased with what I've achieved, HOWEVER!<br>I had an TP-link UH720 usb hub lying around, and it was always moved from place to place, and I didnt had time for making an under-desk mount for it. So why not mount it to the controller itself? ITS 3D PRINTING TIME (#2)</p>
+<p>I was pleased with what I've achieved, HOWEVER!<br>Having an TP-link UH720 usb hub lying around, that was always moved from place to place, and I didnt had time for making an under-desk mount for it. So why not mount it to the controller itself? ITS 3D PRINTING TIME (#2)</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/20221117_015949.jpg" data-size="4032x3024"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/20221117_015949-thumbnail.jpg" alt="Clamp test, it attaches to hub nicely and lock-itself subtly with the notch in the hub's case" width="768" height="576"></a></figure>
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/20221118_093812.jpg" data-size="4032x3024"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/20221118_093812-thumbnail.jpg" alt="Clamps together" width="768" height="576"></a></figure>
