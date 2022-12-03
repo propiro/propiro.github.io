@@ -3,12 +3,24 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-11-30T12:21:04+01:00</updated>
+    <updated>2022-12-03T19:44:03+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Training custom AI model (Stable Diffusion HyperNetwork)</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/training-custom-ai-model-stable-diffusion-hypernetwork.html"/>
+        <id>https://propiro.github.io/training-custom-ai-model-stable-diffusion-hypernetwork.html</id>
+
+        <updated>2022-12-03T19:41:05+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Behringer X-Touch mini, setup, impressions, 3d printed addons.</title>
         <author>
@@ -21,7 +33,7 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-11-30T12:21:04+01:00</updated>
+        <updated>2022-12-03T19:41:40+01:00</updated>
             <summary>
                 <![CDATA[
                     I always liked photos of pc setups from people who worked with music. They show-off these large decks with knobs, sliders, leds and switches. Personally never been really into music making, I couldn't find excuse to get even the smallest controller board. This changed recently,&hellip;
@@ -64,10 +76,10 @@
 <figcaption>Works as intended</figcaption>
 </figure>
 </div></div>
-<p>Heres presentation of how brightness control works on encoder (with little nifty hack to have leds change with changing value):</p>
+<p>Here's presentation of how brightness control works on encoder (with little nifty hack to have leds change with changing value):</p>
 <figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/35/ezgif.com-gif-maker-2-2.gif" alt="Encoder goes brrrrr" width="282" height="331"><figcaption>Encoder goes brrrrr</figcaption></figure>
 <p class="align-center"> </p>
-<p>I was pleased with what I've achieved, HOWEVER!<br>Having an TP-link UH720 usb hub lying around, that was always moved from place to place, and I didnt had time for making an under-desk mount for it. So why not mount it to the controller itself? ITS 3D PRINTING TIME (#2)</p>
+<p>I was pleased with what I've achieved, HOWEVER!<br>Having an TP-link UH720 usb hub lying around, that was always moved from place to place, and I didn't had time for making an under-desk mount for it. So why not mount it to the controller itself? ITS 3D PRINTING TIME (#2)</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/35//gallery/20221117_015949.jpg" data-size="4032x3024"><img loading="lazy" src="https://propiro.github.io/media/posts/35//gallery/20221117_015949-thumbnail.jpg" alt="Clamp test, it attaches to hub nicely and lock-itself subtly with the notch in the hub's case" width="768" height="576"></a>
 <figcaption>Clamp test, it attaches to hub nicely and lock-itself subtly with the notch in the hub's case</figcaption>
@@ -92,7 +104,7 @@
 </figure>
 </div></div>
 <p>(Pictures have descriptions)</p>
-<p>After assembly, it works like that, and im perfectly happy with it:</p>
+<p>After assembly, it works like that, and I'm perfectly happy with it:</p>
 <figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/35/ezgif.com-gif-maker-3.gif" alt="" width="400" height="225">
 <figcaption >It swings!</figcaption>
 </figure>
@@ -113,7 +125,7 @@
             <category term="hardware"/>
             <category term="compulsive_shopping_disorder"/>
 
-        <updated>2022-09-22T12:55:12+02:00</updated>
+        <updated>2022-12-03T19:42:00+01:00</updated>
             <summary>
                 <![CDATA[
                     At beginning of the year of our lord 2022, I've managed to snatch Space Pilot Pro for cheap. I've decided to update on my experience, and current workflow/settings I use, which greatly speed up my work, and managed me to partially switch from left-hand-on- keyboard&hellip;
@@ -149,18 +161,18 @@
             <category term="hacks"/>
             <category term="DIY"/>
 
-        <updated>2022-04-21T02:09:45+02:00</updated>
+        <updated>2022-12-03T19:44:03+01:00</updated>
             <summary>
                 <![CDATA[
-                    DIY Terminal device, Very Dumb, Very Ghetto Terminal device. I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering&hellip;
+                    DIY Terminal device, Very Dumb, Very Ghetto Terminal device. I own too many computers. And too many computers that I own don't have dedicated screen, since they're either mining, rendering, heating my apartment, or pretend that keeping them is still smart thing to do, considering&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p class="align-center"><strong>DIY Terminal device, Very Dumb, Very Ghetto Terminal device.</strong></p>
-<p>I own too many computers. And too many computers that I own dont have dedicated screen, since they're either mining, rendering, heating my apartament, or pretend that keeping them is still smart thing to do, considering rising electricity costs.</p>
-<p>I also dont really like VNC, or can use one centralised RDP solution to monitor it, so sometimes I'm ending up just connecting a small portable screen and keyboard with touchpad to machine I need to check, do my work, and unplug it, go to another one. Obviously working with setup scattered on my lap/shelf/racks/floor/whatever surface allows me, just to click few buttons, isn't very ergonomic, and annoys me - And I'm pretty sure my portable screen is on borrowed time already, since it was seconds from falling from falling on the ground.</p>
-<p>After looking at available solutions that are <em>literally</em> a pc screen with keyboard in form of a laptop, without actually being a laptop, but still be keyboard attached to screen, in form that I can hold in one hand, connect cables, do my clicking, unplug cables, I've noticed few existing constructions, all of them chinesse, and quite expensive:</p>
+<p>I own too many computers. And too many computers that I own don't have dedicated screen, since they're either mining, rendering, heating my apartment, or pretend that keeping them is still smart thing to do, considering rising electricity costs.</p>
+<p>I also don't really like VNC, or can use one centralised RDP solution to monitor it, so sometimes I'm ending up just connecting a small portable screen and keyboard with touchpad to machine I need to check, do my work, and unplug it, go to another one. Obviously working with setup scattered on my lap/shelf/racks/floor/whatever surface allows me, just to click few buttons, isn't very ergonomic, and annoys me - And I'm pretty sure my portable screen is on borrowed time already, since it was seconds from falling from falling on the ground.</p>
+<p>After looking at available solutions that are <em>literally</em> a pc screen with keyboard in form of a laptop, without actually being a laptop, but still be keyboard attached to screen, in form that I can hold in one hand, connect cables, do my clicking, unplug cables, I've noticed few existing constructions, all of them Chinese, and quite expensive:</p>
 <p><a href="#INTERNAL_LINK#/post/null" title="https://pl.aliexpress.com/item/1005003071565710.html" target="_blank" rel="noopener noreferrer">https://pl.aliexpress.com/item/1005003071565710.html</a></p>
 <p>I like that, but not 350usd like.</p>
 <p>After quick brainstorming and looking at hardware I had lying around, I've found cheap RF2.4ghz portable keyboard, and photocamera screen that i use once per year:</p>
@@ -172,7 +184,7 @@
 <figcaption>I want them in pseudo-laptop configuration</figcaption>
 </figure>
 </div></div>
-<p>So, why not attach them together, and get super-portable, mini laptop?<br>I could of course ducttape these two together and call it a day, making sure noone ever see me using it, however, that 3d printer isn't just to collect dust.<br><br>After making short list of requiremenents toward the end-product:<br>- be foldable so i can protect screen during work/moving around<br>- have power switches/ports exposed, so I can turn it on/ use it without taking out of the cases<br>- be accurate enough for both parts to be secured inside, without falling out too easily<br>- locking itself when opened at 180 degrees<br>- use not-so expensive joining solution - no fancy springs/gears, just two screws and two nuts<br><br>After considering all above, after few hours of measurements, thinking about best approach to it and modelling, I've two test prints because I've forgot to make holes for HDMI ports, then third print to make a hole for wireless dongle from the keyboard, the result is here:</p>
+<p>So, why not attach them together, and get super-portable, mini laptop?<br>I could of course duct tape these two together and call it a day, making sure no one ever see me using it, however, that 3d printer isn't just to collect dust.<br><br>After making short list of requirements toward the end-product:<br>- be foldable so i can protect screen during work/moving around<br>- have power switches/ports exposed, so I can turn it on/ use it without taking out of the cases<br>- be accurate enough for both parts to be secured inside, without falling out too easily<br>- locking itself when opened at 180 degrees<br>- use not-so expensive joining solution - no fancy springs/gears, just two screws and two nuts<br><br>After considering all above, after few hours of measurements, thinking about best approach to it and modelling, I've two test prints because I've forgot to make holes for HDMI ports, then third print to make a hole for wireless dongle from the keyboard, the result is here:</p>
 <p> </p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/32/gallery/ss_2022-04-21-01h37_32_Anonymous.jpg" data-size="2149x1317"><img loading="lazy" src="https://propiro.github.io/media/posts/32/gallery/ss_2022-04-21-01h37_32_Anonymous-thumbnail.jpg" alt="How it looks in 3ds max (thats final version after all changes, ports, dongle holes etc incorporated)" width="768" height="471"></a>
@@ -201,7 +213,7 @@
 </figure>
 </div></div>
 <p> </p>
-<p>Im quite happy with it, it does it job, so it'll probably stay in use till it breaks.</p>
+<p>I'm quite happy with it, it does it job, so it'll probably stay in use till it breaks.</p>
 <p><br>Note the comically extended large F970 battery adapter - Its actually handy while gripping, but Im pretty sure after some digging for right electronic parts, I'll make a detachable back with 2x 18650 batteries, charging module, and USB power passthrough with step-up converter, so its bit more compressed together. I'll update this post when I'll have the back developed, but can't say when it'll be.</p>
             ]]>
         </content>
@@ -270,15 +282,15 @@
             <category term="other"/>
             <category term="compulsive_shopping_disorder"/>
 
-        <updated>2022-03-23T03:09:14+01:00</updated>
+        <updated>2022-12-03T19:42:57+01:00</updated>
             <summary>
                 <![CDATA[
-                    Disclaimer - noone paid me for this article, I've aquired the item using my own, hard earned polish onions. I own multiple screwdriver sets, be it modular/bit ones, or traditional ones, or electric ones. They usually reside in the toolbox and/or in the workroom. Where&hellip;
+                    Disclaimer - no one paid me for this article, I've acquired the item using my own, hard earned polish onions. I own multiple screwdriver sets, be it modular/bit ones, or traditional ones, or electric ones. They usually reside in the toolbox and/or in the workroom. Where they&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><em>Disclaimer - noone paid me for this article, I've aquired the item using my own, hard earned polish onions.</em></p>
+                <p><em>Disclaimer - no one paid me for this article, I've acquired the item using my own, hard earned polish onions.</em></p>
 <p>I own multiple screwdriver sets, be it modular/bit ones, or traditional ones, or electric ones. They usually reside in the toolbox and/or in the workroom. Where they belong.</p>
 <p>However, I often need to unscrew JUST ONE SCREW or tighten JUST ONE BOLT when I work in my office-room, and it require me a trip to the toolbox, getting right screwdriver/bit, going back to my office-room, doing what I want, and in ideal world, going back to put back the tool into box - so usually i just have it around my office desk for few times before I do some cleaning.</p>
 <p>So I've decided that I'll buy ONE screwdriver that'll live in the office drawer. Requirements were fairly straightforward:</p>
@@ -287,11 +299,11 @@
 <li>be manual - nothing electric, which will require charging/batteries in the worst moment when I just need to do that ONE quick adjustment</li>
 <li>Have multiple bits, so its still ONE screwdriver covering lot of screws and bolts</li>
 <li>smallest storage form possible, ideally no box/case</li>
-<li>have an left-right-block rattle, because Im spoiled<br><br></li>
+<li>have an left-right-block rattle, because I'm spoiled<br><br></li>
 </ul>
-<p>After browsing local auction/shop sites for a while, comparing prices and options (as I've mention, I have multiple tools already, so I could be picky here), my attention focused on Xiaomi screwsriver, humbly named "16 in 1", like the pegasus 999999 in 1 cardridges. </p>
+<p>After browsing local auction/shop sites for a while, comparing prices and options (as I've mention, I have multiple tools already, so I could be picky here), my attention focused on Xiaomi screwdriver, humbly named "16 in 1", like the Pegasus 999999 in 1 cartridges. </p>
 <figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/30/ss_2022-03-23-03h03_31_xiaomi16in1-Szukajw-Google-Vivaldi.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/30/responsive/ss_2022-03-23-03h03_31_xiaomi16in1-Szukajw-Google-Vivaldi-xs.jpg 300w ,https://propiro.github.io/media/posts/30/responsive/ss_2022-03-23-03h03_31_xiaomi16in1-Szukajw-Google-Vivaldi-sm.jpg 480w ,https://propiro.github.io/media/posts/30/responsive/ss_2022-03-23-03h03_31_xiaomi16in1-Szukajw-Google-Vivaldi-md.jpg 768w"  alt="Manufacturer Item Render" width="998" height="562"> </figure>
-<p>20 bucks and 2 days later, package automat sent me an e-mail that my order is ready for pickup. After quick unpacking, that was very positive by the thoughfullness of the package regarding pulling off parts out of cardboard (small thing but made me smile inside), I was _very_ pleasantly suprised:</p>
+<p>20 bucks and 2 days later, package automat sent me an e-mail that my order is ready for pickup. After quick unpacking, that was very positive by the thoughtfulness of the package regarding pulling off parts out of cardboard (small thing but made me smile inside), I was _very_ pleasantly surprised:</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://propiro.github.io/media/posts/30//gallery/ss_2022-03-23-02h32_13_Ferdi-Telegram.jpg" data-size="871x1172"><img loading="lazy" src="https://propiro.github.io/media/posts/30//gallery/ss_2022-03-23-02h32_13_Ferdi-Telegram-thumbnail.jpg" alt="Assembled, bit-less screwdriver" width="768" height="1033"></a>
 <figcaption>Assembled, bit-less screwdriver</figcaption>
@@ -317,14 +329,14 @@
 <li>Its very handy, lies comfortable in my hand</li>
 <li>It has bit compartment (and its magnetic, so nothing falls off out of it) in the grip</li>
 <li>Compartment is clickable (see gif below), so it wont eject itself on its own when manipulating in all axes</li>
-<li>its main shaft is detachable as well - which was unexpected suprise, and makes my life much easier - It can be used in much narrower spaces, and it will gladly eat one of my weirdest bits, like screws/treadening ends / ultra-thin and long bits, without making it absurdly long</li>
+<li>its main shaft is detachable as well - which was unexpected surprise, and makes my life much easier - It can be used in much narrower spaces, and it will gladly eat one of my weirdest bits, like screws/treading ends / ultra-thin and long bits, without making it absurdly long</li>
 <li>everything is magnetic, starting from mentioned compartment above, to shaft sockt, to bit socket at the end</li>
 <li>Its 8 two-sided bits covers most common used screws in office envitonment.</li>
 <li>Overall material quality is very high, tool have the "premium" feel when handled.</li>
 </ul>
 <p>Last but not least, clickable butt gif:</p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://propiro.github.io/media/posts/30//xiaiomi-16-in-1.gif" alt="I fucking love it" width="180" height="320"></figure>
-<p>Considering what I've expected and what I've got, it was very good purchase, recommended for anyone looking for simple yet powerfull side-tool for small work, especially if you dont want to dig through dozens of tools every time you have to tighten one screw.</p>
+<p>Considering what I've expected and what I've got, it was very good purchase, recommended for anyone looking for simple yet powerful side-tool for small work, especially if you don't want to dig through dozens of tools every time you have to tighten one screw.</p>
 <p> </p>
             ]]>
         </content>
@@ -510,91 +522,6 @@
 <p>Thats being said, I swap g604 for vertical mouse when i work in CAD/3D software mostly, and since my workflow is very keyboard-centric, I can somehow live with only 5 buttons being used instead of 7 (Back and Forward are standard and must have, Thumb-bottom one is escape which is fine as i can close dialogs quickly - i jus wish i could bind some keyboard keys (even delete / enter) to the top two ones). The two top ones  will be left for controlling volume, which is really a compromise, and as we know, compromise makes noone happy, as noone got what they wanted initially.</p>
 <p>TL;DR</p>
 <p>Buy if you want wireless vertical mouse and dont plan to use extra buttons except Forward - Backward. Otherwise, buy anything from logitech that have setpoint integration and allows you to completely re-map everything.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Arduino Prototyping Physical Framework</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/arduino-prototyping-physical-framework.html"/>
-        <id>https://propiro.github.io/arduino-prototyping-physical-framework.html</id>
-            <category term="other"/>
-            <category term="hacks"/>
-            <category term="DIY"/>
-
-        <updated>2022-03-23T20:32:27+01:00</updated>
-            <summary>
-                <![CDATA[
-                    Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely.</p>
-<p>Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium spacers, were too simple-minded forcing me to use certain layout and nothing else, or beign straight up 25x25cm flat printed board, I've decided to delegate some of my time to make my own "system" of customisable frame for arduino prototyping, so everything could stay in one place, at the expense of few hours of printing.</p>
-<p>Main requirements/goals I've set up for the system:</p>
-<ul>
-<li>Only printed parts, no aluminium spacers, no metal rods, no hotglue. Screws / zipties are compromise if needed.</li>
-<li>Easily stackable</li>
-<li>Easily expandable (at first by stacking vertically, then by extending horisontally as well if required)</li>
-<li>High customisability to the point I could swap sub-modules easily without need of re-printing half of the frame.</li>
-<li>Some degree of mechanical interlocking everything so it doesnt fell apart at the slightest move. </li>
-<li>Minimum postprocessing, ideally none - no supports, no smoothing, no filing, no drilling.</li>
-</ul>
-<p>So, after some though process, I had first iteration of elements in 3ds max:</p>
-<figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/25//2022-02-08_10h40_56.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-xs.jpg 300w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-sm.jpg 480w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-md.jpg 768w"  alt="first iteration of frame" width="2159" height="1153">
-<figcaption >This is actually screenshot of third iteration, but first that was printed.</figcaption>
-</figure>
-<p> </p>
-<p>Result of printing, quite good for 3 revisions inside software without physicalprototype first:</p>
-<figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/25//2022-02-08_10h54_25.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h54_25-xs.jpg 300w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h54_25-sm.jpg 480w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h54_25-md.jpg 768w"  alt="frame prototype, first print, first success" width="1233" height="922">
-<figcaption >Frame prototype, first print, first success</figcaption>
-</figure>
-<p>Now that I knew I have working frame, I should make some inserts into it for components. I've started with two arduinos i had at hand: uno and mega.</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_11.jpg" data-size="1051x754"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_11-thumbnail.jpg" alt="arduino uno and mega screwed to inserts" width="768" height="551"></a>
-<figcaption>arduino uno and mega screwed to inserts</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_20.jpg" data-size="1211x653"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_20-thumbnail.jpg" alt="arduino uno and mega screwed to inserts, put into frames" width="768" height="414"></a>
-<figcaption>arduino uno and mega screwed to inserts, put into frames</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_32.jpg" data-size="1085x819"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_32-thumbnail.jpg" alt="So what, we doing arduino cluster now?" width="768" height="580"></a>
-<figcaption>So what, we doing arduino cluster now?</figcaption>
-</figure>
-</div></div>
-<p>No that I know inserts fit nicely into frame, and arduino is secured, time to make some inserts for components I'll use in near future. While im aware that from this point i can make basically any insert i want as long component fit inside the frame, I'll limit myself to things i'll use in near future in my project that started this project, namely:</p>
-<ul>
-<li>two step down converters LM2596</li>
-<li>small protoboard</li>
-<li>prototype pcb</li>
-</ul>
-<p>Step down converters and small prototype board are so small, I'll put them on separate halves of insert plate, so it adds even more customisation freedom. I've made one universal print for 3 sizes of pcbs I've found around, as well one very universal that can be used with zipties for cables / weird components:</p>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/25/2022-02-08_11h54_50.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/25/responsive/2022-02-08_11h54_50-xs.jpg 300w ,https://propiro.github.io/media/posts/25/responsive/2022-02-08_11h54_50-sm.jpg 480w ,https://propiro.github.io/media/posts/25/responsive/2022-02-08_11h54_50-md.jpg 768w"  alt="PCB, halves of inserts for protoboard and step downs, universal one" width="2109" height="1206"></figure>
-<p>And the result is here:</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_18.jpg" data-size="601x907"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_18-thumbnail.jpg" alt="pcb screwed in as well two step down converters" width="601" height="907"></a>
-<figcaption>pcb screwed in as well two step down converters</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_10.jpg" data-size="1239x890"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_10-thumbnail.jpg" alt="assemblling" width="768" height="552"></a>
-<figcaption>assemblling</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_27.jpg" data-size="669x896"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_27-thumbnail.jpg" alt="completed stack" width="669" height="896"></a>
-<figcaption>completed stack</figcaption>
-</figure>
-</div></div>
-<p>Things to work on in near future:</p>
-<ul>
-<li>work on screw mounting points, so they dont get too loose after few usages</li>
-<li>add version for arduino micro/nano, nano with shield and 18650 adapter</li>
-<li>add some lcd panel for front/top</li>
-<li>add some larger/taller frame so it could work as a storage for unused inserts</li>
-</ul>
-<p>You can get the files on my github (will be uploaded bit later). Thats all components i need for now, I have idea about LCD / dot matrix modules, as well side-panels for sticking controls/fans there and horisontal-joiner, but since this is rather iterative project, so i'll make new modules as I need them.</p>
-<p>edit: github repo created:</p>
-<p><a href="https://github.com/propiro/ArduinoPrototypingFrame">https://github.com/propiro/ArduinoPrototypingFrame</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
