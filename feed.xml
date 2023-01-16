@@ -3,12 +3,73 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2022-12-03T19:44:03+01:00</updated>
+    <updated>2023-01-16T23:55:04+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>TS100 Printable durable case - now with 100% more cyber!</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/ts100-printable-durable-case-now-with-100-more-cyber.html"/>
+        <id>https://propiro.github.io/ts100-printable-durable-case-now-with-100-more-cyber.html</id>
+            <category term="other"/>
+            <category term="cyberpunk"/>
+            <category term="DIY"/>
+
+        <updated>2023-01-16T23:55:04+01:00</updated>
+            <summary>
+                <![CDATA[
+                    I've got linked this by a friend: https://www.printables.com/model/345083-rugged-multipart-pinecilts100ts80-case-v2 And while it seem like a nice upgrade from my previous holding box for ts100, I've quickly realised it have few features I dislike. When I design things, I want them to be as easily printed as&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I've got linked this by a friend:</p>
+<p><a href="https://www.printables.com/model/345083-rugged-multipart-pinecilts100ts80-case-v2">https://www.printables.com/model/345083-rugged-multipart-pinecilts100ts80-case-v2</a></p>
+<p>And while it seem like a nice upgrade from my previous holding box for ts100, I've quickly realised it have few features I dislike.</p>
+<p>When I design things, I want them to be as easily printed as possible, and modular as possible, and allow lot of customisation from the start. I have Prusa 3D, but without multi-material addon, so only swapping filament on the layer change made sense (And I don't really like purge block method, seems wasteful). Second, I want latches to be easily replacable, and I dont like torque between bigger parts on hinges. Latches should be interchangeable with hinges as well, in case I need a box that is openable completely, with removal of top piece. Second, I dont really need/want/can delegate time to measure every piece of equipment I have, so I'd like to use inserts from already estabilished project, with as minimum changes as possible. And to top all of above, I like certain asthetics, which is mix of utilitarism and cyberpunk styles.</p>
+<p>Having this in mind, on the span of 3 days, new version was designed and printed. Some 3ds max shots:</p>
+<div class="gallery-wrapper gallery-wrapper--wide"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5915802363858369632_w.jpg" data-size="2278x1805"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5915802363858369632_w-thumbnail.jpg" alt="" width="768" height="609"></a>
+<figcaption>first case prototype</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5915802363858369637_w.jpg" data-size="1874x1406"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5915802363858369637_w-thumbnail.jpg" alt="" width="768" height="576"></a>
+<figcaption>important details added - CYBER logo as well TS-100 (So I know whats inside)</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5915802363858369639_w.jpg" data-size="1606x1273"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5915802363858369639_w-thumbnail.jpg" alt="" width="768" height="609"></a>
+<figcaption>Ready to print, using cheap trick with filament swap after few layers, to get multicolored print!</figcaption>
+</figure>
+</div></div>
+<figure ><figure class="post__image post__image--wide"><img loading="lazy"  src="https://propiro.github.io/media/posts/37/photo_5918054163672054652_y.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/37/responsive/photo_5918054163672054652_y-xs.jpg 300w ,https://propiro.github.io/media/posts/37/responsive/photo_5918054163672054652_y-sm.jpg 480w ,https://propiro.github.io/media/posts/37/responsive/photo_5918054163672054652_y-md.jpg 768w"  alt="" width="1280" height="960"></figure>
+<figcaption >haha cyber</figcaption>
+</figure>
+<p>And after few tries on the latches/hinges (I REALLY wanted a subtle dual-tone touch to them), and editing already-done insert with item compartments, I've got final product, that I'm extremely happy with:</p>
+<div class="gallery-wrapper gallery-wrapper--full"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="5">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5920305963485739370_y.jpg" data-size="960x1280"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5920305963485739370_y-thumbnail.jpg" alt="" width="768" height="1024"></a>
+<figcaption>components for outer shell, printed. Note dual-color latches/hinges</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439250_y.jpg" data-size="1280x960"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439250_y-thumbnail.jpg" alt="" width="768" height="576"></a>
+<figcaption>front, with glorious CYBER asthetics</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439251_y.jpg" data-size="1280x960"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439251_y-thumbnail.jpg" alt="" width="768" height="576"></a>
+<figcaption>back</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439252_y.jpg" data-size="1280x960"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439252_y-thumbnail.jpg" alt="" width="768" height="576"></a>
+<figcaption>TS100 restin in its new home, along rest of accessories</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439253_y.jpg" data-size="1280x960"><img loading="lazy" src="https://propiro.github.io/media/posts/37/gallery/photo_5922244149082439253_y-thumbnail.jpg" alt="" width="768" height="576"></a>
+<figcaption>TS100 ready to use, powered from old SHERPA100 Power bank.</figcaption>
+</figure>
+</div></div>
+<p> </p>
+<p>At some point I'll share finished design, probably after I clean it up a bit and make more generic case-design, as I'm convinced that this design is easier to print, and have much stronger structural integrity, with every hinge base/fin thickened, as well few less noticeable changes, mainly to angles as well printable bed surface areas. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Behringer X-Touch mini, setup, impressions, 3d printed addons.</title>
         <author>
@@ -510,91 +571,6 @@
 <p>Thats being said, I swap g604 for vertical mouse when i work in CAD/3D software mostly, and since my workflow is very keyboard-centric, I can somehow live with only 5 buttons being used instead of 7 (Back and Forward are standard and must have, Thumb-bottom one is escape which is fine as i can close dialogs quickly - i jus wish i could bind some keyboard keys (even delete / enter) to the top two ones). The two top ones  will be left for controlling volume, which is really a compromise, and as we know, compromise makes noone happy, as noone got what they wanted initially.</p>
 <p>TL;DR</p>
 <p>Buy if you want wireless vertical mouse and dont plan to use extra buttons except Forward - Backward. Otherwise, buy anything from logitech that have setpoint integration and allows you to completely re-map everything.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Arduino Prototyping Physical Framework</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/arduino-prototyping-physical-framework.html"/>
-        <id>https://propiro.github.io/arduino-prototyping-physical-framework.html</id>
-            <category term="other"/>
-            <category term="hacks"/>
-            <category term="DIY"/>
-
-        <updated>2022-03-23T20:32:27+01:00</updated>
-            <summary>
-                <![CDATA[
-                    Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely. Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Recently I've returned to working with arduino and similiar modules, and got quickly fed-up with cable mess on the table, having everything connected with cables, lying loosely.</p>
-<p>Being unhappy with ready-to-print things I've found out on the internet, because most of them required either aluminium spacers, were too simple-minded forcing me to use certain layout and nothing else, or beign straight up 25x25cm flat printed board, I've decided to delegate some of my time to make my own "system" of customisable frame for arduino prototyping, so everything could stay in one place, at the expense of few hours of printing.</p>
-<p>Main requirements/goals I've set up for the system:</p>
-<ul>
-<li>Only printed parts, no aluminium spacers, no metal rods, no hotglue. Screws / zipties are compromise if needed.</li>
-<li>Easily stackable</li>
-<li>Easily expandable (at first by stacking vertically, then by extending horisontally as well if required)</li>
-<li>High customisability to the point I could swap sub-modules easily without need of re-printing half of the frame.</li>
-<li>Some degree of mechanical interlocking everything so it doesnt fell apart at the slightest move. </li>
-<li>Minimum postprocessing, ideally none - no supports, no smoothing, no filing, no drilling.</li>
-</ul>
-<p>So, after some though process, I had first iteration of elements in 3ds max:</p>
-<figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/25//2022-02-08_10h40_56.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-xs.jpg 300w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-sm.jpg 480w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h40_56-md.jpg 768w"  alt="first iteration of frame" width="2159" height="1153">
-<figcaption >This is actually screenshot of third iteration, but first that was printed.</figcaption>
-</figure>
-<p> </p>
-<p>Result of printing, quite good for 3 revisions inside software without physicalprototype first:</p>
-<figure class="post__image" ><img loading="lazy" src="https://propiro.github.io/media/posts/25//2022-02-08_10h54_25.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h54_25-xs.jpg 300w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h54_25-sm.jpg 480w ,https://propiro.github.io/media/posts/25//responsive/2022-02-08_10h54_25-md.jpg 768w"  alt="frame prototype, first print, first success" width="1233" height="922">
-<figcaption >Frame prototype, first print, first success</figcaption>
-</figure>
-<p>Now that I knew I have working frame, I should make some inserts into it for components. I've started with two arduinos i had at hand: uno and mega.</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_11.jpg" data-size="1051x754"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_11-thumbnail.jpg" alt="arduino uno and mega screwed to inserts" width="768" height="551"></a>
-<figcaption>arduino uno and mega screwed to inserts</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_20.jpg" data-size="1211x653"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_20-thumbnail.jpg" alt="arduino uno and mega screwed to inserts, put into frames" width="768" height="414"></a>
-<figcaption>arduino uno and mega screwed to inserts, put into frames</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_32.jpg" data-size="1085x819"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_11h46_32-thumbnail.jpg" alt="So what, we doing arduino cluster now?" width="768" height="580"></a>
-<figcaption>So what, we doing arduino cluster now?</figcaption>
-</figure>
-</div></div>
-<p>No that I know inserts fit nicely into frame, and arduino is secured, time to make some inserts for components I'll use in near future. While im aware that from this point i can make basically any insert i want as long component fit inside the frame, I'll limit myself to things i'll use in near future in my project that started this project, namely:</p>
-<ul>
-<li>two step down converters LM2596</li>
-<li>small protoboard</li>
-<li>prototype pcb</li>
-</ul>
-<p>Step down converters and small prototype board are so small, I'll put them on separate halves of insert plate, so it adds even more customisation freedom. I've made one universal print for 3 sizes of pcbs I've found around, as well one very universal that can be used with zipties for cables / weird components:</p>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/25/2022-02-08_11h54_50.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/25/responsive/2022-02-08_11h54_50-xs.jpg 300w ,https://propiro.github.io/media/posts/25/responsive/2022-02-08_11h54_50-sm.jpg 480w ,https://propiro.github.io/media/posts/25/responsive/2022-02-08_11h54_50-md.jpg 768w"  alt="PCB, halves of inserts for protoboard and step downs, universal one" width="2109" height="1206"></figure>
-<p>And the result is here:</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_18.jpg" data-size="601x907"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_18-thumbnail.jpg" alt="pcb screwed in as well two step down converters" width="601" height="907"></a>
-<figcaption>pcb screwed in as well two step down converters</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_10.jpg" data-size="1239x890"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_10-thumbnail.jpg" alt="assemblling" width="768" height="552"></a>
-<figcaption>assemblling</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_27.jpg" data-size="669x896"><img loading="lazy" src="https://propiro.github.io/media/posts/25/gallery/2022-02-08_19h10_27-thumbnail.jpg" alt="completed stack" width="669" height="896"></a>
-<figcaption>completed stack</figcaption>
-</figure>
-</div></div>
-<p>Things to work on in near future:</p>
-<ul>
-<li>work on screw mounting points, so they dont get too loose after few usages</li>
-<li>add version for arduino micro/nano, nano with shield and 18650 adapter</li>
-<li>add some lcd panel for front/top</li>
-<li>add some larger/taller frame so it could work as a storage for unused inserts</li>
-</ul>
-<p>You can get the files on my github (will be uploaded bit later). Thats all components i need for now, I have idea about LCD / dot matrix modules, as well side-panels for sticking controls/fans there and horisontal-joiner, but since this is rather iterative project, so i'll make new modules as I need them.</p>
-<p>edit: github repo created:</p>
-<p><a href="https://github.com/propiro/ArduinoPrototypingFrame">https://github.com/propiro/ArduinoPrototypingFrame</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
