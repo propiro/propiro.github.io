@@ -3,12 +3,80 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-01-16T23:55:04+01:00</updated>
+    <updated>2023-02-14T15:37:42+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>OK BOOMER 3D Workflow, it works - 2023 EDITION</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/ok-boomer-3d-workflow-it-works-2.html"/>
+        <id>https://propiro.github.io/ok-boomer-3d-workflow-it-works-2.html</id>
+            <category term="quick_3d_tips"/>
+            <category term="general_rant"/>
+            <category term="3d"/>
+
+        <updated>2023-02-14T15:37:42+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Old version can be found here: This is an update to my previous workflow describing article, with few updates to tools/plugins I use. It is still very 3ds max centric, but some procedures can be applied to Maya or Blender along the way. First, software&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Old version can be found here: </p>
+<p>This is an update to my previous workflow describing article, with few updates to tools/plugins I use. It is still very 3ds max centric, but some procedures can be applied to Maya or Blender along the way.</p>
+<p>First, software and plugins I mostly use for authoring models (not everything obviously, but major players that are installed on every computer I ever worked on):</p>
+<p>Pureref - <a href="https://www.pureref.com/download.php">Pureref download page</a><br>3ds Max (2023 for now) - <a href="https://help.autodesk.com/view/3DSMAX/2023/ENU/?guid=GUID-F5D297BB-5141-4395-9FFE-3CAD86204D64" target="_blank" rel="noopener noreferrer">Whats new - Autodesk Max 2023</a><br>Marmoset Toolbag 3  - <a href="https://marmoset.co/toolbag/">Marmoset Toolbag Website</a> - (4 will do as long it allows baking meshes)<br>Substance Painter - <a href="https://store.steampowered.com/app/2199970/Substance_3D_Painter_2023/">Substance Painter Steam version with lifetime licence</a><br>Textools - <a href="http://renderhjs.net/textools/3dsMax.html">Textools for 3ds max</a><br>InsetFix Modifier - <a href="http://www.scriptspot.com/3ds-max/scripts/insetfix-modifier">InsetFix maxscript download</a> - greatly helps with sub-d workflow.1<br>UVPacker - <a href="https://www.uv-packer.com/download/">UVPacker for max</a> - you don't really need paid version.<br><br></p>
+<p>In this post I'll focus on modelling only, and continue with baking / texturing techniques in later posts.<br>Biggest change from my workflow post from years ago is that I've got rid of UVLayout, as UVPacker allows same if not better packing results, and incorporating InsetFix permanently to by workflow.</p>
+<p>First step, even before opening 3DS max, Is to gather references - depending on thing you want to model, simple google image search can be enough for the job, sometimes its good to own some books about certain topic or visit museum with a camera. Or buy the gun you want to model, but that's extreme.<br>Favorite software to group references for me is Pureref, as it allows for automatic and manual grouping of images, and show them in one window in form of a big gallery of everything, with intuitive zooming and panning, This is how pureref looked like for my LR300 (check the model itself here: <a href="https://www.artstation.com/artwork/aYWOdL">Artstation page</a> ) project:</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_14h50_01.png" data-size="1659x1010"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_14h50_01-thumbnail.png" alt="" width="768" height="468"></a>
+<figcaption>Zoomed out board with references</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_14h49_50.png" data-size="1886x1057"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_14h49_50-thumbnail.png" alt="" width="768" height="430"></a>
+<figcaption>Close up to part of reference board</figcaption>
+</figure>
+</div></div>
+<p>My lowpoly models are still created 100% in 3DS Max, unless I really want to use Cad (moi3d / fusion360, but thats more for concepting/designing things rather than pure modelling). After gathering references, I start blockout phase, sometimes used interchangeable with "basemesh" - depending how much time there is, and if I forget its blockout and start putting details too soon, but still not paying attention to clean topology - this is mostly to get proportions and shapes right. I still try to keep most of polygons as quads if possible, as it'll help me optimise/retopologise later.</p>
+<p>With blockout done, I do proper basemesh based on it - It has defined all the details I'd like to see on LP (Lowpoly) geometry, and proportions that match the references, and after finishing it, duplicate it, hide source, and start working on HP (Highpoly). Personally I prefer sub-d modelling exclusively, currently popular workflows like to include zbrush/dynamesh/proboolean workflow, it's ok when the time is tight and you need to quickly have some results. However, it teaches practically nothing about controlling topology and flow of the geometry, so a good practice is to use sub-d whenever you can, and only half-ass meshes in zbrush when you're in a big hurry and client don't care.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h12_43.png" data-size="1805x794"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h12_43-thumbnail.png" alt="" width="768" height="338"></a>
+<figcaption>Some nice sub-d examples on elcan specter scope model</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h12_55.png" data-size="1807x827"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h12_55-thumbnail.png" alt="" width="768" height="351"></a>
+<figcaption>Some nice sub-d examples on elcan specter scope model 2</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h13_18.png" data-size="948x1056"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h13_18-thumbnail.png" alt="" width="768" height="855"></a>
+<figcaption>And some sub-d on shotgun</figcaption>
+</figure>
+</div></div>
+<p>Now that half of the people got offended and stopped reading, the HP I end up with have all the details on geometry, with the exceptions like diamond patterns on grips or fabric weave that can be easily made on texture itself. I do model sometimes braided cables / more complex diamond patterns when the surface they're on is curved, but its usually pain.</p>
+<p>With HP done, I go back to my basemesh, that now should overlap with the finished high poly pretty tight. Duplicating it, this will be my low-poly mesh. Im deleting uneccessary edges / division, making the basemesh truly lowpoly, yet detailed enough to bake properly (rules for certain types of objects still apply - where to put denser geo, what chamfer and what not, depending on where the camera looks, et cetera). Now the magical part that streamlines unwrapping by 80% of time. I set up automatic smoothgroups by 33-45 degrees, having most if not all hard edges well defined on low poly, Then I apply unwrap UVW modifier, and use one nifty function - UV chunks by smoothgroups, that creates UV islands based off your smoothgroups. Only thing you need to manually cut are cylinders, that need to be cut on one edge to unwrap properly. After all the pieces are done, I use quick peel, relax, and have quite good, relaxed UVs.</p>
+<p>Now, with your model unwrapped, time to make neccessary tweaks to UV proportions before packing:<br>1. Adjusting UV scale according to how close parts of mesh are to player - If its a gun, then you want iron sights and receiver to have more texels (more uv space /pixels ) than for example interior of barrel.<br>2. Scaling up smaller elements like bolts/nuts/pins/buttons/labels that will have text on it, so they don't get super-blurry (You can use <a href="https://propiro.github.io/macroscript-movescale-uv-chunks-by-value.html">my script</a> for quick scaling along U/V axes)<br>3. Rotating most elements in one direction, even if you texture in substance painter, its still good to maintain some edgeflow with uv space, just for texturing sake. Textools "Sort" helps a lot doing that, otherwise use checker with directions marked on top of it in some way.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h22_13.png" data-size="1302x1274"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h22_13-thumbnail.png" alt="" width="768" height="751"></a>
+<figcaption>Sort &amp; Pack</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h23_19.png" data-size="1513x970"><img loading="lazy" src="https://propiro.github.io/media/posts/33/gallery/2023-02-14_15h23_19-thumbnail.png" alt="UV Checker with orientation" width="768" height="492"></a></figure>
+</div></div>
+<p>Now, with all parts aligned and scaled the way you want, apply UVPacker modifier on top of your mesh, and set it like that, so it doesnt try to rotate your aligned UV chunks:</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/33/2023-02-14_15h30_20.png" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h30_20-xs.png 300w ,https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h30_20-sm.png 480w ,https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h30_20-md.png 768w"  alt="" width="685" height="785"></figure>
+<p>After packing, you'll get niftly packed UV map, similar to this:</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/33/2023-02-14_15h34_44.png" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h34_44-xs.png 300w ,https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h34_44-sm.png 480w ,https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h34_44-md.png 768w"  alt="" width="1175" height="1181"></figure>
+<p>All whats left is to make sure our smoothgroups and uv chunks are syncronised, run this:</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/33/2023-02-14_15h34_59.png" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h34_59-xs.png 300w ,https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h34_59-sm.png 480w ,https://propiro.github.io/media/posts/33/responsive/2023-02-14_15h34_59-md.png 768w"  alt="" width="391" height="569"></figure>
+<p>And your model is ready to be exported for baking.</p>
+<p>Look out for post about bakes, in the meantime, check the general baking quide and troubleshooting here:</p>
+<h1><a href="https://propiro.github.io/getting-best-normalmap-bakes.html">Getting best normalmap bakes</a></h1>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TS100 Printable durable case - now with 100% more cyber!</title>
         <author>
@@ -513,64 +581,6 @@
 <p>C:\Users\piro\AppData\Roaming\3Dconnexion\3DxWare\Cfg\vivaldi-KMJ.xml</p>
 <p> </p>
 <p>Hope someone will find this little hack usefull.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>NATEC WIRELESS VERTICAL MOUSE</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/natec-wireless-vertical-mouse.html"/>
-        <id>https://propiro.github.io/natec-wireless-vertical-mouse.html</id>
-            <category term="technology"/>
-            <category term="input_devices"/>
-            <category term="hardware"/>
-            <category term="compulsive_shopping_disorder"/>
-
-        <updated>2022-07-06T07:18:13+02:00</updated>
-            <summary>
-                <![CDATA[
-                    This won't be a review. Noone paid me for it, and its purpose isnt to convince you to buy product. Consider it a summary of experiences with device, what pissed me much and what was nice. Recently I've been introduced to vertical mouse idea -&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>This won't be a review. Noone paid me for it, and its purpose isnt to convince you to buy product. Consider it a summary of experiences with device, what pissed me much and what was nice.</p>
-<p>Recently I've been introduced to vertical mouse idea - I spent waaay too much time working with computer, and my day-to-day input device, Logitech G604, started to give me mild wrist pains when used 8h+ daily. My accountant, bless her hearth, let me test several vertical mouses she bought for girls in her office, and after initially liking the concept, I've purchased titular NATEC WIRELESS VERTICAL MOUSE, called EUPHONIE.</p>
-<p>The device itself:</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_16_Ferdi-Telegram.jpg" data-size="685x908"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_16_Ferdi-Telegram-thumbnail.jpg" alt="" width="685" height="908"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_04_Ferdi-Telegram.jpg" data-size="1217x913"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_04_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_28_Ferdi-Telegram.jpg" data-size="1119x743"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_28_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="510"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_50_Ferdi-Telegram.jpg" data-size="660x724"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_50_Ferdi-Telegram-thumbnail.jpg" alt="" width="660" height="724"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_39_Ferdi-Telegram.jpg" data-size="627x859"><img loading="lazy" src="https://propiro.github.io/media/posts/26/gallery/ss_2022-03-04-20h42_39_Ferdi-Telegram-thumbnail.jpg" alt="" width="627" height="859"></a></figure>
-</div></div>
-<p>What I've expected from the device:</p>
-<ul>
-<li>Be vertical</li>
-<li>Have more than standard 2 buttons + wheel input options</li>
-<li>Be configurable</li>
-<li>Be wireless with option of working on cable while charging, ideally eat common batteries/accumulators like AA or AAA eneloops.</li>
-</ul>
-<p>What I got when buying this relatively cheap (40usd, 140 polish onions)device:</p>
-<ul>
-<li>Vertical</li>
-<li>5 additional buttons to set up*</li>
-<li>"configurable" option*</li>
-<li>Wireless and on cable while charging, albeit very slow</li>
-<li>BONUS: ability to pair bluetooth device in addition to 2.4Ghz receiver</li>
-<li>BONUS: small OLED screen, albeit pretty useless due to lack of any control software</li>
-<li>BONUS: mouse have small slot for receiver, so dongle itself wont be easily lost while moving around places.</li>
-<li>BONUS: A smile from english version of manual that says my mouse have microphone (Manufacturer/Seller is apprently polish (PRC made), which suprised me), Polish version of manual is written correctly</li>
-</ul>
-<p>*-not really compared to other manufacturers.</p>
-<p>Someone would say I've got more than I initially wanted, and its true, however, I'd trade all the bonus features for 100% working core feature of customising buttons. Options are very limited, as I present them in this gif:</p>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/26/OH_WOW_SO_MANY_OPTIONS_NATEC_VERTICAL_MOUSE.gif" alt="POSSIBILITIES ARE ENDLESS" width="480" height="372"></figure>
-<p>And yes, I've tried multiple hacks / remapping tools / registry modification to at least change "calculator" to do something else, sadly, its not done by standard multimedia key, so its not easy to be caught by any remapping software.</p>
-<p>Thats being said, I swap g604 for vertical mouse when i work in CAD/3D software mostly, and since my workflow is very keyboard-centric, I can somehow live with only 5 buttons being used instead of 7 (Back and Forward are standard and must have, Thumb-bottom one is escape which is fine as i can close dialogs quickly - i jus wish i could bind some keyboard keys (even delete / enter) to the top two ones). The two top ones  will be left for controlling volume, which is really a compromise, and as we know, compromise makes noone happy, as noone got what they wanted initially.</p>
-<p>TL;DR</p>
-<p>Buy if you want wireless vertical mouse and dont plan to use extra buttons except Forward - Backward. Otherwise, buy anything from logitech that have setpoint integration and allows you to completely re-map everything.</p>
             ]]>
         </content>
     </entry>
