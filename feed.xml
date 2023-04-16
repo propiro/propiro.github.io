@@ -3,12 +3,39 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-03-08T18:27:49+01:00</updated>
+    <updated>2023-04-16T23:44:18+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>MAXSCRIPT: quickBridge - one vridge (well... connect too) to rule them all.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html"/>
+        <id>https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html</id>
+            <category term="techart"/>
+            <category term="quick_3d_tips"/>
+            <category term="maxscript"/>
+            <category term="3d"/>
+
+        <updated>2023-04-16T23:44:18+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four:</p>
+<p>If you're in vertex sub-selection, it'll connect selected verticles.<br>If you're in edge sub-selection, it'll bridge selected edges.<br>If you're in border sub-selection, it'll cap selected border.<br>If you're in face sub-selection, it'll bridge selected faces.</p>
+<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"MESH: quickBridge" </code><br><code>    buttontext:"MESH: quickBridge"</code><br><code>(</code><br><code>    case subObjectLevel of</code><br><code>    (</code><br><code>        1: ($.EditablePoly.ConnectVertices())</code><br><code>        2: ($.EditablePoly.Bridge())</code><br><code>        3: ($.EditablePoly.capHoles #Edge)</code><br><code>        4: (</code><br><code>                $.bridgeSelected = 1</code><br><code>                $.EditablePoly.Bridge()</code><br><code>           )</code><br><code>    )</code><br><code>)</code></p>
+<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find "MESH: quickBridge" macro under "_Piro_Tools" category in customisation menu. Enjoy<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Collection of peculiar portable devices, part 1</title>
         <author>
@@ -424,7 +451,7 @@
         </content>
     </entry>
     <entry>
-        <title>MACROSCRIPT: InsetFix Smoothgroup Modifier</title>
+        <title>MAXSCRIPT: InsetFix Smoothgroup Modifier</title>
         <author>
             <name>piro</name>
         </author>
@@ -434,7 +461,7 @@
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-02-15T11:03:16+01:00</updated>
+        <updated>2023-04-16T23:43:14+02:00</updated>
             <summary>
                 <![CDATA[
                     Note: This script isn't mine, but its made by very talented Vojtech Cada - I'm reposting it here mostly for myself, so I wont lose it, and to show some viewers. Original link it was grabbed from is: http://www.scriptspot.com/3ds-max/scripts/insetfix-modifier Some time ago I've included InsetFix&hellip;
@@ -900,46 +927,6 @@
 <figure class="post__image align-center"><img loading="lazy"  src="https://propiro.github.io/media/posts/30//xiaiomi-16-in-1.gif" alt="I fucking love it" width="180" height="320"></figure>
 <p>Considering what I've expected and what I've got, it was very good purchase, recommended for anyone looking for simple yet powerful side-tool for small work, especially if you don't want to dig through dozens of tools every time you have to tighten one screw.</p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>UHK Exreme tenting elevation feet, 3D Printed</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/uhk-exreme-tenting-elevation-feet-3d-printed.html"/>
-        <id>https://propiro.github.io/uhk-exreme-tenting-elevation-feet-3d-printed.html</id>
-            <category term="input_devices"/>
-            <category term="hacks"/>
-            <category term="DIY"/>
-
-        <updated>2022-03-23T19:56:51+01:00</updated>
-            <summary>
-                <![CDATA[
-                    Since I'm very happy user of UHK - Ultimate Hacking Keyboard - a ridiculously priced, but worth every dollar, split ergonomic 60% keyboard, I couldnt be myself if I didn't had to mod it a little. While I still have a custom-modules interface project in&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Since I'm very happy user of UHK - Ultimate Hacking Keyboard - a ridiculously priced, but worth every dollar, split ergonomic 60% keyboard, I couldnt be myself if I didn't had to mod it a little. While I still have a custom-modules interface project in my drawer that I might get back at some point (I only started it because I was pissed ad UHK for delaying modules while announcing UHK v2), I've decided to take the customisable elevation (called tenting for split keyboards) to next level.</p>
-<p>After few measurements, a crude 3d model was made and sliced: <figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/29/ss_2022-03-05-03h28_56_SuperSlicer_2.3.57aflavoredversionofSlic3rbasedonPrusaSlicer.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/29/responsive/ss_2022-03-05-03h28_56_SuperSlicer_2.3.57aflavoredversionofSlic3rbasedonPrusaSlicer-xs.jpg 300w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-05-03h28_56_SuperSlicer_2.3.57aflavoredversionofSlic3rbasedonPrusaSlicer-sm.jpg 480w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-05-03h28_56_SuperSlicer_2.3.57aflavoredversionofSlic3rbasedonPrusaSlicer-md.jpg 768w"  alt="" width="2501" height="1442"></figure>
-<p>And it printed fairly well:</p>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/29/ss_2022-03-06-16h10_08_Ferdi-Telegram.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/29/responsive/ss_2022-03-06-16h10_08_Ferdi-Telegram-xs.jpg 300w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-06-16h10_08_Ferdi-Telegram-sm.jpg 480w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-06-16h10_08_Ferdi-Telegram-md.jpg 768w"  alt="You know its my photo because of the massacred table." width="1209" height="904"></figure>
-<p>For best results, I strongly suggest printing with elastic/rubber filament, otherwise you might need to scale them by 1-2% in all axes to make them fit, but not fell off.</p>
-<p>Here is comparison of various elevation levels (Im using the highest one, as its most easy for my wrists):</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="4">
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_22_Ferdi-Telegram.jpg" data-size="1203x886"><img loading="lazy" src="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_22_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="566"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_33_Ferdi-Telegram.jpg" data-size="1210x905"><img loading="lazy" src="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_33_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="574"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_46_Ferdi-Telegram.jpg" data-size="1204x902"><img loading="lazy" src="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_46_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="575"></a></figure>
-<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_59_Ferdi-Telegram.jpg" data-size="1215x907"><img loading="lazy" src="https://propiro.github.io/media/posts/29/gallery/ss_2022-03-06-16h10_59_Ferdi-Telegram-thumbnail.jpg" alt="" width="768" height="573"></a></figure>
-</div></div>
-<p>Green ones were test prints with SLA, as I was curious by mechanical properties of it, black ones are FDM printed.</p>
-<p>Works well, nothing more to write about. You can find STL for these in my github soon.</p>
-<p>edit: git repo set up:</p>
-<p><a href="https://github.com/propiro/UHKfeetExtender">https://github.com/propiro/UHKfeetExtender</a></p>
-<p>Added furniture anti-scratch foam under the feet, it prevents sliding and gives much softer feedback when moving kb parts around:</p>
-<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/29/ss_2022-03-23-19h54_39_Ferdi-Telegram.jpg" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/29/responsive/ss_2022-03-23-19h54_39_Ferdi-Telegram-xs.jpg 300w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-23-19h54_39_Ferdi-Telegram-sm.jpg 480w ,https://propiro.github.io/media/posts/29/responsive/ss_2022-03-23-19h54_39_Ferdi-Telegram-md.jpg 768w"  alt="" width="1185" height="904"></figure>
             ]]>
         </content>
     </entry>
