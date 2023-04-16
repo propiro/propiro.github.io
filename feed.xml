@@ -3,14 +3,14 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-04-16T23:54:16+02:00</updated>
+    <updated>2023-04-17T00:27:23+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
     <entry>
-        <title>MAXSCRIPT: quickBridge - one bridge ( connect too) to rule them all.</title>
+        <title>MAXSCRIPT: quickBridge - One bridge ( connect too) to rule them all.</title>
         <author>
             <name>piro</name>
         </author>
@@ -21,7 +21,7 @@
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-04-16T23:54:16+02:00</updated>
+        <updated>2023-04-17T00:27:23+02:00</updated>
             <summary>
                 <![CDATA[
                     Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.
@@ -31,8 +31,8 @@
             <![CDATA[
                 <p>Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four:</p>
 <p>If you're in vertex sub-selection, it'll connect selected verticles.<br>If you're in edge sub-selection, it'll bridge selected edges.<br>If you're in border sub-selection, it'll cap selected border.<br>If you're in face sub-selection, it'll bridge selected faces.</p>
-<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"MESH: quickBridge" </code><br><code>    buttontext:"MESH: quickBridge"</code><br><code>(</code><br><code>    case subObjectLevel of</code><br><code>    (</code><br><code>        1: ($.EditablePoly.ConnectVertices())</code><br><code>        2: ($.EditablePoly.Bridge())</code><br><code>        3: ($.EditablePoly.capHoles #Edge)</code><br><code>        4: (</code><br><code>                $.bridgeSelected = 1</code><br><code>                $.EditablePoly.Bridge()</code><br><code>           )</code><br><code>    )</code><br><code>)</code></p>
-<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find "MESH: quickBridge" macro under "_Piro_Tools" category in customisation menu. Enjoy<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>
+<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"MESH: quickBridge" </code><br><code>    buttontext:"MESH: quickBridge"</code><br><code>(</code><br><code>    if (classof (modPanel.getCurrentObject()) == Editable_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.EditablePoly.ConnectVertices())</code><br><code>            2: ($.EditablePoly.Bridge())</code><br><code>            3: ($.EditablePoly.capHoles #Edge)</code><br><code>            4: (</code><br><code>                    $.bridgeSelected = 1</code><br><code>                    $.EditablePoly.Bridge()</code><br><code>               )</code><br><code>        )</code><br><code>    )</code><br><code>    else if (classof (modPanel.getCurrentObject()) == Edit_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.modifiers[#Edit_Poly].ButtonOp #ConnectVertices)</code><br><code>            2: ($.modifiers[#Edit_Poly].ButtonOp #BridgeEdge)</code><br><code>            3: ($.modifiers[#Edit_Poly].ButtonOp #Cap)</code><br><code>            4: ($.modifiers[#Edit_Poly].ButtonOp #BridgePolygon)</code><br><code>        )    </code><br><code>    )</code><br><code>)</code></p>
+<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find "MESH: quickBridge" macro under "_Piro_Tools" category in customisation menu. Enjoy<br><br>quick edit - now works on both Editable_Poly and Edit_Poly modifier!<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>
             ]]>
         </content>
     </entry>
