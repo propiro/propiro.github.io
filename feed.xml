@@ -3,14 +3,14 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-04-16T23:44:18+02:00</updated>
+    <updated>2023-04-16T23:54:16+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
     <entry>
-        <title>MAXSCRIPT: quickBridge - one vridge (well... connect too) to rule them all.</title>
+        <title>MAXSCRIPT: quickBridge - one bridge ( connect too) to rule them all.</title>
         <author>
             <name>piro</name>
         </author>
@@ -21,7 +21,7 @@
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-04-16T23:44:18+02:00</updated>
+        <updated>2023-04-16T23:54:16+02:00</updated>
             <summary>
                 <![CDATA[
                     Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.

@@ -12,7 +12,7 @@
         {
             "id": "https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html",
             "url": "https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html",
-            "title": "MAXSCRIPT: quickBridge - one vridge (well... connect too) to rule them all.",
+            "title": "MAXSCRIPT: quickBridge - one bridge ( connect too) to rule them all.",
             "summary": "Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.",
             "content_html": "<p>Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four:</p>\n<p>If you're in vertex sub-selection, it'll connect selected verticles.<br>If you're in edge sub-selection, it'll bridge selected edges.<br>If you're in border sub-selection, it'll cap selected border.<br>If you're in face sub-selection, it'll bridge selected faces.</p>\n<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:\"_Piro_Tools\" </code><br><code>    tooltip:\"MESH: quickBridge\" </code><br><code>    buttontext:\"MESH: quickBridge\"</code><br><code>(</code><br><code>    case subObjectLevel of</code><br><code>    (</code><br><code>        1: ($.EditablePoly.ConnectVertices())</code><br><code>        2: ($.EditablePoly.Bridge())</code><br><code>        3: ($.EditablePoly.capHoles #Edge)</code><br><code>        4: (</code><br><code>                $.bridgeSelected = 1</code><br><code>                $.EditablePoly.Bridge()</code><br><code>           )</code><br><code>    )</code><br><code>)</code></p>\n<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find \"MESH: quickBridge\" macro under \"_Piro_Tools\" category in customisation menu. Enjoy<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>",
             "author": {
@@ -25,7 +25,7 @@
                    "3d"
             ],
             "date_published": "2023-04-16T23:43:02+02:00",
-            "date_modified": "2023-04-16T23:44:18+02:00"
+            "date_modified": "2023-04-16T23:54:16+02:00"
         },
         {
             "id": "https://propiro.github.io/collection-of-peculiar-portable-devices-part-1.html",
