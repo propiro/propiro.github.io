@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-05-06T00:18:54+02:00</updated>
+    <updated>2023-06-05T19:05:25+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -609,18 +609,18 @@
             <category term="general_rant"/>
             <category term="3d"/>
 
-        <updated>2023-02-14T15:37:42+01:00</updated>
+        <updated>2023-06-05T19:05:25+02:00</updated>
             <summary>
                 <![CDATA[
-                    Old version can be found here: This is an update to my previous workflow describing article, with few updates to tools/plugins I use. It is still very 3ds max centric, but some procedures can be applied to Maya or Blender along the way. First, software&hellip;
+                    Old version can be found here: OK BOOMER, HOW IT WORKS This is an update to my previous workflow describing article, with few updates to tools/plugins I use. It is still very 3ds max centric, but some procedures can be applied to Maya or Blender&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Old version can be found here: </p>
+                <p>Old version can be found here: <a href="https://propiro.github.io/ok-boomer-3d-workflow-it-works.html">OK BOOMER, HOW IT WORKS</a><a href="https://propiro.github.io/ok-boomer-3d-workflow-it-works.html"></a></p>
 <p>This is an update to my previous workflow describing article, with few updates to tools/plugins I use. It is still very 3ds max centric, but some procedures can be applied to Maya or Blender along the way.</p>
 <p>First, software and plugins I mostly use for authoring models (not everything obviously, but major players that are installed on every computer I ever worked on):</p>
-<p>Pureref - <a href="https://www.pureref.com/download.php">Pureref download page</a><br>3ds Max (2023 for now) - <a href="https://help.autodesk.com/view/3DSMAX/2023/ENU/?guid=GUID-F5D297BB-5141-4395-9FFE-3CAD86204D64" target="_blank" rel="noopener noreferrer">Whats new - Autodesk Max 2023</a><br>Marmoset Toolbag 3  - <a href="https://marmoset.co/toolbag/">Marmoset Toolbag Website</a> - (4 will do as long it allows baking meshes)<br>Substance Painter - <a href="https://store.steampowered.com/app/2199970/Substance_3D_Painter_2023/">Substance Painter Steam version with lifetime licence</a><br>Textools - <a href="http://renderhjs.net/textools/3dsMax.html">Textools for 3ds max</a><br>InsetFix Modifier - <a href="http://www.scriptspot.com/3ds-max/scripts/insetfix-modifier">InsetFix maxscript download</a> - greatly helps with sub-d workflow.1<br>UVPacker - <a href="https://www.uv-packer.com/download/">UVPacker for max</a> - you don't really need paid version.<br><br></p>
+<p>Pureref - <a href="https://www.pureref.com/download.php">Pureref download page</a><br>3ds Max (2023 for now) - <a href="https://help.autodesk.com/view/3DSMAX/2023/ENU/?guid=GUID-F5D297BB-5141-4395-9FFE-3CAD86204D64" target="_blank" rel="noopener noreferrer">Whats new - Autodesk Max 2023</a><br>Marmoset Toolbag 3  - <a href="https://marmoset.co/toolbag/">Marmoset Toolbag Website</a> - (4 will do as long it allows baking meshes)<br>Substance Painter - <a href="https://store.steampowered.com/app/2199970/Substance_3D_Painter_2023/">Substance Painter Steam version with lifetime licence</a><br>Textools - <a href="http://renderhjs.net/textools/3dsMax.html">Textools for 3ds max</a><br>InsetFix Modifier - <a href="http://www.scriptspot.com/3ds-max/scripts/insetfix-modifier">InsetFix maxscript download</a> - greatly helps with sub-d workflow.<br>UVPacker - <a href="https://www.uv-packer.com/download/">UVPacker for max</a> - you don't really need paid version.<br><br></p>
 <p>In this post I'll focus on modelling only, and continue with baking / texturing techniques in later posts.<br>Biggest change from my workflow post from years ago is that I've got rid of UVLayout, as UVPacker allows same if not better packing results, and incorporating InsetFix permanently to by workflow.</p>
 <p>First step, even before opening 3DS max, Is to gather references - depending on thing you want to model, simple google image search can be enough for the job, sometimes its good to own some books about certain topic or visit museum with a camera. Or buy the gun you want to model, but that's extreme.<br>Favorite software to group references for me is Pureref, as it allows for automatic and manual grouping of images, and show them in one window in form of a big gallery of everything, with intuitive zooming and panning, This is how pureref looked like for my LR300 (check the model itself here: <a href="https://www.artstation.com/artwork/aYWOdL">Artstation page</a> ) project:</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
