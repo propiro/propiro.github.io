@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-12-15T03:09:40+01:00</updated>
+    <updated>2023-12-15T03:15:38+01:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-12-15T03:09:40+01:00</updated>
+        <updated>2023-12-15T03:15:38+01:00</updated>
             <summary>
                 <![CDATA[
                     Recently (since 2020 or so) Autodesk made 3DS max display username on frontend of 3DS max, which made me and few other people, who share / record lot of materials, bit unhappy. After no clear solution except for "just change it", I've wrote this script&hellip;
