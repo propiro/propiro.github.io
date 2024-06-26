@@ -3,32 +3,12 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2024-06-26T21:01:01+02:00</updated>
+    <updated>2023-12-15T03:15:38+01:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
-    <entry>
-        <title>test</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/test.html"/>
-        <id>https://propiro.github.io/test.html</id>
-
-        <updated>2024-06-26T21:01:01+02:00</updated>
-            <summary>
-                <![CDATA[
-                    test
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>test</p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>MAXSCRIPT: Hide license username from UI // delayed startup</title>
         <author>
@@ -502,6 +482,33 @@ As you can see, I like knives, so expect more of them.</div>
 <p><code>macroScript proportionalRefPlane </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"UI: proportionalRefPlane" </code><br><code>    buttontext:"UI: proportionalRefPlane"</code><br><code>(</code><br><code>    clearlistener()</code><br><code>    planeL = 0</code><br><code>    planeW = 0</code><br><code>    planeName = "testref"</code><br><code>    </code><br><code>    function isSelectedObjectPlane = </code><br><code>(</code><br><code>    -- Get the currently selected object</code><br><code>    local selectedObj = selection[1]</code><br><code>    </code><br><code>    -- Check if the selected object is a plane object</code><br><code>    if (classof selectedObj == Plane) then</code><br><code>    (</code><br><code>        return true -- The selected object is a plane object</code><br><code>    )</code><br><code>    else</code><br><code>    (</code><br><code>        return false -- The selected object is not a plane object</code><br><code>    )</code><br><code>)</code><br><code>    </code><br><code>function selectObjectWithLargestBoundingBox =</code><br><code>(</code><br><code>    local maxBBSize = 0 -- Initialize the maximum bounding box size to 0</code><br><code>    local objWithMaxBB -- Initialize the object with the largest bounding box to undefined</code><br><code>    </code><br><code>    for obj in objects do -- Iterate through all objects in the scene</code><br><code>    (</code><br><code>        local objBB = obj.boundingBox</code><br><code>        local objBBSize = objBB.max - objBB.min</code><br><code>        local objBBDiagonal = length objBBSize</code><br><code>        </code><br><code>        if objBBDiagonal &gt; maxBBSize do -- Check if this object has a larger bounding box than the previous largest</code><br><code>        (</code><br><code>            maxBBSize = objBBDiagonal</code><br><code>            objWithMaxBB = obj</code><br><code>        )</code><br><code>    )</code><br><code>    </code><br><code>    return objWithMaxBB -- Select the object with the largest bounding box</code><br><code>)</code><br><br><code>--selectObjectWithLargestBoundingBox() -- Call the function to select the object with the largest bounding box</code><br><br><br><code>fn scaleToFit objToScale refObj = </code><br><code>(</code><br><code>    -- Get the bounding boxes of both objects</code><br><code>    local objBB = (nodeTransformBoundingBox objToScale).minmax</code><br><code>    local refBB = (nodeTransformBoundingBox refObj).minmax</code><br><code>    </code><br><code>    -- Get the sizes of the objects' bounding boxes along each axis</code><br><code>    local objSize = objBB[2] - objBB[1]</code><br><code>    local refSize = refBB[2] - refBB[1]</code><br><code>    </code><br><code>    -- Calculate the ratio of sizes along each axis</code><br><code>    local scaleFactor = [1,1,1]</code><br><code>    for i = 1 to 3 do (</code><br><code>        if refSize[i] != 0 do scaleFactor[i] = objSize[i] / refSize[i]</code><br><code>    )</code><br><code>    </code><br><code>    -- Scale the object using the calculated scale factor</code><br><code>    objToScale.scale = objToScale.scale * scaleFactor</code><br><code>)</code><br><br><br><br><code>function getBitmapNameOnly bitmapPath = </code><br><code>(</code><br><code>    nameOnly = ""</code><br><code>    -- Get the filename from the bitmap path</code><br><code>    local fileName = getFilenameFile bitmapPath</code><br><code>    </code><br><code>    -- Remove the extension from the filename</code><br><code>    --local nameOnly = filterString fileName ".*" ""</code><br><code>    </code><br><code>    -- Return just the name of the file without the path or extension</code><br><code>    return fileName</code><br><code>)</code><br><br><code>    fn GetBitmapTextures theObjects =</code><br><code>    (</code><br><code>        texMaps = #()</code><br><code>        for obj in theObjects do</code><br><code>        (</code><br><code>            join texMaps (getClassInstances bitmapTexture target:obj asTrackViewPick:off)</code><br><code>        )</code><br><code>        makeUniqueArray texMaps</code><br><code>    )</code><br><code>    texMaps = (GetBitmapTextures selection)</code><br><code>    for texMap in texMaps do </code><br><code>    (</code><br><code>        testTexture = bitmaptexture filename:texMap.filename</code><br><code>        print (texMap.filename)</code><br><code>        print (testTexture.Bitmap.height as string +"px H x "+testTexture.Bitmap.width as string +"px W")</code><br><code>        </code><br><code>        if isSelectedObjectPlane() then</code><br><code>        (</code><br><code>            selection[1].length = testTexture.Bitmap.height</code><br><code>            selection[1].width = testTexture.Bitmap.width</code><br><code>            selection[1].name = getBitmapNameOnly(texMap.filename)</code><br><code>                    print ("Reference plane changed.")</code><br><code>            --testObj = selectObjectWithLargestBoundingBox()</code><br><code>                --scaleToFit selection[1] testObj</code><br><code>            )</code><br><code>        </code><br><code>    )</code><br><code>    </code><br><br><code>        OK</code><br><code>    </code><br><code>)</code></p>
 <p> </p>
 <p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>MAXSCRIPT: quickBridge - One bridge ( connect too) to rule them all.</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html"/>
+        <id>https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html</id>
+            <category term="techart"/>
+            <category term="quick_3d_tips"/>
+            <category term="maxscript"/>
+            <category term="3d"/>
+
+        <updated>2023-04-16T23:43:02+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four:</p>
+<p>If you're in vertex sub-selection, it'll connect selected verticles.<br>If you're in edge sub-selection, it'll bridge selected edges.<br>If you're in border sub-selection, it'll cap selected border.<br>If you're in face sub-selection, it'll bridge selected faces.</p>
+<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"MESH: quickBridge" </code><br><code>    buttontext:"MESH: quickBridge"</code><br><code>(</code><br><code>    if (classof (modPanel.getCurrentObject()) == Editable_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.EditablePoly.ConnectVertices())</code><br><code>            2: ($.EditablePoly.Bridge())</code><br><code>            3: ($.EditablePoly.capHoles #Edge)</code><br><code>            4: (</code><br><code>                    $.bridgeSelected = 1</code><br><code>                    $.EditablePoly.Bridge()</code><br><code>               )</code><br><code>        )</code><br><code>    )</code><br><code>    else if (classof (modPanel.getCurrentObject()) == Edit_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.modifiers[#Edit_Poly].ButtonOp #ConnectVertices)</code><br><code>            2: ($.modifiers[#Edit_Poly].ButtonOp #BridgeEdge)</code><br><code>            3: ($.modifiers[#Edit_Poly].ButtonOp #Cap)</code><br><code>            4: ($.modifiers[#Edit_Poly].ButtonOp #BridgePolygon)</code><br><code>        )    </code><br><code>    )</code><br><code>)</code></p>
+<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find "MESH: quickBridge" macro under "_Piro_Tools" category in customisation menu. Enjoy<br><br>quick edit - now works on both Editable_Poly and Edit_Poly modifier!<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>
             ]]>
         </content>
     </entry>
