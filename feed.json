@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://propiro.github.io/test.html",
+            "url": "https://propiro.github.io/test.html",
+            "title": "test",
+            "summary": "test",
+            "content_html": "<p>test</p>",
+            "author": {
+                "name": "piro"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-06-26T21:01:01+02:00",
+            "date_modified": "2024-06-26T21:01:01+02:00"
+        },
+        {
             "id": "https://propiro.github.io/maxscript-hide-license-username-from-ui-delayed-startup.html",
             "url": "https://propiro.github.io/maxscript-hide-license-username-from-ui-delayed-startup.html",
             "title": "MAXSCRIPT: Hide license username from UI // delayed startup",
@@ -153,24 +167,6 @@
             ],
             "date_published": "2023-04-26T02:35:46+02:00",
             "date_modified": "2023-04-26T02:35:46+02:00"
-        },
-        {
-            "id": "https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html",
-            "url": "https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html",
-            "title": "MAXSCRIPT: quickBridge - One bridge ( connect too) to rule them all.",
-            "summary": "Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.",
-            "content_html": "<p>Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four:</p>\n<p>If you're in vertex sub-selection, it'll connect selected verticles.<br>If you're in edge sub-selection, it'll bridge selected edges.<br>If you're in border sub-selection, it'll cap selected border.<br>If you're in face sub-selection, it'll bridge selected faces.</p>\n<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:\"_Piro_Tools\" </code><br><code>    tooltip:\"MESH: quickBridge\" </code><br><code>    buttontext:\"MESH: quickBridge\"</code><br><code>(</code><br><code>    if (classof (modPanel.getCurrentObject()) == Editable_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.EditablePoly.ConnectVertices())</code><br><code>            2: ($.EditablePoly.Bridge())</code><br><code>            3: ($.EditablePoly.capHoles #Edge)</code><br><code>            4: (</code><br><code>                    $.bridgeSelected = 1</code><br><code>                    $.EditablePoly.Bridge()</code><br><code>               )</code><br><code>        )</code><br><code>    )</code><br><code>    else if (classof (modPanel.getCurrentObject()) == Edit_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.modifiers[#Edit_Poly].ButtonOp #ConnectVertices)</code><br><code>            2: ($.modifiers[#Edit_Poly].ButtonOp #BridgeEdge)</code><br><code>            3: ($.modifiers[#Edit_Poly].ButtonOp #Cap)</code><br><code>            4: ($.modifiers[#Edit_Poly].ButtonOp #BridgePolygon)</code><br><code>        )    </code><br><code>    )</code><br><code>)</code></p>\n<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find \"MESH: quickBridge\" macro under \"_Piro_Tools\" category in customisation menu. Enjoy<br><br>quick edit - now works on both Editable_Poly and Edit_Poly modifier!<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>",
-            "author": {
-                "name": "piro"
-            },
-            "tags": [
-                   "techart",
-                   "quick_3d_tips",
-                   "maxscript",
-                   "3d"
-            ],
-            "date_published": "2023-04-16T23:43:02+02:00",
-            "date_modified": "2023-04-17T00:27:23+02:00"
         }
     ]
 }
