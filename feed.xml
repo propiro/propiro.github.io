@@ -20,7 +20,7 @@
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-12-15T03:15:38+01:00</updated>
+        <updated>2023-12-15T02:34:52+01:00</updated>
             <summary>
                 <![CDATA[
                     Recently (since 2020 or so) Autodesk made 3DS max display username on frontend of 3DS max, which made me and few other people, who share / record lot of materials, bit unhappy. After no clear solution except for "just change it", I've wrote this script&hellip;
@@ -177,7 +177,7 @@ As you can see, I like knives, so expect more of them.</div>
             <category term="hardware"/>
             <category term="compulsive_shopping_disorder"/>
 
-        <updated>2023-08-13T06:09:54+02:00</updated>
+        <updated>2023-08-09T02:47:21+02:00</updated>
             <summary>
                 <![CDATA[
                     I've been eyeballing Xencelabs Quickkeys for some time now, but couldn't justify its 130usd pricetag. (Un)Lucky for me, recently they were under heavy promotion, going as cheap as for 50 USD (200 polish new onions) - So of course I had to get one. They&hellip;
@@ -248,7 +248,7 @@ As you can see, I like knives, so expect more of them.</div>
         <link href="https://propiro.github.io/maxscript-cycling-through-views-in-active-viewport.html"/>
         <id>https://propiro.github.io/maxscript-cycling-through-views-in-active-viewport.html</id>
 
-        <updated>2023-07-08T09:03:32+02:00</updated>
+        <updated>2023-07-08T09:02:00+02:00</updated>
             <summary>
                 <![CDATA[
                     Since I consider using viewport cube a suboptimal, slow way to get certain view, and most of keyboard keys re-binded to different things, I've wrote a quick cycle script to bind under one key/key combination (on my side, its either ctrl+space or shift-space). Its divided&hellip;
@@ -340,7 +340,7 @@ As you can see, I like knives, so expect more of them.</div>
         <id>https://propiro.github.io/photography-mr-cat-kizer-cyberblade-titanium-nitecore-tini2-zippo-circuit.html</id>
             <category term="photography"/>
 
-        <updated>2023-07-06T06:00:30+02:00</updated>
+        <updated>2023-07-03T07:52:43+02:00</updated>
             <summary>
                 <![CDATA[
                     Recently I've picked new hobby - photography, if I may call taking pictures of random thing like that. always used phone camera, never bothered to use "proper" or "serious" camera set up, so I've decided to play with some color lights, scene setup and bought&hellip;
@@ -380,7 +380,7 @@ As you can see, I like knives, so expect more of them.</div>
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-05-06T00:18:54+02:00</updated>
+        <updated>2023-05-06T00:14:27+02:00</updated>
             <summary>
                 <![CDATA[
                     Maxscript I wrote to salvage these 50 or so pixels on ther bottom area, especially when I'm doing some more devlook oriented tasks, not animating or duplicating / rotating / transforming objects. It'll hide trackbar slider + trackbar then status bar when you click it,&hellip;
@@ -405,7 +405,7 @@ As you can see, I like knives, so expect more of them.</div>
         <id>https://propiro.github.io/grocery-shopping-t4m-training-glock-pistol.html</id>
             <category term="compulsive_shopping_disorder"/>
 
-        <updated>2023-05-05T04:53:08+02:00</updated>
+        <updated>2023-05-05T03:30:56+02:00</updated>
             <summary>
                 <![CDATA[
                     Word of caution first. These things are often sold as "self defence tools" - they are not suitable for self defence, unless you want to smack someone with pistol frame itself. Sellers who feed upon unknowing people selling false feeling of safety should really be&hellip;
@@ -497,7 +497,7 @@ As you can see, I like knives, so expect more of them.</div>
             <category term="maxscript"/>
             <category term="3d"/>
 
-        <updated>2023-04-17T00:27:23+02:00</updated>
+        <updated>2023-04-16T23:43:02+02:00</updated>
             <summary>
                 <![CDATA[
                     Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.
