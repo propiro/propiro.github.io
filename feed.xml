@@ -3,12 +3,57 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2023-12-15T03:15:38+01:00</updated>
+    <updated>2024-06-27T19:54:09+02:00</updated>
     <author>
         <name>piro</name>
     </author>
     <id>https://propiro.github.io</id>
 
+    <entry>
+        <title>Savage 1911 Rail Adapter prototype</title>
+        <author>
+            <name>piro</name>
+        </author>
+        <link href="https://propiro.github.io/savage-1911-rail-adapter-prototype.html"/>
+        <id>https://propiro.github.io/savage-1911-rail-adapter-prototype.html</id>
+            <category term="weapons"/>
+            <category term="DIY"/>
+            <category term="3d_printing"/>
+            <category term="3d"/>
+
+        <updated>2024-06-27T19:37:48+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Got myself a nice birthday present - stainless steel Savage 1911 automatic colt pistol. Initially I've wanted a very classic 1911, without any "tacticoolness", but after few shooting sessions, It struck me - what IF i want to mount flashlight on it, even if i&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Got myself a nice birthday present - stainless steel Savage 1911 automatic colt pistol.</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/51/2024-06-27_19h51_53.png" alt="Savage 1911 Stainless Steel + Tymbark Colove Cherry." width="1235" height="821" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h51_53-xs.png 300w ,https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h51_53-sm.png 480w ,https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h51_53-md.png 768w"><figcaption> SAVAGE 1911 GOVT STYLE STAINLESS kal. 45ACP</figcaption></figure>
+<p>Initially I've wanted a very classic 1911, without any "tacticoolness", but after few shooting sessions, It struck me - what IF i want to mount flashlight on it, even if i don't carry it or use it in anything-but-perfect shooting range light conditions?</p>
+<p>Gotta model some plastic cancer growth for it, obviously!</p>
+<p>After some measurements, quick prototype was made:</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/51/gallery/2024-06-27_19h42_58.jpg" data-size="1524x1306"><img loading="lazy" src="https://propiro.github.io/media/posts/51/gallery/2024-06-27_19h42_58-thumbnail.jpg" alt="3d print project savage 1911 colt automatic pistol rail adapter" width="768" height="658"></a>
+<figcaption>3d project, of course in 3ds max</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/51/gallery/2024-06-27_19h43_40.png" data-size="1101x827"><img loading="lazy" src="https://propiro.github.io/media/posts/51/gallery/2024-06-27_19h43_40-thumbnail.png" alt="3d print project savage 1911 colt automatic pistol rail adapter" width="768" height="577"></a>
+<figcaption>printed dummies for measurement adjustments</figcaption>
+</figure>
+</div></div>
+<p>After getting an OK fit, some re-designing, details and adjustments were applied, so its snug and functional. As well possible to be milled on my friend's CNC, as I dont trust 3d printed plastic on .45 that much.</p>
+<figure class="post__image"><img loading="lazy"  src="https://propiro.github.io/media/posts/51/2024-06-27_19h46_58.jpg" alt="3d printed rail adapter savage 2011 acp automatic colt pistol" width="2181" height="1017" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h46_58-xs.jpg 300w ,https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h46_58-sm.jpg 480w ,https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h46_58-md.jpg 768w"><figcaption>pretty happy with the design, allows for comfortable finger placement during gripping, lets print it!</figcaption></figure>
+<figure class="post__image">And after several tweaks and a handfull <br><img loading="lazy"  src="https://propiro.github.io/media/posts/51/2024-06-27_19h50_12.png" alt="" width="416" height="291" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h50_12-xs.png 300w ,https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h50_12-sm.png 480w ,https://propiro.github.io/media/posts/51/responsive/2024-06-27_19h50_12-md.png 768w"></figure><br>of prototypes, it became a thing that might have a potential. Here it is, mounted on the gun itself, not screwed in together yet (Waiting for proper screw lengths).</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/51/gallery/photo_6048482407667057172_y.jpg" data-size="960x1280"><img loading="lazy" src="https://propiro.github.io/media/posts/51/gallery/photo_6048482407667057172_y-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://propiro.github.io/media/posts/51/gallery/photo_6048482407667057173_y.jpg" data-size="1280x960"><img loading="lazy" src="https://propiro.github.io/media/posts/51/gallery/photo_6048482407667057173_y-thumbnail.jpg" alt="" width="768" height="576"></a></figure>
+</div></div>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>MAXSCRIPT: Hide license username from UI // delayed startup</title>
         <author>
@@ -482,33 +527,6 @@ As you can see, I like knives, so expect more of them.</div>
 <p><code>macroScript proportionalRefPlane </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"UI: proportionalRefPlane" </code><br><code>    buttontext:"UI: proportionalRefPlane"</code><br><code>(</code><br><code>    clearlistener()</code><br><code>    planeL = 0</code><br><code>    planeW = 0</code><br><code>    planeName = "testref"</code><br><code>    </code><br><code>    function isSelectedObjectPlane = </code><br><code>(</code><br><code>    -- Get the currently selected object</code><br><code>    local selectedObj = selection[1]</code><br><code>    </code><br><code>    -- Check if the selected object is a plane object</code><br><code>    if (classof selectedObj == Plane) then</code><br><code>    (</code><br><code>        return true -- The selected object is a plane object</code><br><code>    )</code><br><code>    else</code><br><code>    (</code><br><code>        return false -- The selected object is not a plane object</code><br><code>    )</code><br><code>)</code><br><code>    </code><br><code>function selectObjectWithLargestBoundingBox =</code><br><code>(</code><br><code>    local maxBBSize = 0 -- Initialize the maximum bounding box size to 0</code><br><code>    local objWithMaxBB -- Initialize the object with the largest bounding box to undefined</code><br><code>    </code><br><code>    for obj in objects do -- Iterate through all objects in the scene</code><br><code>    (</code><br><code>        local objBB = obj.boundingBox</code><br><code>        local objBBSize = objBB.max - objBB.min</code><br><code>        local objBBDiagonal = length objBBSize</code><br><code>        </code><br><code>        if objBBDiagonal &gt; maxBBSize do -- Check if this object has a larger bounding box than the previous largest</code><br><code>        (</code><br><code>            maxBBSize = objBBDiagonal</code><br><code>            objWithMaxBB = obj</code><br><code>        )</code><br><code>    )</code><br><code>    </code><br><code>    return objWithMaxBB -- Select the object with the largest bounding box</code><br><code>)</code><br><br><code>--selectObjectWithLargestBoundingBox() -- Call the function to select the object with the largest bounding box</code><br><br><br><code>fn scaleToFit objToScale refObj = </code><br><code>(</code><br><code>    -- Get the bounding boxes of both objects</code><br><code>    local objBB = (nodeTransformBoundingBox objToScale).minmax</code><br><code>    local refBB = (nodeTransformBoundingBox refObj).minmax</code><br><code>    </code><br><code>    -- Get the sizes of the objects' bounding boxes along each axis</code><br><code>    local objSize = objBB[2] - objBB[1]</code><br><code>    local refSize = refBB[2] - refBB[1]</code><br><code>    </code><br><code>    -- Calculate the ratio of sizes along each axis</code><br><code>    local scaleFactor = [1,1,1]</code><br><code>    for i = 1 to 3 do (</code><br><code>        if refSize[i] != 0 do scaleFactor[i] = objSize[i] / refSize[i]</code><br><code>    )</code><br><code>    </code><br><code>    -- Scale the object using the calculated scale factor</code><br><code>    objToScale.scale = objToScale.scale * scaleFactor</code><br><code>)</code><br><br><br><br><code>function getBitmapNameOnly bitmapPath = </code><br><code>(</code><br><code>    nameOnly = ""</code><br><code>    -- Get the filename from the bitmap path</code><br><code>    local fileName = getFilenameFile bitmapPath</code><br><code>    </code><br><code>    -- Remove the extension from the filename</code><br><code>    --local nameOnly = filterString fileName ".*" ""</code><br><code>    </code><br><code>    -- Return just the name of the file without the path or extension</code><br><code>    return fileName</code><br><code>)</code><br><br><code>    fn GetBitmapTextures theObjects =</code><br><code>    (</code><br><code>        texMaps = #()</code><br><code>        for obj in theObjects do</code><br><code>        (</code><br><code>            join texMaps (getClassInstances bitmapTexture target:obj asTrackViewPick:off)</code><br><code>        )</code><br><code>        makeUniqueArray texMaps</code><br><code>    )</code><br><code>    texMaps = (GetBitmapTextures selection)</code><br><code>    for texMap in texMaps do </code><br><code>    (</code><br><code>        testTexture = bitmaptexture filename:texMap.filename</code><br><code>        print (texMap.filename)</code><br><code>        print (testTexture.Bitmap.height as string +"px H x "+testTexture.Bitmap.width as string +"px W")</code><br><code>        </code><br><code>        if isSelectedObjectPlane() then</code><br><code>        (</code><br><code>            selection[1].length = testTexture.Bitmap.height</code><br><code>            selection[1].width = testTexture.Bitmap.width</code><br><code>            selection[1].name = getBitmapNameOnly(texMap.filename)</code><br><code>                    print ("Reference plane changed.")</code><br><code>            --testObj = selectObjectWithLargestBoundingBox()</code><br><code>                --scaleToFit selection[1] testObj</code><br><code>            )</code><br><code>        </code><br><code>    )</code><br><code>    </code><br><br><code>        OK</code><br><code>    </code><br><code>)</code></p>
 <p> </p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>MAXSCRIPT: quickBridge - One bridge ( connect too) to rule them all.</title>
-        <author>
-            <name>piro</name>
-        </author>
-        <link href="https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html"/>
-        <id>https://propiro.github.io/maxscript-quickbridge-one-vridge-well-connect-too-to-rule-them-all.html</id>
-            <category term="techart"/>
-            <category term="quick_3d_tips"/>
-            <category term="maxscript"/>
-            <category term="3d"/>
-
-        <updated>2023-04-16T23:43:02+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four: If you're in vertex sub-selection, it'll connect selected verticles.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Very short script I've wrote that will detect which sub-selection of editable poly you are in, and will try to connect the selected objects - so you can bind it under one key instead of four:</p>
-<p>If you're in vertex sub-selection, it'll connect selected verticles.<br>If you're in edge sub-selection, it'll bridge selected edges.<br>If you're in border sub-selection, it'll cap selected border.<br>If you're in face sub-selection, it'll bridge selected faces.</p>
-<p>Code for script:<br><code>macroScript quickBridge </code><br><code>    category:"_Piro_Tools" </code><br><code>    tooltip:"MESH: quickBridge" </code><br><code>    buttontext:"MESH: quickBridge"</code><br><code>(</code><br><code>    if (classof (modPanel.getCurrentObject()) == Editable_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.EditablePoly.ConnectVertices())</code><br><code>            2: ($.EditablePoly.Bridge())</code><br><code>            3: ($.EditablePoly.capHoles #Edge)</code><br><code>            4: (</code><br><code>                    $.bridgeSelected = 1</code><br><code>                    $.EditablePoly.Bridge()</code><br><code>               )</code><br><code>        )</code><br><code>    )</code><br><code>    else if (classof (modPanel.getCurrentObject()) == Edit_Poly) then</code><br><code>    (</code><br><code>        case subObjectLevel of</code><br><code>        (</code><br><code>            1: ($.modifiers[#Edit_Poly].ButtonOp #ConnectVertices)</code><br><code>            2: ($.modifiers[#Edit_Poly].ButtonOp #BridgeEdge)</code><br><code>            3: ($.modifiers[#Edit_Poly].ButtonOp #Cap)</code><br><code>            4: ($.modifiers[#Edit_Poly].ButtonOp #BridgePolygon)</code><br><code>        )    </code><br><code>    )</code><br><code>)</code></p>
-<p>After evaluating it in maxscript editor / saving it as .ms and drag-n-dropping on max, You'll find "MESH: quickBridge" macro under "_Piro_Tools" category in customisation menu. Enjoy<br><br>quick edit - now works on both Editable_Poly and Edit_Poly modifier!<br><br>Btw, thanks for GPT4 for streamlining this script into nice compact version.</p>
             ]]>
         </content>
     </entry>
