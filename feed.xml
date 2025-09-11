@@ -3,7 +3,7 @@
     <title>propiro.github.io</title>
     <link href="https://propiro.github.io/feed.xml" rel="self" />
     <link href="https://propiro.github.io" />
-    <updated>2025-07-15T18:16:41+02:00</updated>
+    <updated>2025-09-11T19:25:22+02:00</updated>
     <author>
         <name>piro</name>
     </author>
@@ -28,6 +28,8 @@
         <content type="html">
             <![CDATA[
                 <p class="align-center"><em>Why I shouldn't be allowed to have money, part 2137. I'll complain a lot, be prepared.<br>I've build few custom keyboards, know how to program them using commonly known tools like easyEVR / QMK/ZMK/whatever, so Im not total noob. But Im little bit butthurt about what was delivered, so whole review will have this tone in background.</em></p>
+<p>(This post is edited when there are updates to the situation, for now:<br>11.09.2025 - Tune module died, ongoing with support, most likely unrecoverable. Ordered new switches still didn't arrived<br>15.07.2025 - After week of fetching e-mails with support in relation to wrong switches shipped, I've ordered new ones from website)</p>
+<p> </p>
 <p>I like nice things. I like gimmicky things. I often try to find arguments to buy some cool looking device, and with Naya Create it was no different - My work relies heavily on 3d design, and on my desk I have 3d connexion controller (you can read about it <a href="https://propiro.github.io/3d-connexion-space-pilot-pro-in-2022.html">here</a>), xencelabs keys+track wheel (<a href="https://propiro.github.io/xencelabs-quickkeys-aka-why-i-shouldnt-have-money.html">here</a>), and of course UHK keyboard, since for some reason Im getting older with every year passing, and my wrists start to hurt - hence split keyboard, heavily tented (a little about it <a href="https://propiro.github.io/uhk-exreme-tenting-elevation-feet-3d-printed.html">here</a>).</p>
 <p>Wanted to always update my setup, I've caught a nice looking kickstarter campaign in early 2023 - Naya Create. Oh wow! Modular, split, tented keyboard, wireless, and with 3d dongle AND turning wheel replacement! What could go wrong!</p>
 <p>Being unreasonably price'y (after all the taxes and shipping, it ended up being ~1k usd / 4k pln at the time of writing this (below 385EUR is keyboard only - they sold modules separately on their site, not through kickstarter) - <span style="text-decoration: line-through;">I think thats the median net monthly salary in Poland at this moment btw</span>  It was dominand NET salary in Poland in ~2024 apperently), which is fine - I use my PC to earn money, so if something can make the process of earning money smoother and more comfortable - I can pay for it. (Or at least thats one of the arguments to explain my shopping habits). But like with all the kickstarters, I've picked my favorite, tactile type switches, all four modules (tune - turning wheel, track - trackball, touch - touchpad, and float - 3d mouse-style device),  paid for everything, and forget about it for... 2 years, until Naya developers finally started shipping the keyboards after delays. Just pay additional taxes (haha poland privilige), And it'll be sent to you.</p>
@@ -129,6 +131,7 @@
 <p> </p>
 <p>Edit as for 15.07.2025 - after e-mailing support back and forth, after I've bought blue and brown set of switches (adding another ~125usd  to whole deal), they mercifully told me they'll apply 60% off for one set of them.<br>Look, I wont complain since I've already ordered them, but whole situation would be avoided if you didn't switch them first place, and notify me after my unit was shipped.<br>From the good things, I can see development of the software, and less things get broken. </p>
 <p>Oh btw, I still hate red switches - tried to type on them for 15 minutes, had around 4-7 WPM - contrary to normal ~95 WPM the loss is absurdly big to ignore.<br>Except some posts in future about experience with more matured version of software, and hopefully exchanged switches.</p>
+<p>Edit as for 11.09.2025 - naya tune died while I've waited for switches - new software update dropped, I've decided to take the keyboard out of box and flash new firmware to everything and charge it, turns out Tune module (the metal wheel thingy) died. In contact with customer support, but for now it looks like its dead and unrecoverable.</p>
             ]]>
         </content>
     </entry>
