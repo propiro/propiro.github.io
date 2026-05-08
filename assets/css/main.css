@@ -897,12 +897,12 @@ textarea {
     height: 100vh;
     position: fixed;
     top: 0;
-    width: 40vw;
+    width: 35vw;
   }
 }
 @media all and (min-width: 112.5em) {
   .main__left {
-    width: 50vw;
+    width: 35vw;
   }
 }
 .main__left > header {
@@ -954,12 +954,12 @@ textarea {
     float: right;
     height: 100%;
     margin-top: calc(var(--navbar-height) + 3.75rem);
-    width: 60%;
+    width: 65%;
   }
 }
 @media all and (min-width: 112.5em) {
   .main__right {
-    width: 50%;
+    width: 65%;
   }
 }
 .main__right > div {
@@ -1001,12 +1001,12 @@ textarea {
 @media all and (min-width: 56.25em) {
   .hero > img {
     height: 100vh;
-    width: 40vw;
+    width: 35vw;
   }
 }
 @media all and (min-width: 112.5em) {
   .hero > img {
-    width: 50vw;
+    width: 35vw;
   }
 }
 .hero__caption {
@@ -1360,12 +1360,12 @@ textarea {
 }
 @media all and (min-width: 56.25em) {
   .footer {
-    margin-left: 44%;
+    margin-left: 39%;
   }
 }
 @media all and (min-width: 112.5em) {
   .footer {
-    margin-left: 54%;
+    margin-left: 39%;
   }
 }
 .footer__copyright {
