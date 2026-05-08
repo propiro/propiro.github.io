@@ -115,3 +115,15 @@ toggleButton.addEventListener('click', (e) => {
 		}
 	}
 })();
+
+// Reuse hero image as slide-out menu background (right aligned)
+(function () {
+	const heroImg = document.querySelector('.main__left .hero img');
+	const menu = document.querySelector('.menu');
+	if (!heroImg || !menu) return;
+
+	const src = heroImg.currentSrc || heroImg.getAttribute('src');
+	if (!src) return;
+
+	menu.style.setProperty('--menu-hero-image', 'url("' + src + '")');
+})();

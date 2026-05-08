@@ -996,6 +996,8 @@ textarea {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-filter: brightness(0.52) saturate(0.78);
+          filter: brightness(0.52) saturate(0.78);
   width: 100vw;
 }
 @media all and (min-width: 56.25em) {
@@ -1018,6 +1020,13 @@ textarea {
   position: absolute;
   right: 4%;
   text-align: left;
+}
+
+.plexus-canvas {
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
 }
 @media all and (min-width: 56.25em) and (max-width: 112.4375em) {
   .hero__caption {
@@ -1555,6 +1564,142 @@ textarea {
 }
 .pswp--light .pswp__counter {
   color: var(--dark);
+}
+
+/* Dark reading mode overrides for content templates */
+body {
+  background: #1e1f22;
+  color: #9da3ad;
+}
+
+.top__item--right {
+  border-color: #2b3440 !important;
+}
+
+@media all and (min-width: 56.25em) {
+  .top__item--right.is-visible {
+    background: #26282d;
+  }
+}
+
+.main__right {
+  color: #d4dbe4;
+}
+
+.main__right a {
+  color: #aeb3bb;
+}
+
+.main__right a:hover {
+  color: #c3c8d0;
+}
+
+.main__right h1,
+.main__right h2,
+.main__right h3,
+.main__right h4,
+.main__right h5,
+.main__right h6 {
+  color: #b8bec8;
+}
+
+.feed__item + .feed__item,
+.post__bio,
+.post footer > .post__bio,
+.footer {
+  border-color: #2b3440;
+}
+
+.feed__item a {
+  color: #eef3f8;
+}
+
+.post__meta,
+.post__tag li > a,
+.footer__copyright {
+  color: #7e858f;
+}
+
+figcaption {
+  color: #aab3bf;
+}
+
+pre,
+pre code,
+code {
+  background-color: #2b2d33;
+  color: #b9bec8;
+}
+
+blockquote {
+  background: #2a2c31;
+  border-left-color: #8f949c;
+  color: #adb2bc;
+}
+
+/* Ensure menu open/close icon stays visible on dark header surfaces */
+.menu-toggle-inner,
+.menu-toggle-inner::before,
+.menu-toggle-inner::after {
+  background-color: #e2e5ea;
+}
+
+/* Left hero title: dim from pure white */
+.main__left > header h1,
+.main__left > header h2 {
+  color: #d2d7de;
+}
+
+.main__left > header p {
+  color: #bac1cb;
+}
+
+/* Slide-out menu text + background */
+.menu {
+  background: #0c0e12;
+  position: fixed;
+}
+
+.menu::before {
+  background-image: var(--menu-hero-image);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  inset: 0;
+  opacity: 0.42;
+  position: absolute;
+  -webkit-filter: brightness(0.42) saturate(0.62);
+          filter: brightness(0.42) saturate(0.62);
+  z-index: 0;
+}
+
+.menu::after {
+  background: linear-gradient(180deg, rgba(12, 14, 18, 0.42) 0%, rgba(10, 12, 16, 0.56) 100%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu .plexus-canvas {
+  z-index: 2;
+}
+
+.menu > ul {
+  position: relative;
+  z-index: 3;
+}
+
+.menu > ul li,
+.menu > ul li > a {
+  color: var(--logo-color);
+}
+
+.menu > ul li > a:hover,
+.menu > ul li.active,
+.menu > ul li.active > a {
+  color: #a7d7d4;
 }
 .pswp--light .pswp__caption__center {
   color: var(--text-color);
