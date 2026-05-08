@@ -9,9 +9,9 @@
   };
 
   const MODE_PRESETS = {
-    calm: { nodeCount: 30, maxDist: 110, cursorRadius: 180, pullForce: 0.03, burstRadius: 74, burstCooldownFrames: 42 },
-    medium: { nodeCount: 42, maxDist: 130, cursorRadius: 210, pullForce: 0.05, burstRadius: 88, burstCooldownFrames: 32 },
-    chaotic: { nodeCount: 56, maxDist: 145, cursorRadius: 240, pullForce: 0.07, burstRadius: 96, burstCooldownFrames: 22 }
+    calm: { nodeCount: 30, maxDist: 110, cursorRadius: 180, pullForce: 0.03, burstRadius: 74, burstCooldownFrames: 42, attractResumeFrames: 20, burstPower: 3.0 },
+    medium: { nodeCount: 42, maxDist: 130, cursorRadius: 210, pullForce: 0.05, burstRadius: 88, burstCooldownFrames: 32, attractResumeFrames: 16, burstPower: 3.4 },
+    chaotic: { nodeCount: 56, maxDist: 145, cursorRadius: 240, pullForce: 0.07, burstRadius: 96, burstCooldownFrames: 22, attractResumeFrames: 12, burstPower: 3.9 }
   };
   const ACTIVE = MODE_PRESETS[PLEXUS_CONFIG.mode] || MODE_PRESETS.medium;
 
@@ -21,6 +21,8 @@
   const PULL_FORCE = ACTIVE.pullForce;
   const BURST_RADIUS = ACTIVE.burstRadius;
   const BURST_COOLDOWN_FRAMES = ACTIVE.burstCooldownFrames;
+  const ATTRACT_RESUME_FRAMES = ACTIVE.attractResumeFrames;
+  const BURST_POWER = ACTIVE.burstPower;
   const BURST_CLUSTER_THRESHOLD = Math.max(2, Math.floor(NODE_COUNT * PLEXUS_CONFIG.explodeClusterPercent));
 
   function initPlexus(panel) {
@@ -39,7 +41,8 @@
       h: 0,
       nodes: [],
       pointer: { x: -9999, y: -9999, active: false },
-      burstCooldown: 0
+      burstCooldown: 0,
+      attractPause: 0
     };
 
     function resize() {
@@ -70,7 +73,7 @@
           const dx = state.pointer.x - n.x;
           const dy = state.pointer.y - n.y;
           const d2 = dx * dx + dy * dy;
-          if (d2 < CURSOR_RADIUS * CURSOR_RADIUS) {
+          if (state.attractPause === 0 && d2 < CURSOR_RADIUS * CURSOR_RADIUS) {
             const d = Math.max(1, Math.sqrt(d2));
             const force = (1 - d / CURSOR_RADIUS) * PULL_FORCE;
             n.vx += (dx / d) * force;
@@ -96,6 +99,9 @@
       if (state.burstCooldown > 0) {
         state.burstCooldown--;
       }
+      if (state.attractPause > 0) {
+        state.attractPause--;
+      }
 
       // If many particles gather near cursor, explode them away directionally.
       if (state.pointer.active && nearCursorCount >= BURST_CLUSTER_THRESHOLD && state.burstCooldown === 0) {
@@ -103,11 +109,12 @@
           const dx = n.x - state.pointer.x;
           const dy = n.y - state.pointer.y;
           const d = Math.max(1, Math.sqrt(dx * dx + dy * dy));
-          const burst = (1 - Math.min(1, d / BURST_RADIUS)) * 2.7 + 0.35;
+          const burst = (1 - Math.min(1, d / BURST_RADIUS)) * BURST_POWER + 0.45;
           n.vx += (dx / d) * burst;
           n.vy += (dy / d) * burst;
         }
         state.burstCooldown = BURST_COOLDOWN_FRAMES;
+        state.attractPause = ATTRACT_RESUME_FRAMES;
       }
     }
 
